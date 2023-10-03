@@ -1,10 +1,15 @@
 package yshello1.core.member;
 
-public class MemberServiceImpl implements MemberService{
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
-//    private final MemberRepository memberRepository = new MemoryMemberRepository();
+@Component
+public class MemberServiceImpl implements MemberService {
+
+    //    private final MemberRepository memberRepository = new MemoryMemberRepository();
     private final MemberRepository memberRepository;
 
+    @Autowired // ac.getBean(MemberRepository.class)
     public MemberServiceImpl(MemberRepository memberRepository) {
         this.memberRepository = memberRepository;
     }
@@ -17,5 +22,10 @@ public class MemberServiceImpl implements MemberService{
     @Override
     public Member findMember(Long memberId) {
         return memberRepository.findById(memberId);
+    }
+
+    //Test
+    public MemberRepository getMemberRepository() {
+        return memberRepository;
     }
 }

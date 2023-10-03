@@ -1,8 +1,10 @@
 package yshello1.core.discount;
 
+import org.springframework.stereotype.Component;
 import yshello1.core.member.Grade;
 import yshello1.core.member.Member;
 
+@Component
 public class RateDiscountPolicy implements DiscountPolicy {
 
     private int discountPercent = 10;
