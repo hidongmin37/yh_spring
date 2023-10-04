@@ -18,7 +18,7 @@ public class ConfigurationSingleTonTest {
         MemberServiceImpl memberService = annotationConfigApplicationContext.getBean("memberService", MemberServiceImpl.class);
         OrderServiceImpl orderService = annotationConfigApplicationContext.getBean("orderService", OrderServiceImpl.class);
 
-        MemberRepository memberRepository = annotationConfigApplicationContext.getBean("MemberRepository", MemberRepository.class);
+        MemberRepository memberRepository = annotationConfigApplicationContext.getBean("memberRepository", MemberRepository.class);
         System.out.println("memberRepository = " + memberRepository);
         MemberRepository memberRepository1 = memberService.getMemberRepository();
         System.out.println("memberService -> memberRepository1 = " + memberRepository1);
