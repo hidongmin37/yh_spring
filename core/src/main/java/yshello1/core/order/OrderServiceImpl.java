@@ -4,6 +4,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
+import yshello1.core.annotation.MainDiscountPolicy;
 import yshello1.core.discount.DiscountPolicy;
 import yshello1.core.discount.FixDiscountPolicy;
 import yshello1.core.discount.RateDiscountPolicy;
@@ -54,7 +55,8 @@ public class OrderServiceImpl implements OrderService {
 //        this.discountPolicy = discountPolicy;
 //    }
     @Autowired
-    public OrderServiceImpl(MemberRepository memberRepository,DiscountPolicy discountPolicy) {
+    public OrderServiceImpl(MemberRepository memberRepository,@MainDiscountPolicy DiscountPolicy discountPolicy) {
+//    public OrderServiceImpl(MemberRepository memberRepository,DiscountPolicy discountPolicy) {
 //    public OrderServiceImpl(MemberRepository memberRepository,@Qualifier("mainDiscountPolicy") DiscountPolicy discountPolicy) {
         this.memberRepository = memberRepository;
         this.discountPolicy = discountPolicy;

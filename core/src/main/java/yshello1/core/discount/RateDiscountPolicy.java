@@ -3,12 +3,14 @@ package yshello1.core.discount;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
+import yshello1.core.annotation.MainDiscountPolicy;
 import yshello1.core.member.Grade;
 import yshello1.core.member.Member;
 
 @Component
 //@Qualifier("mainDiscountPolicy")
-@Primary
+@MainDiscountPolicy
+//@Primary
 public class RateDiscountPolicy implements DiscountPolicy {
 
     private int discountPercent = 10;
