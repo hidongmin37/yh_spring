@@ -41,8 +41,8 @@ public class SingleTonWithPrototypeTest1 {
           @Autowired
 
 
-            private ObjectProvider<PrototypeBean> prototypeBeanProvider;
-//          private Provider<PrototypeBean> prototypeBeanProvider;
+//            private ObjectProvider<PrototypeBean> prototypeBeanProvider;
+          private Provider<PrototypeBean> prototypeBeanProvider;
 //        @Autowired
 //        public ClientBean(PrototypeBean prototypeBean) {
 //            this.prototypeBean = prototypeBean;
