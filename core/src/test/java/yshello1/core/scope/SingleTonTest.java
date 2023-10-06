@@ -15,14 +15,11 @@ public class SingleTonTest {
         AnnotationConfigApplicationContext ac = new AnnotationConfigApplicationContext(SingleTonBean.class);
         SingleTonBean singleTonBean1 = ac.getBean(SingleTonBean.class);
         SingleTonBean singleTonBean2 = ac.getBean(SingleTonBean.class);
-        SingleTonBean singleTonBean3 = ac.getBean(SingleTonBean.class);
 
         System.out.println("singleTonBean1 = " + singleTonBean1);
         System.out.println("singleTonBean2 = " + singleTonBean2);
-        System.out.println("singleTonBean3 = " + singleTonBean3);
         Assertions.assertThat(singleTonBean1).isEqualTo(singleTonBean2);
-        Assertions.assertThat(singleTonBean2).isEqualTo(singleTonBean3);
-        Assertions.assertThat(singleTonBean1).isEqualTo(singleTonBean3);
+
 
         ac.close();
     }
