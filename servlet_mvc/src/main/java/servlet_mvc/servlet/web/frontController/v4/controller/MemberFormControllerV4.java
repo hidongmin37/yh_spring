@@ -1,0 +1,14 @@
+package servlet_mvc.servlet.web.frontController.v4.controller;
+
+import servlet_mvc.servlet.web.frontController.ModelView;
+import servlet_mvc.servlet.web.frontController.v3.ControllerV3;
+import servlet_mvc.servlet.web.frontController.v4.ControllerV4;
+
+import java.util.Map;
+
+public class MemberFormControllerV4 implements ControllerV4 {
+    @Override
+    public String process(Map<String, String> paramMap, Map<String, Object> model) {
+        return "new-form";
+    }
+}
