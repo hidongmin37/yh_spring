@@ -5,7 +5,6 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import servlet_mvc.servlet.web.frontController.ModelView;
 import servlet_mvc.servlet.web.frontController.MyView;
 import servlet_mvc.servlet.web.frontController.v4.controller.MemberFormControllerV4;
 import servlet_mvc.servlet.web.frontController.v4.controller.MemberListControllerV4;
@@ -14,7 +13,6 @@ import servlet_mvc.servlet.web.frontController.v4.controller.MemberSaveControlle
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Objects;
 
 
 @WebServlet(name = "frontControllerServletV4", urlPatterns = "/front-controller/v4/*") // 이 하위에서는 서블릿 호출
