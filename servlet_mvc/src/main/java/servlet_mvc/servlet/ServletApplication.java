@@ -3,6 +3,10 @@ package servlet_mvc.servlet;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.ServletComponentScan;
+import org.springframework.context.annotation.Bean;
+import org.springframework.scheduling.config.IntervalTask;
+import org.springframework.web.servlet.view.InternalResourceViewResolver;
+import servlet_mvc.servlet.web.springMvc.v1.SpringMemberFormControllerV1;
 
 @ServletComponentScan // 서블릿 자동 등록
 @SpringBootApplication
@@ -12,4 +16,8 @@ public class ServletApplication {
 		SpringApplication.run(ServletApplication.class, args);
 	}
 
+//	@Bean
+//	SpringMemberFormControllerV1 springMemberFormControllerV1(){
+//		return new SpringMemberFormControllerV1();
+//	}
 }
