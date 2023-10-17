@@ -9,6 +9,7 @@ public class Item {
     private String itemName;
     private Integer price;
     private Integer quantity;
+    private Boolean open; // 판매 여부
 
     public Item() {
     }
