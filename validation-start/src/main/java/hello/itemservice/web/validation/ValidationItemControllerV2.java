@@ -132,6 +132,9 @@ public class ValidationItemControllerV2 {
     @PostMapping("/add")
     public String addItemV3(@ModelAttribute Item item, BindingResult bindingResult, RedirectAttributes redirectAttributes, Model model) {
 
+        log.info("objectName={}",bindingResult.getObjectName());
+        log.info("target={}",bindingResult.getTarget());
+
         //검증 로직, 아이템 이름
         if (!StringUtils.hasText(item.getItemName())) {
             bindingResult.addError(new FieldError("item","itemName",item.getItemName(),false,new String[]{"required.item.itemName"},null,null));
