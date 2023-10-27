@@ -1,0 +1,238 @@
+●day36 복습
+
+※ 주의사항※
+(1) .선행학습 해야할 강의(OBJECT,toString,파일입출력,메소드,클래스)
+(2) .급하면 적어도 26일차 파일입출력 중간부분 MVC는 듣고 시작하자!
+
+
+●MVC -> M부터 만들자!(DB에서 받아오니까!)
+→DB가 JAVA보다 먼저다 ! (기본으로 알고가자)
+→개발이 마지막 단계(디자인,디비,개발)
+→자바에서 DB쪽 데이터를 가져올 수 있도록 localhost 구현 확인
+   - localhost는 내 컴퓨터의 IP 주소
+======================================================================
+DB 실습
+======================================================================
+●순서
+→DB 만들기(프로젝트 생성)
+1.	→Project 생성
+		좌측 상단에 Project 탭 클릭
+		> New Project 버튼 클릭(+모양)
+		> 생성된 Project 우클릭
+		> Set Active Project 클릭
+
+	→Connections 연동
+		Project 안에 있는 Connections 우클릭
+		> New > New Connection 클릭
+		> Oracle 선택
+		> host: localhost (DBMS가 설치된 PC의 IP주소)
+		  Database: XE
+		  username: hr
+		  password: hr
+
+	→Driver 연결
+		Edit Driver Settings 클릭
+		> Libraries 탭 클릭
+		> 기존에 있는 라이브러리 전체 삭제
+		> Add File
+		> C:/oraclexe/app/oracle/product/11.2.0/server/jdbc/lib/ojdbc6.jar 추가
+		> 확인
+
+	마지막은 꼭!!!! 
+	TEST CONNECTION 누르기! 
+
+2. TABLE 생성하기(CREATE,ALTER,INSERT,UPDATE) 활용 할 줄 알아야한다.
+
+	(1) 자바에서 사용할 테이블 및 컬럼 생성(TBL_USER)
+		각 컬럼마다 타입 생각하면서 넣기
+		EX) GENDER의 경우 기입하지 않을시 DEFAULT 'N'
+	(2) 제약조건 만들기 - PK, FK, UK (EX PK -> USER_NUMBER)
+	(3) PK의 경우 1씩 증가하면서 회원을 구분할 수 있도록 시퀀스 생성
+	(EX CREATE SEQUENCE SEQ_USER)
+
+	(4)TABLE 직접 생성해보기(혼자서 프로젝트부터 3개이상 테이블 만들어보기)
+======================================================================
+JAVA 연동 
+======================================================================
+
+3.MVC 패턴(이해가 안간다면 27일차,28일차 파일입출력 강의 보기)
+●Package 만들기(VO,DAO,VIEW)
+(1).VO	: DB의 컬럼 그대로의 이름을 가져와야 내가 DB에서 이런걸 썼구나를 알 수 있다!!
+
+	→DB 컬럼 다복사해오자!(보기 편하게 하자구)
+	→JAVA에서는 언더바(_)표기법이 아닌 카멜표기법을 사용한다!
+	(Ex : USER_PASSWORD VARCHAR2(1000) -> String userPassword; )
+	
+	→접근제어자 pivate 사용하여 변수 접근 권한 제어	
+	→생성자	
+	→ getter,setter 생성
+	→오버라이드 toString 재정의
+
+(2).DAO	 : 데이터 VO를 메소드를 사용하여 화면에 각 기능에 맞춰 보내기 위한 작업
+	DB와 연동하기 위해 필요한 클래스와 회원가입 등 여러 기능을 수행하기 위한 클래스로 분류
+	(필요한 클레스 DBConnecter ,UserDAO : 자바와 DB를 연결하고 수정,입력..등(기능) 작업
+	
+	※DBConnecter
+	→DB와 연동시키기 위한 jar파일 ,즉 경로를 먼저 봐야한다!
+	→드라이버 파일이 존재하고 적재할 수 있는가
+	→DBConnecter를 해줘야 DB에 정보를 가져올 수 있다!!
+
+	●jar 파일 설치방법!(※DBeavor connection에서의 jar ojbc6과 같은 경로여야 한다)
+	1. java 프로젝트 우클릭 →Build Path 클릭 →configure buid path 클릭
+	→Libraries 클릭 →classpath 클릭 → Add External JAR클릭
+	→C:\oraclexe\app\oracle\product\11.2.0\server\jdbc\lib 경로에 ojbc6 클릭
+	→Apply 클릭 →Order and Export 클릭 →Select All 클릭 →Apply클릭후 →Apply and Close 클릭
+	→프로젝트 내의 Referenced Libraries에서 jar파일 있는지 확인하기!!!
+	
+	2.DBConneter : 사용하기 위해서(DB에 연결하기 위해서) 필요한 메소드(정보)를 적어야한다.
+	→Connection connection=null;  //Connection(.sql)으로 담아줘야 연결 하기위한 밑작업 완료!
+	→(USERNAME,PASSWORD,LOACLHOST) 이 정보들을 무조건~!적어야만 내가 DB에 정보를 가져올수있다.!
+	
+	→	USERNAME = 오라클 유저의 이름(아이디느낌)
+		String userName = "hr";
+
+		PASSWORD = 오라클 유저의 비밀번호
+		String password = "hr";
+
+		HOST = DB를 저장하고 있는 컴퓨터의 IP주소(EX localhost)
+		String url = "jdbc:oracle:thin:@localhost:1521:XE";
+
+	→드라이버 메니저(DriverManager)
+		1.(USERNAME,PASSWORD,LOACLHOST)만 적는다고 끝이아니다!
+	
+		2.드라이버를 메모리에 할당.
+		Class.forName("oracle.jdbc.driver.OracleDriver"); 
+	
+		3.경로,즉 DriverManager를 써줘서 (USERNAME,PASSWORD,LOACLHOST)
+		 에대한 정보를 담아줘야만 DBConnecter 완료!
+	
+		4.필수 사항
+		connection = DriverManager.getConnection(url, userName, password);
+         
+
+		5.try_catch로 잡아야한다!
+		이유: 혹시 드라이버 메니저 or 드라이버 경로가 혹시나 잘못된 줄 알고 오류가 난다!
+
+		최종:
+		      try {
+			         Class.forName("oracle.jdbc.driver.OracleDriver");
+         
+			         connection = DriverManager.getConnection(url, userName, password);
+         
+      			} catch (ClassNotFoundException e) {
+         			         System.out.println("드라이버 로딩 실패");
+         			         e.printStackTrace();
+         
+      			} catch (SQLException e) {
+      			         System.out.println("연결 실패");
+      			         e.printStackTrace();
+     			 }
+			return connection;
+ 		       }
+
+	
+	※UserDAO
+	→UserDAO 하기에 앞서 모든 정보를 연결하기위해 DBConnecter 클래스부터 만든다!
+
+	★ USERDAO(이해를 위해 밑에서 예시로 아이디 중복검사를 보고 정리)
+		※ 오라클과 연동해서 가져온 데이터를 자바에서 활용하기 위해 알아야 하는 순서
+		1. 쿼리 작성
+		2. 쿼리 객체
+		3. 쿼리 실행 메소드
+		4. 실행된 결과가 있을 경우 결과 객체에 담아준다.
+		5. 테이블은 2차원 배열(행, 열) -> 행부터 접근한다.
+		6. 열에 접근한다.
+
+	1.우선작업
+		(1). 모든 메소드에 객체가 필요하므로 전역변수로 만든다.
+		- 연결 객체 : Connection 
+		- 쿼리문 담고 실행할 객체 : PreparedStatement(쿼리 필수객체)
+		- 결과 객체 : ResultSet(결과테이블을 담아줄 객체)
+
+
+	2.아이디 중복검사(예제)
+		(1).String query ="SELECT *FROM TBL_USER WHERE USER_ID=?;
+		※ '?' =예제에서는 String id 라는 매개변수 id의 값을 나중에 prepared로 쓰기위해
+			"'+'"이런거 일일이 쓸바에 ?로 대체!
+		
+		(2).먼저 연결
+			connection =DBConnecter.getConnection();
+
+		(3).작성한 쿼리를 connection에 담고 실행하기 위해 preparedStatement에 담는다
+
+		(4).try catch까지 잡기(쿼리가 오류가 났는지 확인해야지)
+			preparedStatement = connection.prepareStatement(query);
+	
+		(5).COUNT	집계함수를 써서 *대신 개수로 (1또는0) 받아줘서 중복이 있는지 없는지 확인
+			String query ="SELECT COUNT(USER_ID) FROM TBL_USER WHERE USER_ID=?
+		
+		(6).?를 채워주기 위해 preparedStatement setString(정수면 setint)메소드 사용하자
+			preparedStatement.setString(파라미터는 2개/index, query)
+			EX) preparedStatement.setString(1, userid)
+			※ DB에서의 인덱스번호는 1부터 시작
+		
+		(7).완성된 쿼리 실행문 2가지: 
+			(1)쿼리의 결과테이블이 있으면:preparedStatement.executeQuery();
+			※오로지 :SELECT	
+
+			(2)쿼리의 결과테이블이 없으면:preparedStatement.executeUpdate();	
+			※SELECT이외의 것들!
+
+		(8).RESULTSET 에담기
+			resultSet:preparedStatement.executeQuery();
+		
+		(9).행에 접근하기
+			resultSet.next();
+
+		(10).열에 접근하기(get) : 타입 생각해주기 (int,double...)
+		COUNT에 접근할거기 때문에 INT로 접근
+
+			resultSet.getInt(1);
+
+			※열 접근 - 열의 값을 가져오는 거니까 메소드 이름은 get※
+			-> get 이후 타입이 여러개니 타입까지!
+				resultSet.getInt(1)  :DB는 인덱스가 1부터 가져오기 때문에 1
+
+			※ get + 타입 메소드는 오버로딩 되어있다!
+				getInt(int columnindex) -> 인덱스 번호로 가져오기
+				getInt(String columnLabel) -> 컬럼명으로 가져오기
+
+
+		(11) 바로 리턴해버리면 닫지 않고 나가므로 닫고 나가야 함
+		boolean 변수 = false를 사용 -> true일 때 나가자
+		
+		(12).return타입 boolean->check 잡기
+			boolean check =false; 변수 잡아주고
+			check =resultSet.getInt(1) ==1; (아디가 있으면 true 없으면 false)
+
+		(13) 예외 처리를 위해 try catch 사용
+
+		(14) 외부 장치를 닫기 위해 finally 사용
+		※ 닫을 때는 열었던 순서의 반대 방향!
+			(con - prepared - result) = > (result - prepared - con)
+
+			열렸을 때 닫아야 하므로 if문 사용하여 null이 아닐경우 close
+			하지만, 오류가 날수도 있으므로 if문 전체를 try catch로 잡는다.
+
+		(15) 닫다가(close()) 문제가 발생했을 경우(하드 웨어 고장날수 있어서) 
+			강제 종료하기 위해 throw 사용
+			
+			throw new RuntimeException(e.getMessage());
+
+
+
+(3) VIEW 화면에 적용(EX 회원가입)
+	USERDAO 클래스에서 사용한 메소드 구현하기 위해 사용
+
+		(1) UserVO의 Setter사용해서 정보 기입
+			위 경우 scanner를 통해 외부에서 입력받는 것도 연습하자
+		(2) join 메소드 사용하여 DB에 정보 추가
+
+======================================================================
+참고:코리아IT고진혁님
+
+
+
+
+
+
