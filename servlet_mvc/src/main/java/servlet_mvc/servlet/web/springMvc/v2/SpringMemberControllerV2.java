@@ -35,7 +35,7 @@ public class SpringMemberControllerV2 {
         return modelView;
     }
 
-    //"/springmvc/v2/members" 이 친구가 호출됨.
+    //"/springmvc/v2/members" 이 친구가 호출됨
     @RequestMapping
     public ModelAndView list() {
         List<Member> members = memberRepository.findAll();
