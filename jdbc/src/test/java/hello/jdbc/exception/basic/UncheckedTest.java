@@ -1,6 +1,5 @@
-package hello.jdbc.basic;
+package hello.jdbc.exception.basic;
 
-import hello.jdbc.basic.CheckedTest.MyCheckedException;
 import lombok.extern.slf4j.Slf4j;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
