@@ -80,7 +80,7 @@ public class MemberRepositoryV4_2 implements MemberRepository{
         }
 
     }
-
+    @Override
     public void update(String memberId, int money) {
         String sql = "update member set money=? where member_id=?";
         Connection con = null;
@@ -100,6 +100,7 @@ public class MemberRepositoryV4_2 implements MemberRepository{
         }
     }
 
+    @Override
     public void delete(String memberId){
         String sql = "delete from member where member_id = ?";
         Connection con = null;
