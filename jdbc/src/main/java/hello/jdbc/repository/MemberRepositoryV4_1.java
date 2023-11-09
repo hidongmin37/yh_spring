@@ -104,7 +104,6 @@ public class MemberRepositoryV4_1 implements MemberRepository{
         String sql = "delete from member where member_id = ?";
         Connection con = null;
         PreparedStatement pstmt = null;
-
         try {
             con = getConnection();
             pstmt = con.prepareStatement(sql);
