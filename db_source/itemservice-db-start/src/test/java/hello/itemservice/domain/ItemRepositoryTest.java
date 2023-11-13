@@ -25,14 +25,15 @@ class ItemRepositoryTest {
     @Autowired
     ItemRepository itemRepository;
 
-    @Autowired
-    PlatformTransactionManager transactionManager;
-    TransactionStatus status;
+    // 트랜잭션 관련 코드
+//    @Autowired
+//    PlatformTransactionManager transactionManager;
+//    TransactionStatus status;
 
-    @BeforeEach
-    void beforeEach() {
-        status = transactionManager.getTransaction(new DefaultTransactionDefinition());
-    }
+//    @BeforeEach
+//    void beforeEach() {
+//        status = transactionManager.getTransaction(new DefaultTransactionDefinition());
+//    }
 
     @AfterEach
     void afterEach() {
@@ -42,7 +43,7 @@ class ItemRepositoryTest {
         }
 
         // 트랜잭션 롤백
-        transactionManager.rollback(status);
+//        transactionManager.rollback(status);
     }
 
     @Test
