@@ -53,6 +53,14 @@ public class WithinTest {
         Assertions.assertThat(pointcut.matches(helloMethod, MemberServiceImpl.class)).isFalse();
     }
 
+    @Test
+    @DisplayName("execution은 타입 기반, 인터페이스 선정 가능")
+    void withinSuperTypeTrue() {
+        pointcut.setExpression("execution(* hello.aop.member.MemberService.*(..))");
+        Assertions.assertThat(pointcut.matches(helloMethod, MemberServiceImpl.class)).isTrue();
+    }
+
+
 
 
 
