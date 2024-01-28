@@ -9,6 +9,11 @@ public class ConstructMain1 {
         MemberConstruct[] members = {member1, member2};
         for (MemberConstruct m : members) {
             System.out.println("이름: " + m.name + " 나이: " + m.age + " 성적: " +m.grade);
+
+
+
+
+
         }
     }
 }
