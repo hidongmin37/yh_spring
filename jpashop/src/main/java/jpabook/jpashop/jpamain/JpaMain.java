@@ -5,8 +5,11 @@ import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.EntityTransaction;
 import jakarta.persistence.Persistence;
-import jpabook.jpashop.domain.Order;
-import jpabook.jpashop.domain.OrderItem;
+import jakarta.persistence.criteria.CriteriaBuilder;
+import jakarta.persistence.criteria.CriteriaQuery;
+import jakarta.persistence.criteria.Root;
+import jpabook.jpashop.domain.Member;
+
 
 public class JpaMain {
     public static void main(String[] args) {
@@ -16,16 +19,11 @@ public class JpaMain {
         EntityTransaction tx = em.getTransaction();
         tx.begin();
         try {
-
-
-            Order order = new Order();
-            em.persist(order);
-//            order.addOrderItem(new OrderItem());
-            OrderItem orderItem = new OrderItem();
-            orderItem.setOrder(order);
-            em.persist(order);
-            tx.commit();
-
+            CriteriaBuilder cb = em.getCriteriaBuilder();
+            CriteriaQuery<Member> cq = cb.createQuery(Member.class);
+            Root<Member> m = cq.from(Member.class);
+            CriteriaQuery<Member> where = cq.select(m).where(cb.equal(m.get("name"), "kim"));
+            em.createQuery(where).getResultList();
         } catch (Exception e) {
             tx.rollback();
         } finally {

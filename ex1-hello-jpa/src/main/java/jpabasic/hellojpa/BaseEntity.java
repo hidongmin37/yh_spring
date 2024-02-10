@@ -1,5 +1,6 @@
 package jpabasic.hellojpa;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.MappedSuperclass;
 
 import java.time.LocalDateTime;
@@ -8,8 +9,10 @@ import java.time.LocalDateTime;
 @MappedSuperclass
 public class BaseEntity {
 
+    @Column(name = "INSERT_MEMBER")
     private String createdBy;
     private LocalDateTime createdDate;
+    @Column(name = "UPDATE_MEMBER")
     private String lastModifiedBy;
     private LocalDateTime lastModifiedDate;
 

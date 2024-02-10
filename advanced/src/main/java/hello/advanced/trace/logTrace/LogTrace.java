@@ -8,6 +8,7 @@ public interface LogTrace {
     TraceStatus begin(String message);
 
     void end(TraceStatus status);
+    
     public void exception(TraceStatus traceStatus, Exception e);
 
 
