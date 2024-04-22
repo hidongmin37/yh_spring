@@ -6,12 +6,22 @@ spring:
     name: restful-service
   messages:
     basename: messages
-
   security:
     user:
       name: jangdm37
       password: abcd1234
-
+  h2:
+    console:
+      enabled: true
+      settings:
+        web-allow-others: true
+  datasource:
+    url: jdbc:h2:mem:testdb
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    defer-datasource-initialization: true
 server:
   port: 8088
 
