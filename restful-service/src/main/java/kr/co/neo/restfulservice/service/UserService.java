@@ -15,11 +15,12 @@ public class UserService {
 
     private static int userCount = 3;
 
-    static {
-        users.add(new User(1, "kenneth", new Date() ,"test1","1111111-111111"));
-        users.add(new User(2, "alice", new Date(),"test2","2222222-222222"));
-        users.add(new User(3, "elena", new Date(),"test3","3333333-333333"));
-    }
+//    static {
+//        users.add(new User(1, "kenneth", new Date() ,"test1","1111111-111111"));
+//        users.add(new User(2, "alice", new Date(),"test2","2222222-222222"));
+//        users.add(new User(3, "elena", new Date(),"test3","3333333-333333"));
+//    }
+
 
     public List<User> findAll() {
         return users;
