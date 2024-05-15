@@ -10,6 +10,7 @@ import kr.co.neo.restfulservice.domain.User;
 import kr.co.neo.restfulservice.exception.UserNotFoundException;
 import kr.co.neo.restfulservice.service.UserService;
 import lombok.AllArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.hateoas.EntityModel;
 import org.springframework.hateoas.server.mvc.WebMvcLinkBuilder;
 import org.springframework.http.ResponseEntity;
@@ -20,7 +21,7 @@ import java.net.URI;
 import java.util.List;
 
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.*;
-
+@Slf4j
 @RestController
 @AllArgsConstructor
 @Tag(name = "user-controller",description = "일반 사용자 서비스를 위한 컨트롤러입니다.")
@@ -80,4 +81,12 @@ public class UserController {
 
         return ResponseEntity.noContent().build();
     }
+
+    @ResponseBody
+    @PostMapping("/request-body-string-v4")
+    public String requestBodyStringV4(@RequestBody String messageBody) {
+        log.info("messageBody={}", messageBody);
+        return "ok";
+    }
+
 }
