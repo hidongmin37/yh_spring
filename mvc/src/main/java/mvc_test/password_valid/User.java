@@ -13,7 +13,7 @@ public class User {
 		String randomPassword = passwordGenerator.generatePassword();
 
 		/*
-		* 비밀번호는 최소 8자 이상 12자 이하여야 한다.
+		* 비밀번호는 최소 8자 이상 12자 이하여야 한다..
 		* */
 		if (randomPassword.length() >= 8 && randomPassword.length() <= 12) {
 			this.password = randomPassword;
