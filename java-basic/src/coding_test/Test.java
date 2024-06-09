@@ -1,25 +1,19 @@
 package coding_test;
 
-import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.stream.IntStream;
 
 public class Test {
+	public int[] solution(int[] arr, int n) {
+		for (int i = 0; i < arr.length; i++) {
+			if (arr.length % 2 == 0 && i%2==1) {
 
-    public int solution(String my_string) {
-        char[] charArr = my_string.toCharArray();
-        int i = 0;
-        for (char c : charArr) {
-            System.out.println("c = " + c);
-            String s = String.valueOf(c);
-            try {
-                if
-                int i1 = Integer.parseInt(s);
-                i += i1;
-            } catch (IllegalArgumentException e) {
+				arr[i] = arr[i] + n;
+			} else if (arr.length % 2 == 1 && i%2==0)  {
+				arr[i] = arr[i] + n;
+			}
 
-            }
-        }
-
-        return i;
-    }
+		}
+		return arr;
+	}
 }
