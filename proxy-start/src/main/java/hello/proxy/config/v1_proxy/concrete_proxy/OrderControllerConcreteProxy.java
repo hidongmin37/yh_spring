@@ -21,6 +21,8 @@ public class OrderControllerConcreteProxy extends OrderControllerV2 {
         try {
             status = logTrace.begin("OrderController.request()");
             //target호출
+
+            String s = "%{d}";
             String result = target.request(itemId);
             logTrace.end(status);
             return result;

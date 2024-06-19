@@ -1,19 +1,13 @@
 package coding_test;
 
-import java.util.Arrays;
-import java.util.stream.IntStream;
+
+import java.util.Scanner;
+
 
 public class Test {
-	public int[] solution(int[] arr, int n) {
-		for (int i = 0; i < arr.length; i++) {
-			if (arr.length % 2 == 0 && i%2==1) {
-
-				arr[i] = arr[i] + n;
-			} else if (arr.length % 2 == 1 && i%2==0)  {
-				arr[i] = arr[i] + n;
-			}
-
-		}
-		return arr;
+	public static void ka(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String a = sc.next();
+		System.out.println(a);
 	}
 }
