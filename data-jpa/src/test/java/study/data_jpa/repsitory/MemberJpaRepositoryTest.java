@@ -11,6 +11,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.annotation.Rollback;
 import org.springframework.transaction.annotation.Transactional;
 
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.PersistenceContext;
 import study.data_jpa.entity.Member;
 
 @SpringBootTest
@@ -20,6 +22,9 @@ class MemberJpaRepositoryTest {
 
 	@Autowired
 	MemberJpaRepository memberJpaRepository;
+
+	@PersistenceContext
+	EntityManager entityManager;
 
 	@Test
 	public void testMember() {
@@ -81,6 +86,55 @@ class MemberJpaRepositoryTest {
 		Member findMember = result.get(0);
 		Assertions.assertThat(findMember).isEqualTo(member);
 
+
+	}
+
+	@Test
+	public void paging() {
+
+		//given
+		memberJpaRepository.save(new Member("member1", 10));
+		memberJpaRepository.save(new Member("member2", 10));
+		memberJpaRepository.save(new Member("member3", 10));
+		memberJpaRepository.save(new Member("member4", 10));
+		memberJpaRepository.save(new Member("member5", 10));
+		memberJpaRepository.save(new Member("member6", 10));
+		memberJpaRepository.save(new Member("member7", 10));
+		memberJpaRepository.save(new Member("member8", 10));
+
+		int age = 10;
+		List<Member> byPage = memberJpaRepository.findByPage(age, 0, 4);
+
+		for (Member member : byPage) {
+			System.out.println("member1 = " + member);
+		}
+
+		List<Member> byPage2 = memberJpaRepository.findByPage(age, 4, 4);
+		for (Member member : byPage2) {
+			System.out.println("member2 = " + member);
+		}
+		long ageCount = memberJpaRepository.totalCount(10);
+		Assertions.assertThat(ageCount).isEqualTo(8);
+	}
+
+	@Test
+	public void bulkUpdate() {
+		memberJpaRepository.save(new Member("member1", 10));
+		memberJpaRepository.save(new Member("member2", 19));
+		memberJpaRepository.save(new Member("member3", 20));
+		memberJpaRepository.save(new Member("member4", 21));
+		memberJpaRepository.save(new Member("member5", 40));
+
+		int result = memberJpaRepository.bulkAgePlus(20);
+
+		Assertions.assertThat(result).isEqualTo(3);
+
+		entityManager.flush(); // 영속성 컨텍스트에서 디비에 변경되지 않은 것들이 디비에 반영
+		entityManager.clear();
+		List<Member> all = memberJpaRepository.findAll();
+		for (Member member : all) {
+			System.out.println("member = " + member);
+		}
 
 	}
 }

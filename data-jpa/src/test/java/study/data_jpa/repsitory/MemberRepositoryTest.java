@@ -1,7 +1,6 @@
 package study.data_jpa.repsitory;
 
 import static org.assertj.core.api.Assertions.*;
-import static org.junit.jupiter.api.Assertions.*;
 
 import java.util.Arrays;
 import java.util.List;
@@ -11,8 +10,13 @@ import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Sort;
 import org.springframework.transaction.annotation.Transactional;
 
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.PersistenceContext;
 import study.data_jpa.dto.MemberDto;
 import study.data_jpa.entity.Member;
 import study.data_jpa.entity.Team;
@@ -26,6 +30,10 @@ class MemberRepositoryTest {
 
 	@Autowired
 	TeamRepository teamRepository;
+
+
+	@PersistenceContext
+	EntityManager entityManager;
 
 	@Test
 	public void testMember() {
@@ -172,4 +180,180 @@ class MemberRepositoryTest {
 		}
 
 	}
+
+	@Test
+	public void paging() {
+
+		//given
+		memberRepository.save(new Member("member1", 10));
+		memberRepository.save(new Member("member2", 10));
+		memberRepository.save(new Member("member3", 10));
+		memberRepository.save(new Member("member4", 10));
+		memberRepository.save(new Member("member5", 10));
+		memberRepository.save(new Member("member6", 10));
+
+		int age = 10;
+		PageRequest pageRequest = PageRequest.of(0, 3, Sort.by(Sort.Direction.DESC, "username"));
+
+		//when
+		//slice는 토탈쿼리 안날아감
+		Page<Member> page = memberRepository.findByAge(age, pageRequest);
+		// long totalElements = page.getTotalElements();
+
+		//dto외부로 반
+		Page<MemberDto> map = page.map(member -> new MemberDto(member.getId(), member.getUsername(), null));
+
+
+		//then
+		List<Member> content = page.getContent();
+		for (Member member : content) {
+			System.out.println("member = " + member);
+		}
+		// System.out.println("totalElements = " + totalElements);
+
+		Assertions.assertThat(content.size()).isEqualTo(3);
+		// Assertions.assertThat(page.getTotalElements()).isEqualTo(6);
+		Assertions.assertThat(page.getNumber()).isEqualTo(0);
+		// Assertions.assertThat(page.getTotalPages()).isEqualTo(2);
+		Assertions.assertThat(page.isFirst()).isTrue();
+		Assertions.assertThat(page.hasNext()).isTrue();
+	}
+
+	@Test
+	public void bulkUpdate() {
+		memberRepository.save(new Member("member1", 10));
+		memberRepository.save(new Member("member2", 19));
+		memberRepository.save(new Member("member3", 20));
+		memberRepository.save(new Member("member4", 21));
+		memberRepository.save(new Member("member5", 40));
+
+		int result = memberRepository.bulkAgePlus(20);
+
+		assertThat(result).isEqualTo(3);
+
+
+		List<Member> all = memberRepository.findAll();
+		for (Member member : all) {
+			System.out.println("member = " + member);
+		}
+
+	}
+
+	@Test
+	public void findMemberLazy() {
+		//given
+		//member1-> teamA
+		//member2-> teamB
+
+		Team teamA = new Team("teamA");
+		Team teamB = new Team("teamB");
+
+		teamRepository.save(teamA);
+		teamRepository.save(teamB);
+		Member memberA = new Member("memberA", 21, teamA);
+		Member memberB = new Member("memberB", 40, teamB);
+
+		memberRepository.save(memberA);
+		memberRepository.save(memberB);
+
+		entityManager.flush();
+		entityManager.clear();
+		/*
+		* N+1문제가 나옴
+		* */
+		List<Member> all = memberRepository.findMemberEntityGraph();
+		for (Member member : all) {
+			System.out.println("member = " + member.getUsername());
+			System.out.println("memberTeamClass = " + member.getTeam().getClass());
+			System.out.println("memberTeam = " + member.getTeam());
+		}
+	}
+
+	@Test
+	public void findMemberLazyFetch() {
+		//given
+		//member1-> teamA
+		//member2-> teamB
+
+		Team teamA = new Team("teamA");
+		Team teamB = new Team("teamB");
+
+		teamRepository.save(teamA);
+		teamRepository.save(teamB);
+		Member memberA = new Member("memberA", 21, teamA);
+		Member memberB = new Member("memberB", 40, teamB);
+
+		memberRepository.save(memberA);
+		memberRepository.save(memberB);
+
+		entityManager.flush();
+		entityManager.clear();
+		/*
+		 * N+1문제가 나옴
+		 * */
+		List<Member> all = memberRepository.findMemberFetchJoin();
+		for (Member member : all) {
+			System.out.println("member = " + member.getUsername());
+			System.out.println("memberTeamClass = " + member.getTeam().getClass());
+			System.out.println("memberTeam = " + member.getTeam());
+		}
+	}
+
+	@Test
+	public void queryHint() {
+		Member member = new Member("member1", 10);
+		memberRepository.save(member);
+		entityManager.flush();
+		entityManager.clear();
+
+		Member findMember = memberRepository.findReadOnlyByUsername(member.getUsername()); // 읽기로만 쓰고 변경감지 체크를 안함
+		findMember.setUsername("member2");
+
+		entityManager.flush();
+		System.out.println("findMember.getUsername() = " + findMember.getUsername());
+
+	}
+
+	@Test
+	public void lock() {
+		Member member = new Member("member1", 10);
+		memberRepository.save(member);
+		entityManager.flush();
+		entityManager.clear();
+
+		List<Member> lockByUsername = memberRepository.findLockByUsername(member.getUsername());
+	}
+
+	@Test
+	public void callCustom() {
+		Member member = new Member("member1", 10);
+		memberRepository.save(member);
+		entityManager.flush();
+		entityManager.clear();
+
+		List<Member> memberCustom = memberRepository.findMemberCustom();
+		System.out.println("memberCustom = " + memberCustom);
+	}
+
+	@Test
+	public void JpaEventBaseEntity() throws InterruptedException {
+		//given
+		Member member = new Member("member1");
+		memberRepository.save(member); // @PrePersist가 발생
+		//when
+
+
+
+		entityManager.flush();
+		entityManager.clear();
+
+		Member findMember = memberRepository.findById(member.getId()).get();
+
+
+		//then
+		System.out.println("findMember = " + findMember);
+		System.out.println("findMember createDate= " + findMember.getCreatedDate());
+		System.out.println("findMember updatedDate = " + findMember.getUpdatedDate());
+	}
+
 }
