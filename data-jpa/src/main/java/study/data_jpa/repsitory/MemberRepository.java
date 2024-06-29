@@ -9,6 +9,7 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Slice;
 import org.springframework.data.jpa.repository.EntityGraph;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.data.jpa.repository.Lock;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
@@ -20,7 +21,8 @@ import jakarta.persistence.QueryHint;
 import study.data_jpa.dto.MemberDto;
 import study.data_jpa.entity.Member;
 
-public interface MemberRepository extends JpaRepository<Member, Long>,MemberRepositoryCustom {
+public interface MemberRepository extends JpaRepository<Member, Long>,MemberRepositoryCustom,
+	JpaSpecificationExecutor<Member> {
 
 	List<Member> findByUsernameAndAgeGreaterThan(String username, int age);
 
@@ -75,5 +77,6 @@ public interface MemberRepository extends JpaRepository<Member, Long>,MemberRepo
 	@Lock(LockModeType.PESSIMISTIC_WRITE)
 	List<Member> findLockByUsername(String username);
 
-
+	List<UsernameOnlyDto> findProjectionsByUsername(@Param("username") String username);
+	// List<UsernameOnly> findProjectionsByUsername(@Param("username") String username);
 }

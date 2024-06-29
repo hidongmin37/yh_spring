@@ -13,6 +13,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
+import org.springframework.data.jpa.domain.Specification;
 import org.springframework.transaction.annotation.Transactional;
 
 import jakarta.persistence.EntityManager;
@@ -353,7 +354,59 @@ class MemberRepositoryTest {
 		//then
 		System.out.println("findMember = " + findMember);
 		System.out.println("findMember createDate= " + findMember.getCreatedDate());
-		System.out.println("findMember updatedDate = " + findMember.getUpdatedDate());
+		// System.out.println("findMember updatedDate = " + findMember.getUpdatedDate());
+	}
+
+	@Test
+	public void specBasic() {
+		//given
+		Team teamA = new Team("teamA");
+		entityManager.persist(teamA);
+
+		//when
+		Member m1 = new Member("m1", 0, teamA);
+		Member m2 = new Member("m2", 2, teamA);
+
+		entityManager.persist(m1);
+		entityManager.persist(m2);
+
+		entityManager.flush();
+		entityManager.clear();
+
+		//then
+		Specification<Member> specification = MemberSpec.username("m1").and(MemberSpec.teamName("teamA"));
+		List<Member> all = memberRepository.findAll(specification);
+
+		Assertions.assertThat(all.size()).isEqualTo(1);
+
+	}
+
+	@Test
+	public void projection() {
+		//given
+		Team teamA = new Team("teamA");
+		entityManager.persist(teamA);
+
+		//when
+		Member m1 = new Member("m1", 0, teamA);
+		Member m2 = new Member("m2", 2, teamA);
+
+		entityManager.persist(m1);
+		entityManager.persist(m2);
+
+		entityManager.flush();
+		entityManager.clear();
+
+		//then
+		// List<UsernameOnly> m11 = memberRepository.findProjectionsByUsername("m1");
+		// for (UsernameOnly usernameOnly : m11) {
+		// 	System.out.println("usernameOnly = " + usernameOnly);
+		// }
+
+		List<UsernameOnlyDto> result = memberRepository.findProjectionsByUsername("m1");
+		for (UsernameOnlyDto usernameOnly : result) {
+			System.out.println("usernameOnly = " + usernameOnly.getUsername());
+		}
 	}
 
 }
