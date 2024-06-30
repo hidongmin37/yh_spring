@@ -1,5 +1,6 @@
 package study.querydsl;
 
+import static com.querydsl.jpa.JPAExpressions.*;
 import static org.assertj.core.api.Assertions.*;
 import static study.querydsl.entity.QMember.*;
 import static study.querydsl.entity.QTeam.*;
@@ -15,10 +16,15 @@ import org.springframework.boot.test.context.SpringBootTest;
 import com.querydsl.core.QueryResults;
 import com.querydsl.core.Tuple;
 import com.querydsl.core.types.dsl.BooleanExpression;
+import com.querydsl.core.types.dsl.CaseBuilder;
+import com.querydsl.core.types.dsl.Expressions;
+import com.querydsl.jpa.JPAExpressions;
 import com.querydsl.jpa.impl.JPAQuery;
 import com.querydsl.jpa.impl.JPAQueryFactory;
 
 import jakarta.persistence.EntityManager;
+import jakarta.persistence.EntityManagerFactory;
+import jakarta.persistence.PersistenceUnit;
 import jakarta.transaction.Transactional;
 import study.querydsl.entity.Member;
 import study.querydsl.entity.QMember;
@@ -243,9 +249,185 @@ public class QuerydslBasicTest {
 			// .join(member.team, team).on(team.name.eq("teamA"))
 			.join(member.team, team).where(team.name.eq("teamA"))
 			.fetch();
+		/*left join(외부조인)에는 on이 답이다*/
 
 		for (Tuple tuple : fetch) {
 			System.out.println("tuple = " + tuple);
+		}
+	}
+
+	/*연관관계가 없는 엔티티를 외부 조인
+	* 회원의 이름이 팀 이름과 같은 대상 외부조인*/
+	@Test
+	public void join_on_no_relation() {
+		entityManager.persist(new Member("teamA"));
+		entityManager.persist(new Member("teamB"));
+		entityManager.persist(new Member("teamC"));
+
+		List<Tuple> fetch = jpaQueryFactory.select(member, team)
+			.from(member)
+			// .join(team) // 팀 있는 것만 가져옴
+			// .leftJoin(team)
+			.leftJoin(member.team,team)// on절이 빠짐 //team id일치하는 것 들 가져옴
+			.on(member.username.eq(team.name))
+			.fetch();
+
+		for (Tuple tuple : fetch) {
+			System.out.println("tuple = " + tuple);
+		}
+	}
+
+	@PersistenceUnit
+	EntityManagerFactory entityManagerFactory;
+
+	@Test
+	public void fetchJoinNo() {
+		entityManager.flush();
+		entityManager.clear();
+
+
+		Member findMember = jpaQueryFactory
+			.selectFrom(member)
+			.join(member.team,team).fetchJoin()
+			.where(member.username.eq("member1"))
+			.fetchOne();
+
+		// Member findMember = jpaQueryFactory
+		// 	.selectFrom(member)
+		// 	.where(member.username.eq("member1"))
+		// 	.fetchOne();
+
+
+
+		boolean loaded = entityManagerFactory.getPersistenceUnitUtil().isLoaded(findMember.getTeam());
+		// assertThat(loaded).as("페치 조인 미적용").isFalse();
+		assertThat(loaded).as("페치 조인 적용").isTrue();
+
+	}
+
+
+	/*나이가 가장 많은 회원 조회
+	*/
+	@Test
+	public void subQuery() {
+		QMember memberSub = new QMember("memberSub");
+
+		List<Member> fetch = jpaQueryFactory
+			.selectFrom(member)
+			.where(member.age.eq(
+				select(memberSub.age.max())
+					.from(memberSub)
+			))
+			.fetch();
+
+		assertThat(fetch).extracting("age")
+			.containsExactly(40);
+	}
+
+	/*나이가 평균 이상인 회원
+	 */
+	@Test
+	public void subQueryGoe() {
+		QMember memberSub = new QMember("memberSub");
+
+		List<Member> fetch = jpaQueryFactory
+			.selectFrom(member)
+			.where(member.age.goe(
+				select(memberSub.age.avg())
+					.from(memberSub)
+			))
+			.fetch();
+
+		assertThat(fetch).extracting("age")
+			.containsExactly(30,40);
+	}
+
+
+	@Test
+	public void subQueryIn() {
+		QMember memberSub = new QMember("memberSub");
+
+		List<Member> fetch = jpaQueryFactory
+			.selectFrom(member)
+			.where(member.age.in(
+				select(memberSub.age)
+					.from(memberSub)
+					.where(memberSub.age.gt(10))
+			))
+			.fetch();
+
+		assertThat(fetch).extracting("age")
+			.containsExactly(20,30,40);
+	}
+
+	@Test
+	public void selectSubQuery() {
+		QMember memberSub = new QMember("memberSub");
+
+		List<Tuple> fetch = jpaQueryFactory
+			.select(member.username,
+				select(memberSub.age.avg())
+					.from(memberSub)
+			)
+			.from(member)
+			.fetch();
+		for (Tuple tuple : fetch) {
+			System.out.println("tuple = " + tuple);
+		}
+	}
+
+	@Test
+	public void basicCase() {
+		List<String> fetch = jpaQueryFactory
+			.select(member.age
+				.when(10).then("열살")
+				.when(20).then("스무살")
+				.otherwise("기타")
+			).from(member).fetch();
+
+		for (String s : fetch) {
+			System.out.println("s = " + s);
+		}
+
+	}
+
+	@Test
+	public void complexCase() {
+		List<String> fetch = jpaQueryFactory
+			.select(new CaseBuilder()
+				.when(member.age.between(0, 20)).then("0~20살")
+				.when(member.age.between(21, 30)).then("21~30살")
+				.otherwise("기타")
+			).from(member)
+			.fetch();
+
+		for (String s : fetch) {
+			System.out.println("s = " + s);
+		}
+	}
+
+	@Test
+	public void constant() {
+		List<Tuple> fetch = jpaQueryFactory
+			.select(member.username, Expressions.constant("A"))
+			.from(member)
+			.fetch();
+
+		for (Tuple tuple : fetch) {
+			System.out.println("tuple = " + tuple);
+		}
+	}
+
+	@Test
+	public void concat() {
+		List<String> fetch = jpaQueryFactory
+			.select(member.username.concat("_").concat(member.age.stringValue()))
+			.from(member)
+			.where(member.username.eq("member1"))
+			.fetch();
+
+		for (String s : fetch) {
+			System.out.println("s = " + s);
 		}
 	}
 
