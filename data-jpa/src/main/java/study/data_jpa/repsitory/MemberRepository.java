@@ -21,12 +21,12 @@ import jakarta.persistence.QueryHint;
 import study.data_jpa.dto.MemberDto;
 import study.data_jpa.entity.Member;
 
-public interface MemberRepository extends JpaRepository<Member, Long>,MemberRepositoryCustom,
+public interface MemberRepository extends JpaRepository<Member, Long>, MemberRepositoryCustom,
 	JpaSpecificationExecutor<Member> {
 
 	List<Member> findByUsernameAndAgeGreaterThan(String username, int age);
 
-	// @Query(name = "Member.findByUsername")
+	@Query(name = "Member.findByUsername")
 	List<Member> findByUsername(@Param("username") String username);
 
 	@Query("select m from Member m where m.username = :username and m.age = :age")
@@ -77,6 +77,6 @@ public interface MemberRepository extends JpaRepository<Member, Long>,MemberRepo
 	@Lock(LockModeType.PESSIMISTIC_WRITE)
 	List<Member> findLockByUsername(String username);
 
-	List<UsernameOnlyDto> findProjectionsByUsername(@Param("username") String username);
+	// List<UsernameOnlyDto> findProjectionsByUsername(@Param("username") String username);
 	// List<UsernameOnly> findProjectionsByUsername(@Param("username") String username);
 }

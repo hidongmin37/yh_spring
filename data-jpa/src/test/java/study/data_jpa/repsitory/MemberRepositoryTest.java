@@ -403,10 +403,10 @@ class MemberRepositoryTest {
 		// 	System.out.println("usernameOnly = " + usernameOnly);
 		// }
 
-		List<UsernameOnlyDto> result = memberRepository.findProjectionsByUsername("m1");
-		for (UsernameOnlyDto usernameOnly : result) {
-			System.out.println("usernameOnly = " + usernameOnly.getUsername());
-		}
+		// List<UsernameOnlyDto> result = memberRepository.findProjectionsByUsername("m1");
+		// for (UsernameOnlyDto usernameOnly : result) {
+		// 	System.out.println("usernameOnly = " + usernameOnly.getUsername());
+		// }
 	}
 
 }
