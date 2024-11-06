@@ -1,5 +1,6 @@
-package main.lang.object.immutable;
+package com.java_basic.lang.object.immutable;
 
+import main.lang.object.immutable.Address;
 public class MemberMainV1 {
 
     public static void main(String[] args) {

@@ -1,4 +1,6 @@
-package main.lang.object.immutable;
+package com.java_basic.lang.object.immutable;
+
+import main.lang.object.immutable.Address;
 
 public class MemberV1 {
     private String name;
