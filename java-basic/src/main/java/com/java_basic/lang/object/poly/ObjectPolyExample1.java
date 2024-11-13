@@ -1,4 +1,4 @@
-package main.lang.object.poly;
+package com.java_basic.lang.object.poly;
 
 public class ObjectPolyExample1 {
     public static void main(String[] args) {

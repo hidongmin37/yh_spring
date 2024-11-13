@@ -1,4 +1,4 @@
-package main.lang.object.poly;
+package com.java_basic.lang.object.poly;
 
 public class Dog {
     public void sound() {
