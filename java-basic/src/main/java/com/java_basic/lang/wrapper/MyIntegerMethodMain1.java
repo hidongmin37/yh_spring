@@ -1,5 +1,4 @@
-package main.lang.wrapper;
-
+package com.java_basic.lang.wrapper;
 public class MyIntegerMethodMain1 {
     public static void main(String[] args) {
         MyInteger myInteger = new MyInteger(10);
