@@ -18,7 +18,7 @@ public class MyArrayListV3BadMain {
         // ClassCaseException 발생, 문자를 Integer로 캐스팅
         Integer num3 =(Integer) myArrayList.get(2);
 
-        
+
 
 
 
