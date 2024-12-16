@@ -19,6 +19,8 @@ public class StringHashMain {
         int hashIndex = hashIndex(hashCode);
         System.out.println("hashIndex = " + hashIndex);
 
+
+
     }
 
     static int hashCode(String str) {
