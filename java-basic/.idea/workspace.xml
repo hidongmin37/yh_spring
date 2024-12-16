@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5839ddd5-4141-4d6b-9b61-a9c49cfe571b" name="Changes" comment="# 제목은 최대 50글자까지 아래에 작성: ex) &lt;feat&gt;: Add OAuth2&#10;&#10;# 본문은 아래에 작성&#10;&#10;# 꼬릿말은 아래에 작성: ex) Github issue #23&#10;&#10;&#10;# --- COMMIT END ----&#10;# &lt;타입&gt; 리스트&#10;#   feat    : 기능 (새로운 기능)&#10;#   fix     : 버그 (버그 수정)&#10;#   refactor: 리팩토링&#10;#   style   : 스타일 (코드 형식, 세미콜론 추가: 비즈니스 로직에 변경 없음)&#10;#   docs    : 문서 (문서 추가, 수정, 삭제)&#10;#   test    : 테스트 (테스트 코드 추가, 수정, 삭제: 비즈니스 로직에 변경 없음)&#10;#   chore   : 기타 변경사항 (빌드 업무 수정, 패키지 매니저 수정 등에 대한 커밋 등)&#10;# ------------------&#10;#     제목 첫 글자를 대문자로&#10;#     제목은 명령문으로&#10;#     제목 끝에 마침표(.) 금지&#10;#     제목과 본문을 한 줄 띄워 분리하기&#10;#     본문은 &quot;어떻게&quot; 보다 &quot;무엇을&quot;, &quot;왜&quot;를 설명한다.&#10;#     본문에 여러줄의 메시지를 작성할 땐 &quot;-&quot;로 구분&#10;# ------------------">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java_basic/collection/set/javaset/JavaSetMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java_basic/collection/set/javaset/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java_basic/collection/set/javaset/RectangleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java_basic/collection/set/javaset/SetOperationsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java_basic/collection/set/javaset/UniqueNamesTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/main/lang/object/equals/RectangleMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/MyHashSetV3Main.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java_basic/lang/object/equals/RectangleMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java_basic/lang/object/equals/RectangleMain.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/../embed-start">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="java_basic" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;dongminjang24&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:dongminjang24/yh_spring.git&quot;,
+    &quot;accountId&quot;: &quot;c6ac78a9-fba7-44b6-8903-bc81180d4bc3&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/coding_test/Solution.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/lang/wrapper/WrapperPrimitiveMain.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2ZJIkktPVXXK20xgT0PwtfzEnsU" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.AccountMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AuthGradeMain2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AutoboxingMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ChanningMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CharArrayMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ChronoUnitMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClassExam1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClassExam2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClassGradeEx2_1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClassGradeEx2_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClassGradeEx3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClassGradeEx3_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClassGradeEx3_3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClassMetaMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClassRefMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClassStart1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClassStart2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClassStart3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConstructMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Duration_test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EnumMethodMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EnumRefMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EqualsMainV1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ex2Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ex2MainTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GetTimeMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ImmutableMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InnerOuterMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JavaBasicApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.JavaSetMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LangMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LocalOuterV1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainV0.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainV1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainV1_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MemberMainV1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MemberMainV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodInitMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodInitMain2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodInitMain3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MutableMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyCalculator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyDateMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyIntegerMethodMain0.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyIntegerMethodMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyIntegerNullMain0.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NestedOuter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NetworkMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ObjectPolyExample1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ObjectPolyExample2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Period_test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrimitiveMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProductOrderMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RectangleMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RefMain2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShipInventory.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Stream.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StreamTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StreamTest2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringBuilderMain1_1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringEqualsMain1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.StringGradeEx0_1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringGradeEx0_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringImmutable1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SystemMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestPlus.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Time.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ToStringMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ToStringMain2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VarChange1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VarChange2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WrapperClassMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WrapperPrimitiveMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WrapperUtilsMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.bubble.executor&quot;: &quot;Run&quot;,
+    &quot;Application.builder.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.class1.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lang.enumeration.ex3.ClassGradeEx2_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lang.enumeration.ex4.ClassGradeEx2_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lang.enumeration.ref1.ClassGradeEx2_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.main.builder.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.nested.ex2.NetworkMain.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build java-basic.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:AdaptorInJava.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:AnimalHospitalMainV0.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:AnimalHospitalMainV1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:AnimalMain1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:AnimalMain2.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:App.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:ArrayMain1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:ArrayMain2.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:BatchProcessorMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:BoxMain01.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:BoxMain02.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:BoxMain3.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:Button.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:CheckedCatchMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:CheckedThrowMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:Client.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:ContainerTest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:HashAndEqualsMain1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:HashAndEqualsMain2.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:HashAndEqualsMain3.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:HashStart1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:HashStart3.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:HashStart4.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:HashStart5.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:JavaBasicApplication.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:JavaCollectionExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:JavaHashCodeMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:JavaListPerformanceTest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:JavaSetMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:LombokExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:MainV2.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:MainV3.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:MethodMain1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:MethodMain2.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:MethodMain3.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:MyArrayListV1Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:MyArrayListV2Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:MyArrayListV3BadMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:MyArrayListV3Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:MyHashSetV0Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:MyHashSetV1Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:MyHashSetV2Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:MyHashSetV2Main1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:MyHashSetV2Main2.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:MyHashSetV3Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:MyLinkedListV1Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:MyLinkedListV2Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:MyLinkedListV3Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:MyListPerformanceTest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:NodeMain1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:NodeMain2.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:NodeMain3.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:PairTest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:RectangleTest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:SetOperationsTest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:ShoppingCartMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:ShuttleTest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:SpringExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:StringHashMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:UncheckedCatchMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:UniqueNamesTest1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:UnitPrinterTest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:UnitUtilTest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:WildcardMain1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:ex1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:ex2.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:ex3.main()].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.JavaBasicApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/hidongmin37/yh_spring/java-basic/build.gradle&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.java_basic.collection.list" />
+      <recent name="abstract_factory_method" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/java_basic/designpatterns/behavior_patterns/command/before" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/java_basic/flyweight" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/java_basic/facade" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/java_basic/adaptor/security" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/java_basic/adaptor" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/java_basic/designpatterns/behavior_patterns/chain_of_responsibilities/before" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/java_basic/decorator" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/java_basic/composite" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/java_basic/bridge" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.java_basic.collection.set" />
+      <recent name="com.java_basic.collection.set.member" />
+      <recent name="com.java_basic.designpatterns.behavior_patterns.command.afeter" />
+      <recent name="com.java_basic.designpatterns.behavior_patterns.chain_of_responsibilities.after" />
+      <recent name="com.java_basic.proxy.after" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MyListPerformanceTest">
+    <configuration name="MyListPerformanceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java_basic.collection.list.MyListPerformanceTest" />
+      <module name="java_basic.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java_basic.collection.list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NodeMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java_basic.collection.link.NodeMain1" />
+      <module name="java_basic.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java_basic.collection.link.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RectangleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java_basic.collection.set.javaset.RectangleTest" />
+      <module name="java_basic.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java_basic.collection.set.javaset.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SetOperationsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java_basic.collection.set.javaset.SetOperationsTest" />
+      <module name="java_basic.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java_basic.collection.set.javaset.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UniqueNamesTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java_basic.collection.set.javaset.UniqueNamesTest1" />
+      <module name="java_basic.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java_basic.collection.set.javaset.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="embed" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="embed" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaBasicApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="java_basic.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.java_basic.JavaBasicApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MyListPerformanceTest" />
+        <item itemvalue="Application.NodeMain1" />
+        <item itemvalue="Application.RectangleTest" />
+        <item itemvalue="Application.SetOperationsTest" />
+        <item itemvalue="Application.UniqueNamesTest1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.19072.14" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.19072.14" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5839ddd5-4141-4d6b-9b61-a9c49cfe571b" name="Changes" comment="" />
+      <created>1702133900299</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702133900299</updated>
+      <workItem from="1702133901326" duration="412000" />
+      <workItem from="1702134318946" duration="2679000" />
+      <workItem from="1702186233437" duration="5213000" />
+      <workItem from="1702393090003" duration="214000" />
+      <workItem from="1702393910400" duration="2343000" />
+      <workItem from="1704727265588" duration="4139000" />
+      <workItem from="1704782079929" duration="5360000" />
+      <workItem from="1712231100808" duration="98000" />
+      <workItem from="1712231229024" duration="2217000" />
+      <workItem from="1712240596026" duration="650000" />
+      <workItem from="1712241305956" duration="464000" />
+      <workItem from="1712241823195" duration="27000" />
+      <workItem from="1712465653102" duration="32000" />
+      <workItem from="1712672107158" duration="3991000" />
+      <workItem from="1712728137565" duration="11044000" />
+      <workItem from="1713181150837" duration="8187000" />
+      <workItem from="1713283648616" duration="2400000" />
+      <workItem from="1713356501956" duration="7212000" />
+      <workItem from="1713451403557" duration="23000" />
+      <workItem from="1713540005026" duration="29000" />
+      <workItem from="1714747407426" duration="5319000" />
+      <workItem from="1714835919598" duration="3541000" />
+      <workItem from="1714919119881" duration="7326000" />
+      <workItem from="1714972335856" duration="11890000" />
+      <workItem from="1714986459321" duration="2775000" />
+      <workItem from="1715089635622" duration="5009000" />
+      <workItem from="1715167567451" duration="3000" />
+      <workItem from="1715180760115" duration="6429000" />
+      <workItem from="1716655461822" duration="139000" />
+      <workItem from="1717486821052" duration="5051000" />
+      <workItem from="1717739189714" duration="2698000" />
+      <workItem from="1717741893264" duration="1000" />
+      <workItem from="1717741987156" duration="2950000" />
+      <workItem from="1717747769575" duration="1587000" />
+      <workItem from="1717749947084" duration="1790000" />
+      <workItem from="1717850607879" duration="8542000" />
+      <workItem from="1717914089186" duration="6090000" />
+      <workItem from="1717993769717" duration="4858000" />
+      <workItem from="1718370234115" duration="7706000" />
+      <workItem from="1718425188414" duration="3000" />
+      <workItem from="1718448963013" duration="7023000" />
+      <workItem from="1718529837359" duration="4000" />
+      <workItem from="1718530756597" duration="4886000" />
+      <workItem from="1718774298970" duration="1606000" />
+      <workItem from="1718776098479" duration="858000" />
+      <workItem from="1718782735704" duration="1000" />
+      <workItem from="1718808385924" duration="1000" />
+      <workItem from="1722344656151" duration="4000" />
+      <workItem from="1722908998864" duration="7322000" />
+      <workItem from="1722996331539" duration="3709000" />
+      <workItem from="1723081213222" duration="8487000" />
+      <workItem from="1723167688875" duration="4994000" />
+      <workItem from="1723346767414" duration="5306000" />
+      <workItem from="1723465926117" duration="8988000" />
+      <workItem from="1723603870819" duration="7645000" />
+      <workItem from="1723783478497" duration="10436000" />
+      <workItem from="1724116531886" duration="4936000" />
+      <workItem from="1724202163342" duration="6564000" />
+      <workItem from="1724548639395" duration="4968000" />
+      <workItem from="1724631285137" duration="5519000" />
+      <workItem from="1724721716798" duration="11219000" />
+      <workItem from="1724908634813" duration="6802000" />
+      <workItem from="1725244846697" duration="2941000" />
+      <workItem from="1725327436723" duration="6441000" />
+      <workItem from="1725374459963" duration="1192000" />
+      <workItem from="1725501524252" duration="7657000" />
+      <workItem from="1726450912670" duration="2475000" />
+      <workItem from="1726536597313" duration="4908000" />
+      <workItem from="1726622020533" duration="3580000" />
+      <workItem from="1726708449932" duration="800000" />
+      <workItem from="1726710342533" duration="3483000" />
+      <workItem from="1726897914840" duration="18000" />
+      <workItem from="1728297183026" duration="1000" />
+      <workItem from="1728310971460" duration="2375000" />
+      <workItem from="1728315571582" duration="1101000" />
+      <workItem from="1728451846037" duration="4077000" />
+      <workItem from="1728461412777" duration="812000" />
+      <workItem from="1728545116212" duration="2746000" />
+      <workItem from="1728550245661" duration="1000" />
+      <workItem from="1729302121380" duration="3906000" />
+      <workItem from="1729312601795" duration="4571000" />
+      <workItem from="1729321768297" duration="16174000" />
+      <workItem from="1729422071279" duration="1670000" />
+      <workItem from="1729423765669" duration="1264000" />
+      <workItem from="1729425268675" duration="5353000" />
+      <workItem from="1729433045598" duration="162000" />
+      <workItem from="1729477344769" duration="10273000" />
+      <workItem from="1729603469930" duration="5361000" />
+      <workItem from="1729646693849" duration="7286000" />
+      <workItem from="1729676417305" duration="3968000" />
+      <workItem from="1729777650061" duration="2750000" />
+      <workItem from="1730021509388" duration="1036000" />
+      <workItem from="1730094253917" duration="746000" />
+      <workItem from="1730375836949" duration="769000" />
+      <workItem from="1730432087253" duration="7897000" />
+      <workItem from="1730518938264" duration="11120000" />
+      <workItem from="1730553440085" duration="3244000" />
+      <workItem from="1730860386936" duration="3264000" />
+      <workItem from="1730868858018" duration="6112000" />
+      <workItem from="1730981149835" duration="3587000" />
+      <workItem from="1731025406644" duration="173000" />
+      <workItem from="1731033135893" duration="1998000" />
+      <workItem from="1731048856317" duration="5860000" />
+      <workItem from="1731417796117" duration="1528000" />
+      <workItem from="1731457547764" duration="7861000" />
+      <workItem from="1731569215651" duration="4910000" />
+      <workItem from="1731592231762" duration="3730000" />
+      <workItem from="1731630609727" duration="4100000" />
+      <workItem from="1731637959701" duration="4111000" />
+      <workItem from="1731829393996" duration="3000" />
+      <workItem from="1731978161367" duration="7333000" />
+      <workItem from="1731992633972" duration="2968000" />
+      <workItem from="1732356722299" duration="6905000" />
+      <workItem from="1732371516863" duration="465000" />
+      <workItem from="1732371986735" duration="3451000" />
+      <workItem from="1732430839650" duration="9544000" />
+      <workItem from="1732767095370" duration="10604000" />
+      <workItem from="1732797094391" duration="5705000" />
+      <workItem from="1732954016980" duration="18575000" />
+      <workItem from="1733097757731" duration="8310000" />
+      <workItem from="1733931552302" duration="1799000" />
+      <workItem from="1734009714899" duration="7000" />
+      <workItem from="1734258475572" duration="2918000" />
+      <workItem from="1734264491296" duration="25000" />
+      <workItem from="1734264518283" duration="203000" />
+      <workItem from="1734264723547" duration="68000" />
+      <workItem from="1734264793526" duration="31000" />
+      <workItem from="1734264840593" duration="329000" />
+      <workItem from="1734265195484" duration="202000" />
+      <workItem from="1734265399467" duration="25000" />
+      <workItem from="1734265425963" duration="100000" />
+      <workItem from="1734265633152" duration="11000" />
+      <workItem from="1734265651061" duration="95000" />
+      <workItem from="1734265767338" duration="152000" />
+      <workItem from="1734265921940" duration="176000" />
+      <workItem from="1734266099442" duration="4598000" />
+      <workItem from="1734307588930" duration="557000" />
+    </task>
+    <task id="LOCAL-00001" summary="수정">
+      <option name="closed" value="true" />
+      <created>1702134063307</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702134063307</updated>
+    </task>
+    <task id="LOCAL-00002" summary="# 제목은 최대 50글자까지 아래에 작성: ex) &lt;feat&gt;: Add OAuth2&#10;&#10;# 본문은 아래에 작성&#10;&#10;# 꼬릿말은 아래에 작성: ex) Github issue #23&#10;&#10;&#10;# --- COMMIT END ----&#10;# &lt;타입&gt; 리스트&#10;#   feat    : 기능 (새로운 기능)&#10;#   fix     : 버그 (버그 수정)&#10;#   refactor: 리팩토링&#10;#   style   : 스타일 (코드 형식, 세미콜론 추가: 비즈니스 로직에 변경 없음)&#10;#   docs    : 문서 (문서 추가, 수정, 삭제)&#10;#   test    : 테스트 (테스트 코드 추가, 수정, 삭제: 비즈니스 로직에 변경 없음)&#10;#   chore   : 기타 변경사항 (빌드 업무 수정, 패키지 매니저 수정 등에 대한 커밋 등)&#10;# ------------------&#10;#     제목 첫 글자를 대문자로&#10;#     제목은 명령문으로&#10;#     제목 끝에 마침표(.) 금지&#10;#     제목과 본문을 한 줄 띄워 분리하기&#10;#     본문은 &quot;어떻게&quot; 보다 &quot;무엇을&quot;, &quot;왜&quot;를 설명한다.&#10;#     본문에 여러줄의 메시지를 작성할 땐 &quot;-&quot;로 구분&#10;# ------------------&#10;.">
+      <option name="closed" value="true" />
+      <created>1702193406148</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702193406148</updated>
+    </task>
+    <task id="LOCAL-00003" summary="# 제목은 최대 50글자까지 아래에 작성: ex) &lt;feat&gt;: Add OAuth2&#10;&#10;# 본문은 아래에 작성&#10;&#10;# 꼬릿말은 아래에 작성: ex) Github issue #23&#10;&#10;&#10;# --- COMMIT END ----&#10;# &lt;타입&gt; 리스트&#10;#   feat    : 기능 (새로운 기능)&#10;#   fix     : 버그 (버그 수정)&#10;#   refactor: 리팩토링&#10;#   style   : 스타일 (코드 형식, 세미콜론 추가: 비즈니스 로직에 변경 없음)&#10;#   docs    : 문서 (문서 추가, 수정, 삭제)&#10;#   test    : 테스트 (테스트 코드 추가, 수정, 삭제: 비즈니스 로직에 변경 없음)&#10;#   chore   : 기타 변경사항 (빌드 업무 수정, 패키지 매니저 수정 등에 대한 커밋 등)&#10;# ------------------&#10;#     제목 첫 글자를 대문자로&#10;#     제목은 명령문으로&#10;#     제목 끝에 마침표(.) 금지&#10;#     제목과 본문을 한 줄 띄워 분리하기&#10;#     본문은 &quot;어떻게&quot; 보다 &quot;무엇을&quot;, &quot;왜&quot;를 설명한다.&#10;#     본문에 여러줄의 메시지를 작성할 땐 &quot;-&quot;로 구분&#10;# ------------------&#10;.">
+      <option name="closed" value="true" />
+      <created>1704731971660</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704731971660</updated>
+    </task>
+    <task id="LOCAL-00004" summary=".">
+      <option name="closed" value="true" />
+      <created>1713190228331</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713190228331</updated>
+    </task>
+    <task id="LOCAL-00005" summary="# 제목은 최대 50글자까지 아래에 작성: ex) &lt;feat&gt;: Add OAuth2&#10;&#10;# 본문은 아래에 작성&#10;&#10;# 꼬릿말은 아래에 작성: ex) Github issue #23&#10;&#10;&#10;# --- COMMIT END ----&#10;# &lt;타입&gt; 리스트&#10;#   feat    : 기능 (새로운 기능)&#10;#   fix     : 버그 (버그 수정)&#10;#   refactor: 리팩토링&#10;#   style   : 스타일 (코드 형식, 세미콜론 추가: 비즈니스 로직에 변경 없음)&#10;#   docs    : 문서 (문서 추가, 수정, 삭제)&#10;#   test    : 테스트 (테스트 코드 추가, 수정, 삭제: 비즈니스 로직에 변경 없음)&#10;#   chore   : 기타 변경사항 (빌드 업무 수정, 패키지 매니저 수정 등에 대한 커밋 등)&#10;# ------------------&#10;#     제목 첫 글자를 대문자로&#10;#     제목은 명령문으로&#10;#     제목 끝에 마침표(.) 금지&#10;#     제목과 본문을 한 줄 띄워 분리하기&#10;#     본문은 &quot;어떻게&quot; 보다 &quot;무엇을&quot;, &quot;왜&quot;를 설명한다.&#10;#     본문에 여러줄의 메시지를 작성할 땐 &quot;-&quot;로 구분&#10;# ------------------&#10;WrapperClassMain">
+      <option name="closed" value="true" />
+      <created>1713358534127</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713358534127</updated>
+    </task>
+    <task id="LOCAL-00006" summary="# 제목은 최대 50글자까지 아래에 작성: ex) &lt;feat&gt;: Add OAuth2&#10;&#10;# 본문은 아래에 작성&#10;&#10;# 꼬릿말은 아래에 작성: ex) Github issue #23&#10;&#10;&#10;# --- COMMIT END ----&#10;# &lt;타입&gt; 리스트&#10;#   feat    : 기능 (새로운 기능)&#10;#   fix     : 버그 (버그 수정)&#10;#   refactor: 리팩토링&#10;#   style   : 스타일 (코드 형식, 세미콜론 추가: 비즈니스 로직에 변경 없음)&#10;#   docs    : 문서 (문서 추가, 수정, 삭제)&#10;#   test    : 테스트 (테스트 코드 추가, 수정, 삭제: 비즈니스 로직에 변경 없음)&#10;#   chore   : 기타 변경사항 (빌드 업무 수정, 패키지 매니저 수정 등에 대한 커밋 등)&#10;# ------------------&#10;#     제목 첫 글자를 대문자로&#10;#     제목은 명령문으로&#10;#     제목 끝에 마침표(.) 금지&#10;#     제목과 본문을 한 줄 띄워 분리하기&#10;#     본문은 &quot;어떻게&quot; 보다 &quot;무엇을&quot;, &quot;왜&quot;를 설명한다.&#10;#     본문에 여러줄의 메시지를 작성할 땐 &quot;-&quot;로 구분&#10;# ------------------&#10;DiscountService">
+      <option name="closed" value="true" />
+      <created>1713366630774</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1713366630774</updated>
+    </task>
+    <task id="LOCAL-00007" summary="# 제목은 최대 50글자까지 아래에 작성: ex) &lt;feat&gt;: Add OAuth2&#10;&#10;# 본문은 아래에 작성&#10;&#10;# 꼬릿말은 아래에 작성: ex) Github issue #23&#10;&#10;&#10;# --- COMMIT END ----&#10;# &lt;타입&gt; 리스트&#10;#   feat    : 기능 (새로운 기능)&#10;#   fix     : 버그 (버그 수정)&#10;#   refactor: 리팩토링&#10;#   style   : 스타일 (코드 형식, 세미콜론 추가: 비즈니스 로직에 변경 없음)&#10;#   docs    : 문서 (문서 추가, 수정, 삭제)&#10;#   test    : 테스트 (테스트 코드 추가, 수정, 삭제: 비즈니스 로직에 변경 없음)&#10;#   chore   : 기타 변경사항 (빌드 업무 수정, 패키지 매니저 수정 등에 대한 커밋 등)&#10;# ------------------&#10;#     제목 첫 글자를 대문자로&#10;#     제목은 명령문으로&#10;#     제목 끝에 마침표(.) 금지&#10;#     제목과 본문을 한 줄 띄워 분리하기&#10;#     본문은 &quot;어떻게&quot; 보다 &quot;무엇을&quot;, &quot;왜&quot;를 설명한다.&#10;#     본문에 여러줄의 메시지를 작성할 땐 &quot;-&quot;로 구분&#10;# ------------------&#10;new">
+      <option name="closed" value="true" />
+      <created>1713451421971</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1713451421971</updated>
+    </task>
+    <task id="LOCAL-00008" summary="# 제목은 최대 50글자까지 아래에 작성: ex) &lt;feat&gt;: Add OAuth2&#10;&#10;# 본문은 아래에 작성&#10;&#10;# 꼬릿말은 아래에 작성: ex) Github issue #23&#10;&#10;&#10;# --- COMMIT END ----&#10;# &lt;타입&gt; 리스트&#10;#   feat    : 기능 (새로운 기능)&#10;#   fix     : 버그 (버그 수정)&#10;#   refactor: 리팩토링&#10;#   style   : 스타일 (코드 형식, 세미콜론 추가: 비즈니스 로직에 변경 없음)&#10;#   docs    : 문서 (문서 추가, 수정, 삭제)&#10;#   test    : 테스트 (테스트 코드 추가, 수정, 삭제: 비즈니스 로직에 변경 없음)&#10;#   chore   : 기타 변경사항 (빌드 업무 수정, 패키지 매니저 수정 등에 대한 커밋 등)&#10;# ------------------&#10;#     제목 첫 글자를 대문자로&#10;#     제목은 명령문으로&#10;#     제목 끝에 마침표(.) 금지&#10;#     제목과 본문을 한 줄 띄워 분리하기&#10;#     본문은 &quot;어떻게&quot; 보다 &quot;무엇을&quot;, &quot;왜&quot;를 설명한다.&#10;#     본문에 여러줄의 메시지를 작성할 땐 &quot;-&quot;로 구분&#10;# ------------------&#10;.">
+      <option name="closed" value="true" />
+      <created>1713540015792</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1713540015792</updated>
+    </task>
+    <task id="LOCAL-00009" summary="# 제목은 최대 50글자까지 아래에 작성: ex) &lt;feat&gt;: Add OAuth2&#10;&#10;# 본문은 아래에 작성&#10;&#10;# 꼬릿말은 아래에 작성: ex) Github issue #23&#10;&#10;&#10;# --- COMMIT END ----&#10;# &lt;타입&gt; 리스트&#10;#   feat    : 기능 (새로운 기능)&#10;#   fix     : 버그 (버그 수정)&#10;#   refactor: 리팩토링&#10;#   style   : 스타일 (코드 형식, 세미콜론 추가: 비즈니스 로직에 변경 없음)&#10;#   docs    : 문서 (문서 추가, 수정, 삭제)&#10;#   test    : 테스트 (테스트 코드 추가, 수정, 삭제: 비즈니스 로직에 변경 없음)&#10;#   chore   : 기타 변경사항 (빌드 업무 수정, 패키지 매니저 수정 등에 대한 커밋 등)&#10;# ------------------&#10;#     제목 첫 글자를 대문자로&#10;#     제목은 명령문으로&#10;#     제목 끝에 마침표(.) 금지&#10;#     제목과 본문을 한 줄 띄워 분리하기&#10;#     본문은 &quot;어떻게&quot; 보다 &quot;무엇을&quot;, &quot;왜&quot;를 설명한다.&#10;#     본문에 여러줄의 메시지를 작성할 땐 &quot;-&quot;로 구분&#10;# ------------------&#10;.">
+      <option name="closed" value="true" />
+      <created>1714753451198</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1714753451198</updated>
+    </task>
+    <task id="LOCAL-00010" summary="# 제목은 최대 50글자까지 아래에 작성: ex) &lt;feat&gt;: Add OAuth2&#10;&#10;# 본문은 아래에 작성&#10;&#10;# 꼬릿말은 아래에 작성: ex) Github issue #23&#10;&#10;&#10;# --- COMMIT END ----&#10;# &lt;타입&gt; 리스트&#10;#   feat    : 기능 (새로운 기능)&#10;#   fix     : 버그 (버그 수정)&#10;#   refactor: 리팩토링&#10;#   style   : 스타일 (코드 형식, 세미콜론 추가: 비즈니스 로직에 변경 없음)&#10;#   docs    : 문서 (문서 추가, 수정, 삭제)&#10;#   test    : 테스트 (테스트 코드 추가, 수정, 삭제: 비즈니스 로직에 변경 없음)&#10;#   chore   : 기타 변경사항 (빌드 업무 수정, 패키지 매니저 수정 등에 대한 커밋 등)&#10;# ------------------&#10;#     제목 첫 글자를 대문자로&#10;#     제목은 명령문으로&#10;#     제목 끝에 마침표(.) 금지&#10;#     제목과 본문을 한 줄 띄워 분리하기&#10;#     본문은 &quot;어떻게&quot; 보다 &quot;무엇을&quot;, &quot;왜&quot;를 설명한다.&#10;#     본문에 여러줄의 메시지를 작성할 땐 &quot;-&quot;로 구분&#10;# ------------------&#10;&#10;.">
+      <option name="closed" value="true" />
+      <created>1714755077375</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1714755077375</updated>
+    </task>
+    <task id="LOCAL-00011" summary="# 제목은 최대 50글자까지 아래에 작성: ex) &lt;feat&gt;: Add OAuth2&#10;&#10;# 본문은 아래에 작성&#10;&#10;# 꼬릿말은 아래에 작성: ex) Github issue #23&#10;&#10;&#10;# --- COMMIT END ----&#10;# &lt;타입&gt; 리스트&#10;#   feat    : 기능 (새로운 기능)&#10;#   fix     : 버그 (버그 수정)&#10;#   refactor: 리팩토링&#10;#   style   : 스타일 (코드 형식, 세미콜론 추가: 비즈니스 로직에 변경 없음)&#10;#   docs    : 문서 (문서 추가, 수정, 삭제)&#10;#   test    : 테스트 (테스트 코드 추가, 수정, 삭제: 비즈니스 로직에 변경 없음)&#10;#   chore   : 기타 변경사항 (빌드 업무 수정, 패키지 매니저 수정 등에 대한 커밋 등)&#10;# ------------------&#10;#     제목 첫 글자를 대문자로&#10;#     제목은 명령문으로&#10;#     제목 끝에 마침표(.) 금지&#10;#     제목과 본문을 한 줄 띄워 분리하기&#10;#     본문은 &quot;어떻게&quot; 보다 &quot;무엇을&quot;, &quot;왜&quot;를 설명한다.&#10;#     본문에 여러줄의 메시지를 작성할 땐 &quot;-&quot;로 구분&#10;# ------------------&#10;..">
+      <option name="closed" value="true" />
+      <created>1714986814191</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1714986814191</updated>
+    </task>
+    <task id="LOCAL-00012" summary="# 제목은 최대 50글자까지 아래에 작성: ex) &lt;feat&gt;: Add OAuth2&#10;&#10;# 본문은 아래에 작성&#10;&#10;# 꼬릿말은 아래에 작성: ex) Github issue #23&#10;&#10;&#10;# --- COMMIT END ----&#10;# &lt;타입&gt; 리스트&#10;#   feat    : 기능 (새로운 기능)&#10;#   fix     : 버그 (버그 수정)&#10;#   refactor: 리팩토링&#10;#   style   : 스타일 (코드 형식, 세미콜론 추가: 비즈니스 로직에 변경 없음)&#10;#   docs    : 문서 (문서 추가, 수정, 삭제)&#10;#   test    : 테스트 (테스트 코드 추가, 수정, 삭제: 비즈니스 로직에 변경 없음)&#10;#   chore   : 기타 변경사항 (빌드 업무 수정, 패키지 매니저 수정 등에 대한 커밋 등)&#10;# ------------------&#10;#     제목 첫 글자를 대문자로&#10;#     제목은 명령문으로&#10;#     제목 끝에 마침표(.) 금지&#10;#     제목과 본문을 한 줄 띄워 분리하기&#10;#     본문은 &quot;어떻게&quot; 보다 &quot;무엇을&quot;, &quot;왜&quot;를 설명한다.&#10;#     본문에 여러줄의 메시지를 작성할 땐 &quot;-&quot;로 구분&#10;# ------------------&#10;.">
+      <option name="closed" value="true" />
+      <created>1715094360932</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1715094360932</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="수정" />
+    <MESSAGE value="." />
+    <MESSAGE value="# 제목은 최대 50글자까지 아래에 작성: ex) &lt;feat&gt;: Add OAuth2&#10;&#10;# 본문은 아래에 작성&#10;&#10;# 꼬릿말은 아래에 작성: ex) Github issue #23&#10;&#10;&#10;# --- COMMIT END ----&#10;# &lt;타입&gt; 리스트&#10;#   feat    : 기능 (새로운 기능)&#10;#   fix     : 버그 (버그 수정)&#10;#   refactor: 리팩토링&#10;#   style   : 스타일 (코드 형식, 세미콜론 추가: 비즈니스 로직에 변경 없음)&#10;#   docs    : 문서 (문서 추가, 수정, 삭제)&#10;#   test    : 테스트 (테스트 코드 추가, 수정, 삭제: 비즈니스 로직에 변경 없음)&#10;#   chore   : 기타 변경사항 (빌드 업무 수정, 패키지 매니저 수정 등에 대한 커밋 등)&#10;# ------------------&#10;#     제목 첫 글자를 대문자로&#10;#     제목은 명령문으로&#10;#     제목 끝에 마침표(.) 금지&#10;#     제목과 본문을 한 줄 띄워 분리하기&#10;#     본문은 &quot;어떻게&quot; 보다 &quot;무엇을&quot;, &quot;왜&quot;를 설명한다.&#10;#     본문에 여러줄의 메시지를 작성할 땐 &quot;-&quot;로 구분&#10;# ------------------&#10;WrapperClassMain" />
+    <MESSAGE value="# 제목은 최대 50글자까지 아래에 작성: ex) &lt;feat&gt;: Add OAuth2&#10;&#10;# 본문은 아래에 작성&#10;&#10;# 꼬릿말은 아래에 작성: ex) Github issue #23&#10;&#10;&#10;# --- COMMIT END ----&#10;# &lt;타입&gt; 리스트&#10;#   feat    : 기능 (새로운 기능)&#10;#   fix     : 버그 (버그 수정)&#10;#   refactor: 리팩토링&#10;#   style   : 스타일 (코드 형식, 세미콜론 추가: 비즈니스 로직에 변경 없음)&#10;#   docs    : 문서 (문서 추가, 수정, 삭제)&#10;#   test    : 테스트 (테스트 코드 추가, 수정, 삭제: 비즈니스 로직에 변경 없음)&#10;#   chore   : 기타 변경사항 (빌드 업무 수정, 패키지 매니저 수정 등에 대한 커밋 등)&#10;# ------------------&#10;#     제목 첫 글자를 대문자로&#10;#     제목은 명령문으로&#10;#     제목 끝에 마침표(.) 금지&#10;#     제목과 본문을 한 줄 띄워 분리하기&#10;#     본문은 &quot;어떻게&quot; 보다 &quot;무엇을&quot;, &quot;왜&quot;를 설명한다.&#10;#     본문에 여러줄의 메시지를 작성할 땐 &quot;-&quot;로 구분&#10;# ------------------&#10;DiscountService" />
+    <MESSAGE value="# 제목은 최대 50글자까지 아래에 작성: ex) &lt;feat&gt;: Add OAuth2&#10;&#10;# 본문은 아래에 작성&#10;&#10;# 꼬릿말은 아래에 작성: ex) Github issue #23&#10;&#10;&#10;# --- COMMIT END ----&#10;# &lt;타입&gt; 리스트&#10;#   feat    : 기능 (새로운 기능)&#10;#   fix     : 버그 (버그 수정)&#10;#   refactor: 리팩토링&#10;#   style   : 스타일 (코드 형식, 세미콜론 추가: 비즈니스 로직에 변경 없음)&#10;#   docs    : 문서 (문서 추가, 수정, 삭제)&#10;#   test    : 테스트 (테스트 코드 추가, 수정, 삭제: 비즈니스 로직에 변경 없음)&#10;#   chore   : 기타 변경사항 (빌드 업무 수정, 패키지 매니저 수정 등에 대한 커밋 등)&#10;# ------------------&#10;#     제목 첫 글자를 대문자로&#10;#     제목은 명령문으로&#10;#     제목 끝에 마침표(.) 금지&#10;#     제목과 본문을 한 줄 띄워 분리하기&#10;#     본문은 &quot;어떻게&quot; 보다 &quot;무엇을&quot;, &quot;왜&quot;를 설명한다.&#10;#     본문에 여러줄의 메시지를 작성할 땐 &quot;-&quot;로 구분&#10;# ------------------&#10;new" />
+    <MESSAGE value="# 제목은 최대 50글자까지 아래에 작성: ex) &lt;feat&gt;: Add OAuth2&#10;&#10;# 본문은 아래에 작성&#10;&#10;# 꼬릿말은 아래에 작성: ex) Github issue #23&#10;&#10;&#10;# --- COMMIT END ----&#10;# &lt;타입&gt; 리스트&#10;#   feat    : 기능 (새로운 기능)&#10;#   fix     : 버그 (버그 수정)&#10;#   refactor: 리팩토링&#10;#   style   : 스타일 (코드 형식, 세미콜론 추가: 비즈니스 로직에 변경 없음)&#10;#   docs    : 문서 (문서 추가, 수정, 삭제)&#10;#   test    : 테스트 (테스트 코드 추가, 수정, 삭제: 비즈니스 로직에 변경 없음)&#10;#   chore   : 기타 변경사항 (빌드 업무 수정, 패키지 매니저 수정 등에 대한 커밋 등)&#10;# ------------------&#10;#     제목 첫 글자를 대문자로&#10;#     제목은 명령문으로&#10;#     제목 끝에 마침표(.) 금지&#10;#     제목과 본문을 한 줄 띄워 분리하기&#10;#     본문은 &quot;어떻게&quot; 보다 &quot;무엇을&quot;, &quot;왜&quot;를 설명한다.&#10;#     본문에 여러줄의 메시지를 작성할 땐 &quot;-&quot;로 구분&#10;# ------------------" />
+    <MESSAGE value="# 제목은 최대 50글자까지 아래에 작성: ex) &lt;feat&gt;: Add OAuth2&#10;&#10;# 본문은 아래에 작성&#10;&#10;# 꼬릿말은 아래에 작성: ex) Github issue #23&#10;&#10;&#10;# --- COMMIT END ----&#10;# &lt;타입&gt; 리스트&#10;#   feat    : 기능 (새로운 기능)&#10;#   fix     : 버그 (버그 수정)&#10;#   refactor: 리팩토링&#10;#   style   : 스타일 (코드 형식, 세미콜론 추가: 비즈니스 로직에 변경 없음)&#10;#   docs    : 문서 (문서 추가, 수정, 삭제)&#10;#   test    : 테스트 (테스트 코드 추가, 수정, 삭제: 비즈니스 로직에 변경 없음)&#10;#   chore   : 기타 변경사항 (빌드 업무 수정, 패키지 매니저 수정 등에 대한 커밋 등)&#10;# ------------------&#10;#     제목 첫 글자를 대문자로&#10;#     제목은 명령문으로&#10;#     제목 끝에 마침표(.) 금지&#10;#     제목과 본문을 한 줄 띄워 분리하기&#10;#     본문은 &quot;어떻게&quot; 보다 &quot;무엇을&quot;, &quot;왜&quot;를 설명한다.&#10;#     본문에 여러줄의 메시지를 작성할 땐 &quot;-&quot;로 구분&#10;# ------------------&#10;&#10;." />
+    <MESSAGE value="# 제목은 최대 50글자까지 아래에 작성: ex) &lt;feat&gt;: Add OAuth2&#10;&#10;# 본문은 아래에 작성&#10;&#10;# 꼬릿말은 아래에 작성: ex) Github issue #23&#10;&#10;&#10;# --- COMMIT END ----&#10;# &lt;타입&gt; 리스트&#10;#   feat    : 기능 (새로운 기능)&#10;#   fix     : 버그 (버그 수정)&#10;#   refactor: 리팩토링&#10;#   style   : 스타일 (코드 형식, 세미콜론 추가: 비즈니스 로직에 변경 없음)&#10;#   docs    : 문서 (문서 추가, 수정, 삭제)&#10;#   test    : 테스트 (테스트 코드 추가, 수정, 삭제: 비즈니스 로직에 변경 없음)&#10;#   chore   : 기타 변경사항 (빌드 업무 수정, 패키지 매니저 수정 등에 대한 커밋 등)&#10;# ------------------&#10;#     제목 첫 글자를 대문자로&#10;#     제목은 명령문으로&#10;#     제목 끝에 마침표(.) 금지&#10;#     제목과 본문을 한 줄 띄워 분리하기&#10;#     본문은 &quot;어떻게&quot; 보다 &quot;무엇을&quot;, &quot;왜&quot;를 설명한다.&#10;#     본문에 여러줄의 메시지를 작성할 땐 &quot;-&quot;로 구분&#10;# ------------------&#10;.." />
+    <MESSAGE value="# 제목은 최대 50글자까지 아래에 작성: ex) &lt;feat&gt;: Add OAuth2&#10;&#10;# 본문은 아래에 작성&#10;&#10;# 꼬릿말은 아래에 작성: ex) Github issue #23&#10;&#10;&#10;# --- COMMIT END ----&#10;# &lt;타입&gt; 리스트&#10;#   feat    : 기능 (새로운 기능)&#10;#   fix     : 버그 (버그 수정)&#10;#   refactor: 리팩토링&#10;#   style   : 스타일 (코드 형식, 세미콜론 추가: 비즈니스 로직에 변경 없음)&#10;#   docs    : 문서 (문서 추가, 수정, 삭제)&#10;#   test    : 테스트 (테스트 코드 추가, 수정, 삭제: 비즈니스 로직에 변경 없음)&#10;#   chore   : 기타 변경사항 (빌드 업무 수정, 패키지 매니저 수정 등에 대한 커밋 등)&#10;# ------------------&#10;#     제목 첫 글자를 대문자로&#10;#     제목은 명령문으로&#10;#     제목 끝에 마침표(.) 금지&#10;#     제목과 본문을 한 줄 띄워 분리하기&#10;#     본문은 &quot;어떻게&quot; 보다 &quot;무엇을&quot;, &quot;왜&quot;를 설명한다.&#10;#     본문에 여러줄의 메시지를 작성할 땐 &quot;-&quot;로 구분&#10;# ------------------&#10;." />
+    <option name="LAST_COMMIT_MESSAGE" value="# 제목은 최대 50글자까지 아래에 작성: ex) &lt;feat&gt;: Add OAuth2&#10;&#10;# 본문은 아래에 작성&#10;&#10;# 꼬릿말은 아래에 작성: ex) Github issue #23&#10;&#10;&#10;# --- COMMIT END ----&#10;# &lt;타입&gt; 리스트&#10;#   feat    : 기능 (새로운 기능)&#10;#   fix     : 버그 (버그 수정)&#10;#   refactor: 리팩토링&#10;#   style   : 스타일 (코드 형식, 세미콜론 추가: 비즈니스 로직에 변경 없음)&#10;#   docs    : 문서 (문서 추가, 수정, 삭제)&#10;#   test    : 테스트 (테스트 코드 추가, 수정, 삭제: 비즈니스 로직에 변경 없음)&#10;#   chore   : 기타 변경사항 (빌드 업무 수정, 패키지 매니저 수정 등에 대한 커밋 등)&#10;# ------------------&#10;#     제목 첫 글자를 대문자로&#10;#     제목은 명령문으로&#10;#     제목 끝에 마침표(.) 금지&#10;#     제목과 본문을 한 줄 띄워 분리하기&#10;#     본문은 &quot;어떻게&quot; 보다 &quot;무엇을&quot;, &quot;왜&quot;를 설명한다.&#10;#     본문에 여러줄의 메시지를 작성할 땐 &quot;-&quot;로 구분&#10;# ------------------&#10;." />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

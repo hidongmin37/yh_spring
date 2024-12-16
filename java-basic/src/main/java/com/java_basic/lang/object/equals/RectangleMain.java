@@ -1,11 +1,11 @@
-package main.lang.object.equals;
+package com.java_basic.lang.object.equals;
 
 public class RectangleMain {
     public static void main(String[] args) {
 
-        Rectangle rect1 = new Rectangle(100, 20);
+        main.lang.object.equals.Rectangle rect1 = new main.lang.object.equals.Rectangle(100, 20);
 
-        Rectangle rect2 = new Rectangle(100, 20);
+        main.lang.object.equals.Rectangle rect2 = new main.lang.object.equals.Rectangle(100, 20);
 
         System.out.println(rect1);
 
