@@ -1,10 +1,13 @@
 package com.java_basic.designpatterns.behavior_patterns.mediator;
 
+import java.time.LocalDateTime;
+
 public class Restaurant {
 
     private CleaningService cleaningService = new CleaningService();
-    public void dinner(Guest guest) {
-        System.out.println("dinner " + guest);
+
+    public void dinner(Long guestId, LocalDateTime dinnerTime) {
+        System.out.println("provide dinner for " + guestId + " at " + dinnerTime);
     }
 
     public void clean() {
