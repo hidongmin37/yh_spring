@@ -5,10 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5839ddd5-4141-4d6b-9b61-a9c49cfe571b" name="Changes" comment="# 제목은 최대 50글자까지 아래에 작성: ex) &lt;feat&gt;: Add OAuth2&#10;&#10;# 본문은 아래에 작성&#10;&#10;# 꼬릿말은 아래에 작성: ex) Github issue #23&#10;&#10;&#10;# --- COMMIT END ----&#10;# &lt;타입&gt; 리스트&#10;#   feat    : 기능 (새로운 기능)&#10;#   fix     : 버그 (버그 수정)&#10;#   refactor: 리팩토링&#10;#   style   : 스타일 (코드 형식, 세미콜론 추가: 비즈니스 로직에 변경 없음)&#10;#   docs    : 문서 (문서 추가, 수정, 삭제)&#10;#   test    : 테스트 (테스트 코드 추가, 수정, 삭제: 비즈니스 로직에 변경 없음)&#10;#   chore   : 기타 변경사항 (빌드 업무 수정, 패키지 매니저 수정 등에 대한 커밋 등)&#10;# ------------------&#10;#     제목 첫 글자를 대문자로&#10;#     제목은 명령문으로&#10;#     제목 끝에 마침표(.) 금지&#10;#     제목과 본문을 한 줄 띄워 분리하기&#10;#     본문은 &quot;어떻게&quot; 보다 &quot;무엇을&quot;, &quot;왜&quot;를 설명한다.&#10;#     본문에 여러줄의 메시지를 작성할 땐 &quot;-&quot;로 구분&#10;# ------------------">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java_basic/designpatterns/behavior_patterns/strategy/BlueLightRedLight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java_basic/designpatterns/behavior_patterns/strategy/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java_basic/designpatterns/behavior_patterns/strategy/Speed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/number.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java_basic/designpatterns/behavior_patterns/strategy/Faster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java_basic/designpatterns/behavior_patterns/strategy/Fastest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java_basic/designpatterns/behavior_patterns/strategy/Normal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java_basic/designpatterns/behavior_patterns/template/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java_basic/designpatterns/behavior_patterns/template/FileProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java_basic/designpatterns/behavior_patterns/template/Multiply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java_basic/designpatterns/behavior_patterns/template/Plus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/Client.class.uniqueId0" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/Client.class.uniqueId0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java_basic/designpatterns/behavior_patterns/strategy/BlueLightRedLight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java_basic/designpatterns/behavior_patterns/strategy/BlueLightRedLight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java_basic/designpatterns/behavior_patterns/strategy/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java_basic/designpatterns/behavior_patterns/strategy/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java_basic/designpatterns/behavior_patterns/strategy/Speed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java_basic/designpatterns/behavior_patterns/strategy/Speed.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -306,53 +323,27 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/java_basic/facade" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/java_basic/designpatterns/behavior_patterns/template" />
       <recent name="$PROJECT_DIR$/src/main/java/com/java_basic/designpatterns/behavior_patterns/state" />
       <recent name="$PROJECT_DIR$/src/main/java/com/java_basic/designpatterns/behavior_patterns/memento" />
       <recent name="$PROJECT_DIR$/src/main/java/com/java_basic/designpatterns/behavior_patterns/mediator" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/java_basic/designpatterns/behavior_patterns/chain_of_responsibilities/before" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/java_basic/decorator" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.java_basic.designpatterns.behavior_patterns.template" />
+      <recent name="com.java_basic.designpatterns.behavior_patterns.strategy" />
       <recent name="com.java_basic.collection.compare" />
       <recent name="com.java_basic.collection.deque.test" />
       <recent name="com.java_basic.collection.map" />
-      <recent name="com.java_basic.collection.set" />
-      <recent name="com.java_basic.collection.set.member" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.java_basic.designpatterns.behavior_patterns.state.Client">
-    <configuration name="CardGameMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java_basic.collection.test.CardGameMain" />
-      <module name="java_basic.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java_basic.collection.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.com.java_basic.designpatterns.behavior_patterns.template.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java_basic.designpatterns.behavior_patterns.memento.Client" />
       <module name="java_basic.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.java_basic.designpatterns.behavior_patterns.memento.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SyncMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java_basic.collection.utils.SyncMain" />
-      <module name="java_basic.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java_basic.collection.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -386,6 +377,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.java_basic.designpatterns.behavior_patterns.strategy.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java_basic.designpatterns.behavior_patterns.strategy.Client" />
+      <module name="java_basic.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java_basic.designpatterns.behavior_patterns.strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.java_basic.designpatterns.behavior_patterns.template.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java_basic.designpatterns.behavior_patterns.template.Client" />
+      <module name="java_basic.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java_basic.designpatterns.behavior_patterns.template.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="embed" />
       <method v="2">
@@ -408,11 +425,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.java_basic.designpatterns.behavior_patterns.template.Client" />
+        <item itemvalue="Application.com.java_basic.designpatterns.behavior_patterns.strategy.Client" />
         <item itemvalue="Application.com.java_basic.designpatterns.behavior_patterns.state.Client" />
         <item itemvalue="Application.com.java_basic.designpatterns.behavior_patterns.observer.Client" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.CardGameMain" />
-        <item itemvalue="Application.SyncMain" />
       </list>
     </recent_temporary>
   </component>
@@ -580,6 +597,7 @@
       <workItem from="1734583194209" duration="7098000" />
       <workItem from="1734910709786" duration="5187000" />
       <workItem from="1735052470076" duration="8000" />
+      <workItem from="1735271093573" duration="5123000" />
     </task>
     <task id="LOCAL-00001" summary="수정">
       <option name="closed" value="true" />
