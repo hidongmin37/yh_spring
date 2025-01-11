@@ -5,10 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5839ddd5-4141-4d6b-9b61-a9c49cfe571b" name="Changes" comment="# 제목은 최대 50글자까지 아래에 작성: ex) &lt;feat&gt;: Add OAuth2&#10;&#10;# 본문은 아래에 작성&#10;&#10;# 꼬릿말은 아래에 작성: ex) Github issue #23&#10;&#10;&#10;# --- COMMIT END ----&#10;# &lt;타입&gt; 리스트&#10;#   feat    : 기능 (새로운 기능)&#10;#   fix     : 버그 (버그 수정)&#10;#   refactor: 리팩토링&#10;#   style   : 스타일 (코드 형식, 세미콜론 추가: 비즈니스 로직에 변경 없음)&#10;#   docs    : 문서 (문서 추가, 수정, 삭제)&#10;#   test    : 테스트 (테스트 코드 추가, 수정, 삭제: 비즈니스 로직에 변경 없음)&#10;#   chore   : 기타 변경사항 (빌드 업무 수정, 패키지 매니저 수정 등에 대한 커밋 등)&#10;# ------------------&#10;#     제목 첫 글자를 대문자로&#10;#     제목은 명령문으로&#10;#     제목 끝에 마침표(.) 금지&#10;#     제목과 본문을 한 줄 띄워 분리하기&#10;#     본문은 &quot;어떻게&quot; 보다 &quot;무엇을&quot;, &quot;왜&quot;를 설명한다.&#10;#     본문에 여러줄의 메시지를 작성할 땐 &quot;-&quot;로 구분&#10;# ------------------">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java_basic/thread/DaemonThreadMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java_basic/thread/start/HelloRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java_basic/thread/start/HelloRunnableMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java_basic/thread/start/InnerRunnableMainV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java_basic/thread/start/InnerRunnableMainV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java_basic/thread/start/InnerRunnableMainV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java_basic/thread/start/InnerRunnableMainV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java_basic/thread/start/ManyThreadMainV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java_basic/thread/start/ManyThreadMainV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java_basic/thread/start/MyLoggerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java_basic/thread/start/test1/Example1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java_basic/thread/start/test1/Example1Thread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java_basic/thread/start/test1/Example2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java_basic/thread/start/test1/Example3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java_basic/thread/start/test1/Example4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java_basic/thread/util/MyLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/java_basic/thread/DaemonThreadMain$DaemonThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/java_basic/thread/DaemonThreadMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/DaemonThreadMain$DaemonThread.class.uniqueId1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/DaemonThreadMain.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java_basic/thread/DaemonThreadMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java_basic/thread/start/DaemonThreadMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +100,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
@@ -199,6 +224,10 @@
     "Gradle.java-basic [:DequeMain.main()].executor": "Run",
     "Gradle.java-basic [:DequeQueueMain.main()].executor": "Run",
     "Gradle.java-basic [:DictionaryTest.main()].executor": "Run",
+    "Gradle.java-basic [:Example1.main()].executor": "Run",
+    "Gradle.java-basic [:Example2.main()].executor": "Run",
+    "Gradle.java-basic [:Example3.main()].executor": "Run",
+    "Gradle.java-basic [:Example4.main()].executor": "Run",
     "Gradle.java-basic [:HashAndEqualsMain1.main()].executor": "Run",
     "Gradle.java-basic [:HashAndEqualsMain2.main()].executor": "Run",
     "Gradle.java-basic [:HashAndEqualsMain3.main()].executor": "Run",
@@ -206,8 +235,12 @@
     "Gradle.java-basic [:HashStart3.main()].executor": "Run",
     "Gradle.java-basic [:HashStart4.main()].executor": "Run",
     "Gradle.java-basic [:HashStart5.main()].executor": "Run",
+    "Gradle.java-basic [:HelloRunnableMain.main()].executor": "Run",
     "Gradle.java-basic [:HelloThreadMain.main()].executor": "Run",
     "Gradle.java-basic [:ImmutableMain.main()].executor": "Run",
+    "Gradle.java-basic [:InnerRunnableMainV1.main()].executor": "Run",
+    "Gradle.java-basic [:InnerRunnableMainV2.main()].executor": "Run",
+    "Gradle.java-basic [:InnerRunnableMainV3.main()].executor": "Run",
     "Gradle.java-basic [:ItemPriceTest.main()].executor": "Run",
     "Gradle.java-basic [:JavaBasicApplication.main()].executor": "Run",
     "Gradle.java-basic [:JavaCollectionExample.main()].executor": "Run",
@@ -219,6 +252,8 @@
     "Gradle.java-basic [:LombokExample.main()].executor": "Run",
     "Gradle.java-basic [:MainV2.main()].executor": "Run",
     "Gradle.java-basic [:MainV3.main()].executor": "Run",
+    "Gradle.java-basic [:ManyThreadMainV1.main()].executor": "Run",
+    "Gradle.java-basic [:ManyThreadMainV2.main()].executor": "Run",
     "Gradle.java-basic [:MapMain1.main()].executor": "Run",
     "Gradle.java-basic [:MapMain2.main()].executor": "Run",
     "Gradle.java-basic [:MapMain3.main()].executor": "Run",
@@ -241,6 +276,7 @@
     "Gradle.java-basic [:MyLinkedListV2Main.main()].executor": "Run",
     "Gradle.java-basic [:MyLinkedListV3Main.main()].executor": "Run",
     "Gradle.java-basic [:MyListPerformanceTest.main()].executor": "Run",
+    "Gradle.java-basic [:MyLoggerMain.main()].executor": "Run",
     "Gradle.java-basic [:NodeMain1.main()].executor": "Run",
     "Gradle.java-basic [:NodeMain2.main()].executor": "Run",
     "Gradle.java-basic [:NodeMain3.main()].executor": "Run",
@@ -316,20 +352,20 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/java_basic/designpatterns/behavior_patterns/mediator" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.java_basic.thread.start.test1" />
       <recent name="com.java_basic.thread.start" />
       <recent name="com.java_basic.designpatterns.behavior_patterns.template" />
       <recent name="com.java_basic.designpatterns.behavior_patterns.strategy" />
       <recent name="com.java_basic.collection.compare" />
-      <recent name="com.java_basic.collection.deque.test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DaemonThreadMain">
-    <configuration name="BadThreadMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java_basic.thread.start.BadThreadMain" />
+  <component name="RunManager" selected="Application.Example4">
+    <configuration name="Example1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java_basic.thread.start.test1.Example1" />
       <module name="java_basic.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java_basic.thread.start.*" />
+          <option name="PATTERN" value="com.java_basic.thread.start.test1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -337,12 +373,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DaemonThreadMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java_basic.thread.DaemonThreadMain" />
+    <configuration name="Example2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java_basic.thread.start.test1.Example2" />
       <module name="java_basic.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java_basic.thread.*" />
+          <option name="PATTERN" value="com.java_basic.thread.start.test1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -350,12 +386,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloThreadMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java_basic.thread.start.HelloThreadMain" />
+    <configuration name="Example3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java_basic.thread.start.test1.Example3" />
       <module name="java_basic.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java_basic.thread.start.*" />
+          <option name="PATTERN" value="com.java_basic.thread.start.test1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -363,12 +399,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.java_basic.designpatterns.behavior_patterns.template.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java_basic.designpatterns.behavior_patterns.template.Client" />
+    <configuration name="Example4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java_basic.thread.start.test1.Example4" />
       <module name="java_basic.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java_basic.designpatterns.behavior_patterns.template.*" />
+          <option name="PATTERN" value="com.java_basic.thread.start.test1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -376,12 +412,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.java_basic.designpatterns.behavior_patterns.visitor.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java_basic.designpatterns.behavior_patterns.visitor.Client" />
+    <configuration name="InnerRunnableMainV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java_basic.thread.start.InnerRunnableMainV3" />
       <module name="java_basic.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java_basic.designpatterns.behavior_patterns.visitor.*" />
+          <option name="PATTERN" value="com.java_basic.thread.start.test1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -411,11 +447,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DaemonThreadMain" />
-        <item itemvalue="Application.BadThreadMain" />
-        <item itemvalue="Application.HelloThreadMain" />
-        <item itemvalue="Application.com.java_basic.designpatterns.behavior_patterns.visitor.Client" />
-        <item itemvalue="Application.com.java_basic.designpatterns.behavior_patterns.template.Client" />
+        <item itemvalue="Application.Example4" />
+        <item itemvalue="Application.Example3" />
+        <item itemvalue="Application.Example2" />
+        <item itemvalue="Application.Example1" />
+        <item itemvalue="Application.InnerRunnableMainV3" />
       </list>
     </recent_temporary>
   </component>
@@ -587,7 +623,7 @@
       <workItem from="1736077295852" duration="3547000" />
       <workItem from="1736086334061" duration="1428000" />
       <workItem from="1736170533266" duration="3000" />
-      <workItem from="1736601401484" duration="681000" />
+      <workItem from="1736601401484" duration="4582000" />
     </task>
     <task id="LOCAL-00001" summary="수정">
       <option name="closed" value="true" />
