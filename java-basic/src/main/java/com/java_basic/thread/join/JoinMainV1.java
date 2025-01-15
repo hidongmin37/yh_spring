@@ -16,8 +16,8 @@ public class JoinMainV1 {
         thread1.start();
         thread2.start();
 
-        thread1.join();
-        thread2.join();
+        thread1.join(); // thread1이 끝날 때까지 기다림
+        thread2.join(); // thread2가 끝날 때까지 기다림
 
         MyLogger.log("task1.result = " + sumTask1.result);
         MyLogger.log("task2.result = " + sumTask2.result);
