@@ -5,27 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5839ddd5-4141-4d6b-9b61-a9c49cfe571b" name="Changes" comment="# 제목은 최대 50글자까지 아래에 작성: ex) &lt;feat&gt;: Add OAuth2&#10;&#10;# 본문은 아래에 작성&#10;&#10;# 꼬릿말은 아래에 작성: ex) Github issue #23&#10;&#10;&#10;# --- COMMIT END ----&#10;# &lt;타입&gt; 리스트&#10;#   feat    : 기능 (새로운 기능)&#10;#   fix     : 버그 (버그 수정)&#10;#   refactor: 리팩토링&#10;#   style   : 스타일 (코드 형식, 세미콜론 추가: 비즈니스 로직에 변경 없음)&#10;#   docs    : 문서 (문서 추가, 수정, 삭제)&#10;#   test    : 테스트 (테스트 코드 추가, 수정, 삭제: 비즈니스 로직에 변경 없음)&#10;#   chore   : 기타 변경사항 (빌드 업무 수정, 패키지 매니저 수정 등에 대한 커밋 등)&#10;# ------------------&#10;#     제목 첫 글자를 대문자로&#10;#     제목은 명령문으로&#10;#     제목 끝에 마침표(.) 금지&#10;#     제목과 본문을 한 줄 띄워 분리하기&#10;#     본문은 &quot;어떻게&quot; 보다 &quot;무엇을&quot;, &quot;왜&quot;를 설명한다.&#10;#     본문에 여러줄의 메시지를 작성할 땐 &quot;-&quot;로 구분&#10;# ------------------">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java_basic/thread/interrupt/ThreadStopMainV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java_basic/thread/interrupt/ThreadStopMainV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java_basic/thread/interrupt/ThreadStopMainV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java_basic/thread/interrupt/ThreadStopMainV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java_basic/thread/printer/MyPrinterV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java_basic/thread/printer/MyPrinterV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java_basic/thread/printer/MyPrinterV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java_basic/thread/printer/MyPrinterV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java_basic/thread/yield/YieldMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java_basic/thread/volitile1/VolatileFlagMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/java_basic/thread/join/JoinTest1Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/java_basic/thread/join/JoinTest1Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/JoinTest1Main$MyTask.class.uniqueId0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/JoinTest1Main.class.uniqueId1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -313,6 +295,7 @@
     "Gradle.java-basic [:UniqueNamesTest1.main()].executor": "Run",
     "Gradle.java-basic [:UnitPrinterTest.main()].executor": "Run",
     "Gradle.java-basic [:UnitUtilTest.main()].executor": "Run",
+    "Gradle.java-basic [:VolatileFlagMain.main()].executor": "Run",
     "Gradle.java-basic [:WildcardMain1.main()].executor": "Run",
     "Gradle.java-basic [:WordFrequencyTest1.main()].executor": "Run",
     "Gradle.java-basic [:YieldMain.main()].executor": "Run",
@@ -369,7 +352,7 @@
       <recent name="com.java_basic.thread.start" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JavaMapMain">
+  <component name="RunManager" selected="Application.VolatileFlagMain">
     <configuration name="JavaIterableMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java_basic.collection.iterable.JavaIterableMain" />
       <module name="java_basic.main" />
@@ -422,12 +405,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java_basic.class1.Solution" />
+    <configuration name="VolatileFlagMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java_basic.thread.volitile1.VolatileFlagMain" />
       <module name="java_basic.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java_basic.class1.*" />
+          <option name="PATTERN" value="com.java_basic.thread.volitile1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -457,11 +440,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VolatileFlagMain" />
         <item itemvalue="Application.MapMain3" />
         <item itemvalue="Application.JavaMapMain" />
         <item itemvalue="Application.MyArrayListV4Main" />
         <item itemvalue="Application.JavaIterableMain" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -642,6 +625,11 @@
       <workItem from="1736955652196" duration="324000" />
       <workItem from="1737018861246" duration="4042000" />
       <workItem from="1737031010732" duration="5759000" />
+      <workItem from="1737128066891" duration="749000" />
+      <workItem from="1737185698552" duration="602000" />
+      <workItem from="1737201529197" duration="1391000" />
+      <workItem from="1737287583629" duration="88000" />
+      <workItem from="1737363254713" duration="300000" />
     </task>
     <task id="LOCAL-00001" summary="수정">
       <option name="closed" value="true" />
