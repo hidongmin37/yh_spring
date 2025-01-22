@@ -30,7 +30,7 @@ public class VolatileCountMain {
                 count++;
                 // 1억번에 한번씩 출력
                 if (count % 100_000_000 == 0) {
-                    log("flag = " + flag + ", count = " + count + ", in while");
+                    log("flag = " + flag + ", count = " + count + ",  in while");
                 }
             }
             log("flag = " + flag + ", count = " + count + ", out while");
