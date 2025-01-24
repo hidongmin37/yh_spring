@@ -18,7 +18,7 @@ public class VolatileCountMain {
 
     static class MyTask implements Runnable {
 //        boolean flag = true;
-//        long count = 0;
+//        long count = 0;;
 
         // volatile 키워드를 붙이면, 속도가 거의 4배 느려진다.
         volatile boolean flag = true;
