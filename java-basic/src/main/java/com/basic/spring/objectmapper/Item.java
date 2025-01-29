@@ -1,9 +1,8 @@
-package com.basic.spring;
+package com.basic.spring.objectmapper;
 
 import lombok.Data;
 
 import java.time.LocalDate;
-import java.time.LocalDateTime;
 
 @Data
 public class Item {
