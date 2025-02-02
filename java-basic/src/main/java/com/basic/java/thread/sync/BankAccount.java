@@ -1,7 +1,7 @@
 package com.basic.java.thread.sync;
 
 public interface BankAccount {
-    boolean withdraw(int amount);
+    boolean withdraw(int amount) throws InterruptedException;
 
     int getBalance();
 }
