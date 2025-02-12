@@ -5,22 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5839ddd5-4141-4d6b-9b61-a9c49cfe571b" name="Changes" comment="# 제목은 최대 50글자까지 아래에 작성: ex) &lt;feat&gt;: Add OAuth2&#10;&#10;# 본문은 아래에 작성&#10;&#10;# 꼬릿말은 아래에 작성: ex) Github issue #23&#10;&#10;&#10;# --- COMMIT END ----&#10;# &lt;타입&gt; 리스트&#10;#   feat    : 기능 (새로운 기능)&#10;#   fix     : 버그 (버그 수정)&#10;#   refactor: 리팩토링&#10;#   style   : 스타일 (코드 형식, 세미콜론 추가: 비즈니스 로직에 변경 없음)&#10;#   docs    : 문서 (문서 추가, 수정, 삭제)&#10;#   test    : 테스트 (테스트 코드 추가, 수정, 삭제: 비즈니스 로직에 변경 없음)&#10;#   chore   : 기타 변경사항 (빌드 업무 수정, 패키지 매니저 수정 등에 대한 커밋 등)&#10;# ------------------&#10;#     제목 첫 글자를 대문자로&#10;#     제목은 명령문으로&#10;#     제목 끝에 마침표(.) 금지&#10;#     제목과 본문을 한 줄 띄워 분리하기&#10;#     본문은 &quot;어떻게&quot; 보다 &quot;무엇을&quot;, &quot;왜&quot;를 설명한다.&#10;#     본문에 여러줄의 메시지를 작성할 땐 &quot;-&quot;로 구분&#10;# ------------------">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/java/thread/cas/MyAtomicInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/java/thread/cas/SyncInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/java/thread/cas/VolatileInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/java/thread/cas/CasMainV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/java/thread/cas/CasMainV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/java/thread/cas/CasMainV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/java/thread/cas/increment/IncrementPerformanceMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/basic/java/thread/cas/IncrementThreadMain$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/basic/java/thread/cas/IncrementThreadMain$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/basic/java/thread/cas/IncrementThreadMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/basic/java/thread/cas/IncrementThreadMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/IncrementThreadMain$1.class.uniqueId0" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/IncrementThreadMain$1.class.uniqueId0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/IncrementThreadMain.class.uniqueId1" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/IncrementThreadMain.class.uniqueId1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/basic/java/thread/cas/MyAtomicInteger.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/basic/java/thread/cas/MyAtomicInteger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/IncrementThreadMain$1.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/IncrementThreadMain.class.uniqueId1" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/basic/java/thread/cas/IncrementThreadMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/basic/java/thread/cas/IncrementThreadMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/basic/java/thread/cas/BasicInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/basic/java/thread/cas/increment/BasicInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/basic/java/thread/cas/IncrementInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/basic/java/thread/cas/increment/IncrementInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/basic/java/thread/cas/IncrementThreadMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/basic/java/thread/cas/increment/IncrementThreadMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/basic/java/thread/cas/MyAtomicInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/basic/java/thread/cas/increment/MyAtomicInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/basic/java/thread/cas/SyncInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/basic/java/thread/cas/increment/SyncInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/basic/java/thread/cas/VolatileInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/basic/java/thread/cas/increment/VolatileInteger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +105,9 @@
     "Application.App.executor": "Run",
     "Application.AuthGradeMain2.executor": "Run",
     "Application.AutoboxingMain1.executor": "Run",
+    "Application.CasMainV1.executor": "Run",
+    "Application.CasMainV2.executor": "Run",
+    "Application.CasMainV3.executor": "Run",
     "Application.ChanningMain.executor": "Run",
     "Application.CharArrayMain.executor": "Run",
     "Application.ChronoUnitMain.executor": "Run",
@@ -203,6 +214,7 @@
     "Gradle.java-basic [:Button.main()].executor": "Run",
     "Gradle.java-basic [:CardGameMain.main()].executor": "Run",
     "Gradle.java-basic [:CartMain.main()].executor": "Run",
+    "Gradle.java-basic [:CasMainV1.main()].executor": "Run",
     "Gradle.java-basic [:CheckedCatchMain.main()].executor": "Run",
     "Gradle.java-basic [:CheckedThrowMain.main()].executor": "Run",
     "Gradle.java-basic [:Client.main()].executor": "Run",
@@ -227,6 +239,7 @@
     "Gradle.java-basic [:HelloRunnableMain.main()].executor": "Run",
     "Gradle.java-basic [:HelloThreadMain.main()].executor": "Run",
     "Gradle.java-basic [:ImmutableMain.main()].executor": "Run",
+    "Gradle.java-basic [:IncrementPerformanceMain.main()].executor": "Run",
     "Gradle.java-basic [:InnerRunnableMainV1.main()].executor": "Run",
     "Gradle.java-basic [:InnerRunnableMainV2.main()].executor": "Run",
     "Gradle.java-basic [:InnerRunnableMainV3.main()].executor": "Run",
@@ -336,6 +349,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.JavaBasicApplication.executor": "Run",
+    "extract.method.default.visibility": "private",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/jangdongmin/yh_spring/java-basic/build.gradle",
@@ -347,7 +361,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -378,13 +392,13 @@
       <recent name="com.java_basic.thread.sync" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IncrementThreadMain">
-    <configuration name="BoundedMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.basic.java.thread.bounded.BoundedMain" />
+  <component name="RunManager" selected="Application.CasMainV3">
+    <configuration name="CasMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.basic.java.thread.cas.CasMainV1" />
       <module name="java_basic.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.basic.java.thread.bounded.*" />
+          <option name="PATTERN" value="com.basic.java.thread.cas.increment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -392,8 +406,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IncrementThreadMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.basic.java.thread.cas.IncrementThreadMain" />
+    <configuration name="CasMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.basic.java.thread.cas.CasMainV2" />
+      <module name="java_basic.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.basic.java.thread.cas.increment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CasMainV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.basic.java.thread.cas.CasMainV3" />
       <module name="java_basic.main" />
       <extension name="coverage">
         <pattern>
@@ -405,12 +432,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LockSupportMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.basic.java.thread.lock.LockSupportMainV1" />
+    <configuration name="IncrementPerformanceMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.basic.java.thread.cas.increment.IncrementPerformanceMain" />
       <module name="java_basic.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.basic.java.thread.lock.*" />
+          <option name="PATTERN" value="com.basic.java.thread.cas.increment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -418,25 +445,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LockSupportMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.basic.java.thread.lock.LockSupportMainV2" />
+    <configuration name="IncrementThreadMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.basic.java.thread.cas.increment.IncrementThreadMain" />
       <module name="java_basic.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.basic.java.thread.lock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SyncTest2Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.basic.java.thread.sync.test.SyncTest2Main" />
-      <module name="java_basic.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.basic.java.thread.sync.test.*" />
+          <option name="PATTERN" value="com.basic.java.thread.cas.increment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -466,11 +480,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CasMainV3" />
+        <item itemvalue="Application.CasMainV2" />
+        <item itemvalue="Application.CasMainV1" />
+        <item itemvalue="Application.IncrementPerformanceMain" />
         <item itemvalue="Application.IncrementThreadMain" />
-        <item itemvalue="Application.BoundedMain" />
-        <item itemvalue="Application.LockSupportMainV2" />
-        <item itemvalue="Application.LockSupportMainV1" />
-        <item itemvalue="Application.SyncTest2Main" />
       </list>
     </recent_temporary>
   </component>
