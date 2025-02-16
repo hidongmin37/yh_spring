@@ -4,7 +4,8 @@ import static com.basic.java.thread.util.MyLogger.log;
 
 public class SpinLockMain {
     public static void main(String[] args) {
-        SpinLockBad spinLock = new SpinLockBad();
+//        SpinLockBad spinLock = new SpinLockBad();
+        SpinLock spinLock = new SpinLock();
 
         Runnable task = new Runnable(){
 
@@ -14,6 +15,7 @@ public class SpinLockMain {
                 try{
                     // critical section
                     log("비즈니스 로직 실행");
+                    
                 } finally {
                     spinLock.unlock();
                 }

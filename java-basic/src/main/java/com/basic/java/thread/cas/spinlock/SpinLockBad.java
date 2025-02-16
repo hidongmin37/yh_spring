@@ -1,14 +1,11 @@
 package com.basic.java.thread.cas.spinlock;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import static com.basic.java.thread.util.MyLogger.log;
 import static com.basic.java.thread.util.ThreadUtils.sleep;
 
 public class SpinLockBad {
 
-    private static final Logger log = LoggerFactory.getLogger(SpinLockBad.class);
     private volatile boolean lock = false;
 
     public void lock() {
