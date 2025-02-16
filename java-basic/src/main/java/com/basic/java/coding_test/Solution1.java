@@ -1,14 +1,14 @@
 package com.basic.java.coding_test;
 
+import java.util.Scanner;
 
-
-class Solution1 {
-
-	public static void main(String[] args) {
-		String x = "0111010";
-		// x = binaryTransform(x);
-		// System.out.println(x);  // 출력: "100"
+public class Solution1 {
+	public static void main (String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		sc.close();
+		System.out.println(a/b);
+		System.out.println(a%b);
 	}
-
-
 }
