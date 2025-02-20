@@ -3,21 +3,26 @@ package com.basic.java.coding_test;
 import java.util.Scanner;
 
 public class Main {
-	public static void main(String[] args) {
-		/*Scanner sc = new Scanner(System.in);
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int i = 0;
+        int i2 = 0;
+        if (scanner.hasNextInt()) {
+            i = scanner.nextInt();
+        }
+		if (scanner.hasNextInt()) {
+			i2 = scanner.nextInt();
+		}
 
-		long A = sc.nextLong();
-		long B = sc.nextLong();
-		long C = sc.nextLong();
-
-		System.out.println(A+B+C);
-
-		sc.close();*/
-
-		System.out.println("|\\_/|");
-		System.out.println("|q p|   /}");
-		System.out.println("( 0 )\"\"\"\\");
-		System.out.println("|\"^\"`    | ");
-		System.out.println("||_/=\\\\__| ");
-	}
+		if ((i > 0) && (i2 > 0)) {
+			System.out.println("1");
+		} else if(((i > 0) && (i2 < 0))) {
+			System.out.println("4");
+		} else if (((i < 0) && (i2 < 0))) {
+			System.out.println("3");
+		} else {
+			System.out.println("2");
+		}
+		
+    }
 }
