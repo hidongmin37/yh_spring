@@ -12,7 +12,7 @@ public class Main {
             i = scanner.nextInt();
         }
 		if (scanner.hasNextInt()) {
-			i2 = scanner.nextInt();
+			i2 = scanner.nextInt();;
 		}
 
 		if ((i > 0) && (i2 > 0)) {
