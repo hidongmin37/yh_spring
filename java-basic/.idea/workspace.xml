@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5839ddd5-4141-4d6b-9b61-a9c49cfe571b" name="Changes" comment="# 제목은 최대 50글자까지 아래에 작성: ex) &lt;feat&gt;: Add OAuth2&#10;&#10;# 본문은 아래에 작성&#10;&#10;# 꼬릿말은 아래에 작성: ex) Github issue #23&#10;&#10;&#10;# --- COMMIT END ----&#10;# &lt;타입&gt; 리스트&#10;#   feat    : 기능 (새로운 기능)&#10;#   fix     : 버그 (버그 수정)&#10;#   refactor: 리팩토링&#10;#   style   : 스타일 (코드 형식, 세미콜론 추가: 비즈니스 로직에 변경 없음)&#10;#   docs    : 문서 (문서 추가, 수정, 삭제)&#10;#   test    : 테스트 (테스트 코드 추가, 수정, 삭제: 비즈니스 로직에 변경 없음)&#10;#   chore   : 기타 변경사항 (빌드 업무 수정, 패키지 매니저 수정 등에 대한 커밋 등)&#10;# ------------------&#10;#     제목 첫 글자를 대문자로&#10;#     제목은 명령문으로&#10;#     제목 끝에 마침표(.) 금지&#10;#     제목과 본문을 한 줄 띄워 분리하기&#10;#     본문은 &quot;어떻게&quot; 보다 &quot;무엇을&quot;, &quot;왜&quot;를 설명한다.&#10;#     본문에 여러줄의 메시지를 작성할 땐 &quot;-&quot;로 구분&#10;# ------------------">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/java/executor/SumTaskMainV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/java/executor/FutureCancelMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/java/executor/SumTaskMainV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/java/executor/SumTaskMainV2_Bad.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/basic/java/executor/ExecutorBasicMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/basic/java/executor/ExecutorBasicMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,11 +108,13 @@
     "Application.EqualsMainV1.executor": "Run",
     "Application.Ex2Main.executor": "Run",
     "Application.Ex2MainTest.executor": "Run",
+    "Application.FutureCancelMain.executor": "Run",
     "Application.GetTimeMain.executor": "Run",
     "Application.ImmutableMain1.executor": "Run",
     "Application.InnerOuterMain.executor": "Run",
     "Application.JavaBasicApplication.executor": "Debug",
     "Application.JavaSetMain.executor": "Run",
+    "Application.JoinMainV2.executor": "Run",
     "Application.LangMain.executor": "Run",
     "Application.LocalOuterV1.executor": "Run",
     "Application.Main.executor": "Run",
@@ -151,6 +154,8 @@
     "Application.StringGradeEx0_2.executor": "Run",
     "Application.StringImmutable1.executor": "Run",
     "Application.SumTaskMainV1.executor": "Run",
+    "Application.SumTaskMainV2.executor": "Run",
+    "Application.SumTaskMainV2_Bad.executor": "Run",
     "Application.SystemMain.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.TestPlus.executor": "Run",
@@ -337,7 +342,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "settings.editor.selected.configurable": "debugger.stepping",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -361,20 +366,20 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/java_basic/designpatterns/behavior_patterns/memento" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.basic.java.executor" />
       <recent name="com.basic.java.thread.cas" />
       <recent name="com.basic.java.thread.bounded" />
       <recent name="com.basic.java.thread.sync" />
       <recent name="com.basic.java.thread.lock" />
-      <recent name="com.java_basic.thread.sync" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SumTaskMainV1">
-    <configuration name="BoundedMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.basic.java.thread.bounded.BoundedMain" />
+  <component name="RunManager" selected="Application.FutureCancelMain">
+    <configuration name="FutureCancelMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.basic.java.executor.FutureCancelMain" />
       <module name="java_basic.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.basic.java.thread.bounded.*" />
+          <option name="PATTERN" value="com.basic.java.executor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -382,38 +387,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IncrementThreadMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.basic.java.thread.cas.IncrementThreadMain" />
+    <configuration name="JoinMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.basic.java.thread.join.JoinMainV2" />
       <module name="java_basic.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.basic.java.thread.cas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleListMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.basic.java.thread.collection.simple.list.SimpleListMainV2" />
-      <module name="java_basic.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.basic.java.thread.collection.simple.list.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.basic.java.coding_test.Solution1" />
-      <module name="java_basic.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.basic.java.coding_test.*" />
+          <option name="PATTERN" value="com.basic.java.thread.join.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -423,6 +402,32 @@
     </configuration>
     <configuration name="SumTaskMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.basic.java.executor.SumTaskMainV1" />
+      <module name="java_basic.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.basic.java.executor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumTaskMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.basic.java.executor.SumTaskMainV2" />
+      <module name="java_basic.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.basic.java.executor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumTaskMainV2_Bad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.basic.java.executor.SumTaskMainV2_Bad" />
       <module name="java_basic.main" />
       <extension name="coverage">
         <pattern>
@@ -456,11 +461,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FutureCancelMain" />
+        <item itemvalue="Application.SumTaskMainV2_Bad" />
+        <item itemvalue="Application.SumTaskMainV2" />
         <item itemvalue="Application.SumTaskMainV1" />
-        <item itemvalue="Application.SimpleListMainV2" />
-        <item itemvalue="Application.Solution1" />
-        <item itemvalue="Application.IncrementThreadMain" />
-        <item itemvalue="Application.BoundedMain" />
+        <item itemvalue="Application.JoinMainV2" />
       </list>
     </recent_temporary>
   </component>
@@ -665,7 +670,7 @@
       <workItem from="1739199639137" duration="3116000" />
       <workItem from="1739524416033" duration="718000" />
       <workItem from="1739590949441" duration="1231000" />
-      <workItem from="1741252018779" duration="824000" />
+      <workItem from="1741252018779" duration="4095000" />
     </task>
     <task id="LOCAL-00001" summary="수정">
       <option name="closed" value="true" />
