@@ -1,4 +1,4 @@
-package com.basic.java.executor;
+package com.basic.java.executor.future;
 
 import java.util.Random;
 
