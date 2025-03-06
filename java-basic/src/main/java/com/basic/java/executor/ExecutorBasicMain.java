@@ -37,8 +37,6 @@ public class ExecutorBasicMain {
         log("== task3 추가 ==");
         log("== 작업 추가 후 ==");
         ExecutorUtils.printState(executorService);
-
-
         sleep(3000);
         log("== 작업 수행 완료 ==");
         ExecutorUtils.printState(executorService);
