@@ -26,6 +26,8 @@ public abstract class ExecutorUtils {
         }
     }
 
+
+    //
     public static void printState(ExecutorService executorService,String taskName) {
         // 구현체로 cast를 해야 사용 가능
         if (executorService instanceof ThreadPoolExecutor poolExecutor) {
@@ -39,7 +41,7 @@ public abstract class ExecutorUtils {
             long completed = poolExecutor.getCompletedTaskCount();
             log( taskName+ " -> poolSize = " + poolSize + ", active = " + active + ", queued = " + queued + ", completed = " + completed);
         } else {
-            log(executorService);
+            log(taskName + " -> " + executorService);
         }
     }
 }
