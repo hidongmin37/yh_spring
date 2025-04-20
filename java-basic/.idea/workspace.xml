@@ -5,32 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5839ddd5-4141-4d6b-9b61-a9c49cfe571b" name="Changes" comment="# 제목은 최대 50글자까지 아래에 작성: ex) &lt;feat&gt;: Add OAuth2&#10;&#10;# 본문은 아래에 작성&#10;&#10;# 꼬릿말은 아래에 작성: ex) Github issue #23&#10;&#10;&#10;# --- COMMIT END ----&#10;# &lt;타입&gt; 리스트&#10;#   feat    : 기능 (새로운 기능)&#10;#   fix     : 버그 (버그 수정)&#10;#   refactor: 리팩토링&#10;#   style   : 스타일 (코드 형식, 세미콜론 추가: 비즈니스 로직에 변경 없음)&#10;#   docs    : 문서 (문서 추가, 수정, 삭제)&#10;#   test    : 테스트 (테스트 코드 추가, 수정, 삭제: 비즈니스 로직에 변경 없음)&#10;#   chore   : 기타 변경사항 (빌드 업무 수정, 패키지 매니저 수정 등에 대한 커밋 등)&#10;# ------------------&#10;#     제목 첫 글자를 대문자로&#10;#     제목은 명령문으로&#10;#     제목 끝에 마침표(.) 금지&#10;#     제목과 본문을 한 줄 띄워 분리하기&#10;#     본문은 &quot;어떻게&quot; 보다 &quot;무엇을&quot;, &quot;왜&quot;를 설명한다.&#10;#     본문에 여러줄의 메시지를 작성할 땐 &quot;-&quot;로 구분&#10;# ------------------">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/bufferd/BufferedConst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/bufferd/CreateFileV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/bufferd/CreateFileV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/bufferd/CreateFileV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/bufferd/CreateFileV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/bufferd/ReadFileV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/bufferd/ReadFileV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/bufferd/ReadFileV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/bufferd/ReadFileV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/start/ByteArrayStreamMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/start/PrintStreamMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/streams/DataStreamEtcMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/streams/PrintStreamEtcMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/text/ReaderWriterMainV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/text/ReaderWriterMainV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/text/ReaderWriterMainV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/text/ReaderWriterMainV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/text/TextConst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp/buffered.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp/hello.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp/print.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/file/NewFilesMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/file/OldFileMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/member/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/member/MemberConsoleMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/member/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/member/impl/DataMemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/member/impl/FilMemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/member/impl/MemoryMemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/member/impl/ObjectMemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp/members-data.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp/members-obj.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp/members.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp/newExample.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/hello.dat" beforeDir="false" afterPath="$PROJECT_DIR$/temp/hello.dat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,6 +143,7 @@
     "Application.MainV0.executor": "Run",
     "Application.MainV1.executor": "Run",
     "Application.MainV1_2.executor": "Run",
+    "Application.MemberConsoleMain.executor": "Run",
     "Application.MemberMainV1.executor": "Run",
     "Application.MemberMainV2.executor": "Run",
     "Application.MethodInitMain1.executor": "Run",
@@ -168,8 +157,10 @@
     "Application.MyIntegerNullMain0.executor": "Run",
     "Application.NestedOuter.executor": "Run",
     "Application.NetworkMain.executor": "Run",
+    "Application.NewFilesMain.executor": "Run",
     "Application.ObjectPolyExample1.executor": "Run",
     "Application.ObjectPolyExample2.executor": "Run",
+    "Application.OldFileMain.executor": "Run",
     "Application.OldOrderServiceTestMain.executor": "Run",
     "Application.Period_test.executor": "Run",
     "Application.PoolSizeMainV1.executor": "Run",
@@ -422,40 +413,14 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/java_basic/designpatterns/behavior_patterns/memento" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.basic.io.member.impl" />
       <recent name="com.basic.io.text" />
       <recent name="com.basic.io.bufferd" />
       <recent name="com.basic.io.start" />
       <recent name="com.basic.java.charset" />
-      <recent name="com.basic.java.executor.reject" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DataStreamEtcMain">
-    <configuration name="CreateFileV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.basic.io.bufferd.CreateFileV2" />
-      <module name="java_basic.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.basic.io.bufferd.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreateFileV4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.basic.io.bufferd.CreateFileV4" />
-      <module name="java_basic.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.basic.io.bufferd.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.NewFilesMain">
     <configuration name="DataStreamEtcMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.basic.io.streams.DataStreamEtcMain" />
       <module name="java_basic.main" />
@@ -469,12 +434,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintStreamEtcMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.basic.io.streams.PrintStreamEtcMain" />
+    <configuration name="MemberConsoleMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.basic.io.member.MemberConsoleMain" />
       <module name="java_basic.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.basic.io.streams.*" />
+          <option name="PATTERN" value="com.basic.io.member.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -482,12 +447,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReaderWriterMainV4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.basic.io.text.ReaderWriterMainV4" />
+    <configuration name="NewFilesMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.basic.io.file.NewFilesMain" />
       <module name="java_basic.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.basic.io.text.*" />
+          <option name="PATTERN" value="com.basic.io.file.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OldFileMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.basic.io.file.OldFileMain" />
+      <module name="java_basic.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.basic.io.file.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrintStreamEtcMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.basic.io.streams.PrintStreamEtcMain" />
+      <module name="java_basic.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.basic.io.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -517,11 +508,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NewFilesMain" />
+        <item itemvalue="Application.OldFileMain" />
+        <item itemvalue="Application.MemberConsoleMain" />
         <item itemvalue="Application.DataStreamEtcMain" />
         <item itemvalue="Application.PrintStreamEtcMain" />
-        <item itemvalue="Application.ReaderWriterMainV4" />
-        <item itemvalue="Application.CreateFileV2" />
-        <item itemvalue="Application.CreateFileV4" />
       </list>
     </recent_temporary>
   </component>
@@ -745,6 +736,12 @@
       <workItem from="1743901093769" duration="8062000" />
       <workItem from="1744032601816" duration="5536000" />
       <workItem from="1744123437386" duration="5440000" />
+      <workItem from="1744652344168" duration="2230000" />
+      <workItem from="1744727250023" duration="2131000" />
+      <workItem from="1744961449257" duration="1261000" />
+      <workItem from="1744964346592" duration="1238000" />
+      <workItem from="1745035879495" duration="680000" />
+      <workItem from="1745111107371" duration="7315000" />
     </task>
     <task id="LOCAL-00001" summary="수정">
       <option name="closed" value="true" />
