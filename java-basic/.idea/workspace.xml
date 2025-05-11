@@ -5,25 +5,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5839ddd5-4141-4d6b-9b61-a9c49cfe571b" name="Changes" comment="# 제목은 최대 50글자까지 아래에 작성: ex) &lt;feat&gt;: Add OAuth2&#10;&#10;# 본문은 아래에 작성&#10;&#10;# 꼬릿말은 아래에 작성: ex) Github issue #23&#10;&#10;&#10;# --- COMMIT END ----&#10;# &lt;타입&gt; 리스트&#10;#   feat    : 기능 (새로운 기능)&#10;#   fix     : 버그 (버그 수정)&#10;#   refactor: 리팩토링&#10;#   style   : 스타일 (코드 형식, 세미콜론 추가: 비즈니스 로직에 변경 없음)&#10;#   docs    : 문서 (문서 추가, 수정, 삭제)&#10;#   test    : 테스트 (테스트 코드 추가, 수정, 삭제: 비즈니스 로직에 변경 없음)&#10;#   chore   : 기타 변경사항 (빌드 업무 수정, 패키지 매니저 수정 등에 대한 커밋 등)&#10;# ------------------&#10;#     제목 첫 글자를 대문자로&#10;#     제목은 명령문으로&#10;#     제목 끝에 마침표(.) 금지&#10;#     제목과 본문을 한 줄 띄워 분리하기&#10;#     본문은 &quot;어떻게&quot; 보다 &quot;무엇을&quot;, &quot;왜&quot;를 설명한다.&#10;#     본문에 여러줄의 메시지를 작성할 땐 &quot;-&quot;로 구분&#10;# ------------------">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/file/NewFilesMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/file/OldFileMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/member/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/member/MemberConsoleMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/member/MemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/member/impl/DataMemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/member/impl/FilMemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/member/impl/MemoryMemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/member/impl/ObjectMemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp/members-data.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp/members-obj.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp/members.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp/newExample.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/file/NewFilesPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/file/OldFilePath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/file/copy/CreateCopyFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/file/copy/FileCopyMainV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/file/copy/FileCopyMainV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/file/copy/FileCopyMainV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/file/text/ReadTextFileV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/file/text/ReadTextFileV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/file/text/ReadTextFileV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/MyLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/exception/connect/ConnectMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/exception/connect/ConnectTimeoutMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/exception/connect/ConnectTimeoutMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/exception/connect/SoTimeoutClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/exception/connect/SoTimeoutServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/SocketCloseUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/autoclosable/CallException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/autoclosable/CloseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/autoclosable/ResourceCloseMainV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/autoclosable/ResourceCloseMainV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/autoclosable/ResourceCloseMainV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/autoclosable/ResourceCloseMainV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/autoclosable/ResourceV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/autoclosable/ResourceV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/v1/ClientV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/v1/InetAddressMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/v1/ServerV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/v2/ClientV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/v2/ServerV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/v3/ClientV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/v3/ServerV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/v3/SessionV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/v4/ClientV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/v4/ServerV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/v4/SessionV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/v5/ClientV5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/v5/ServerV5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/v5/SessionV5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/v6/ClientV6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/v6/ServerV6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/v6/SessionManagerV6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/v6/SessionV6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp/copay_new.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp/copy.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp/hello2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/../embed-start">
@@ -77,6 +113,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$USER_HOME$/.sdkman/candidates/java/17-open/lib/src.zip!/java.base/java/lang/Runnable.java" root0="SKIP_INSPECTION" />
   </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -113,7 +152,21 @@
     "Application.ClassStart2.executor": "Run",
     "Application.ClassStart3.executor": "Run",
     "Application.Client.executor": "Run",
+    "Application.ClientV1.executor": "Run",
+    "Application.ClientV2-2.executor": "Run",
+    "Application.ClientV2-3.executor": "Run",
+    "Application.ClientV2.executor": "Run",
+    "Application.ClientV3 (1).executor": "Run",
+    "Application.ClientV3 (2).executor": "Run",
+    "Application.ClientV3.executor": "Run",
+    "Application.ClientV4.executor": "Run",
+    "Application.ClientV5.executor": "Run",
+    "Application.ClientV6.executor": "Run",
+    "Application.ConnectMain.executor": "Run",
+    "Application.ConnectTimeoutMain1.executor": "Run",
+    "Application.ConnectTimeoutMain2.executor": "Run",
     "Application.ConstructMain1.executor": "Run",
+    "Application.CreateCopyFile.executor": "Run",
     "Application.CreateFileV1.executor": "Run",
     "Application.CreateFileV2.executor": "Run",
     "Application.CreateFileV3.executor": "Run",
@@ -128,10 +181,13 @@
     "Application.Ex2Main.executor": "Run",
     "Application.Ex2MainTest.executor": "Run",
     "Application.ExecutorShutdownMain.executor": "Run",
+    "Application.FileCopyMainV2.executor": "Run",
+    "Application.FileCopyMainV3.executor": "Run",
     "Application.FutureCancelMain.executor": "Run",
     "Application.FutureExceptionMain.executor": "Run",
     "Application.GetTimeMain.executor": "Run",
     "Application.ImmutableMain1.executor": "Run",
+    "Application.InetAddressMain.executor": "Run",
     "Application.InnerOuterMain.executor": "Run",
     "Application.InvokeAllMain.executor": "Run",
     "Application.JavaBasicApplication.executor": "Debug",
@@ -158,9 +214,11 @@
     "Application.NestedOuter.executor": "Run",
     "Application.NetworkMain.executor": "Run",
     "Application.NewFilesMain.executor": "Run",
+    "Application.NewFilesPath.executor": "Run",
     "Application.ObjectPolyExample1.executor": "Run",
     "Application.ObjectPolyExample2.executor": "Run",
     "Application.OldFileMain.executor": "Run",
+    "Application.OldFilePath.executor": "Run",
     "Application.OldOrderServiceTestMain.executor": "Run",
     "Application.Period_test.executor": "Run",
     "Application.PoolSizeMainV1.executor": "Run",
@@ -176,6 +234,8 @@
     "Application.ReadFileV2.executor": "Run",
     "Application.ReadFileV3.executor": "Run",
     "Application.ReadFileV4.executor": "Run",
+    "Application.ReadTextFileV1.executor": "Run",
+    "Application.ReadTextFileV3.executor": "Run",
     "Application.ReaderWriterMainV1.executor": "Run",
     "Application.ReaderWriterMainV2.executor": "Run",
     "Application.ReaderWriterMainV3.executor": "Run",
@@ -186,10 +246,23 @@
     "Application.RejectMainV2.executor": "Run",
     "Application.RejectMainV3.executor": "Run",
     "Application.RejectMainV4.executor": "Run",
+    "Application.ResourceCloseMainV1.executor": "Run",
+    "Application.ResourceCloseMainV2.executor": "Run",
+    "Application.ResourceCloseMainV3.executor": "Run",
+    "Application.ResourceCloseMainV4.executor": "Run",
+    "Application.ServerV1.executor": "Run",
+    "Application.ServerV2.executor": "Run",
+    "Application.ServerV3.executor": "Run",
+    "Application.ServerV4.executor": "Run",
+    "Application.ServerV5.executor": "Run",
+    "Application.ServerV6.executor": "Run",
     "Application.ShipInventory.executor": "Run",
     "Application.SimpleListMainV2.executor": "Run",
+    "Application.SoTimeoutClient.executor": "Run",
+    "Application.SoTimeoutServer.executor": "Run",
     "Application.Solution.executor": "Run",
     "Application.Solution1.executor": "Run",
+    "Application.SpinLockMain.executor": "Run",
     "Application.Stream.executor": "Run",
     "Application.StreamStartMain1.executor": "Run",
     "Application.StreamStartMain2.executor": "Run",
@@ -379,8 +452,9 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.JavaBasicApplication.executor": "Run",
     "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/jangdongmin/yh_spring/java-basic/build.gradle",
+    "last_opened_file_path": "/Users/hidongmin37/yh_spring/java-basic/src/main/java/com/basic/network/tcp/v3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -389,7 +463,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.notifications",
+    "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -399,11 +473,11 @@
       <recent name="abstract_factory_method" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/v3" />
       <recent name="$PROJECT_DIR$/src/main/java/com/java_basic/designpatterns/behavior_patterns/visitor" />
       <recent name="$PROJECT_DIR$/src/main/java/com/java_basic/designpatterns/behavior_patterns/strategy" />
       <recent name="$PROJECT_DIR$/src/main/java/com/java_basic/designpatterns/behavior_patterns/observer" />
       <recent name="$PROJECT_DIR$/src/main/java/com/java_basic/designpatterns/behavior_patterns/command/before" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/java_basic/flyweight" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/com/basic/java/thread/collection" />
@@ -413,20 +487,20 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/java_basic/designpatterns/behavior_patterns/memento" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.basic.io.member.impl" />
-      <recent name="com.basic.io.text" />
-      <recent name="com.basic.io.bufferd" />
-      <recent name="com.basic.io.start" />
-      <recent name="com.basic.java.charset" />
+      <recent name="com.basic.network.exception.connect" />
+      <recent name="com.basic.network.tcp.v6" />
+      <recent name="com.basic.network.tcp.v5" />
+      <recent name="com.basic.network.tcp.v4" />
+      <recent name="com.basic.network.tcp.autoclosable" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NewFilesMain">
-    <configuration name="DataStreamEtcMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.basic.io.streams.DataStreamEtcMain" />
+  <component name="RunManager" selected="Application.SoTimeoutClient">
+    <configuration name="ClientV3 (1)" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.basic.network.tcp.v3.ClientV3" />
       <module name="java_basic.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.basic.io.streams.*" />
+          <option name="PATTERN" value="com.basic.network.tcp.v3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -434,12 +508,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberConsoleMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.basic.io.member.MemberConsoleMain" />
+    <configuration name="ClientV3 (2)" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.basic.network.tcp.v3.ClientV3" />
       <module name="java_basic.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.basic.io.member.*" />
+          <option name="PATTERN" value="com.basic.network.tcp.v3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -447,12 +521,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NewFilesMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.basic.io.file.NewFilesMain" />
+    <configuration name="ConnectMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.basic.network.exception.connect.ConnectMain" />
       <module name="java_basic.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.basic.io.file.*" />
+          <option name="PATTERN" value="com.basic.network.exception.connect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -460,12 +534,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OldFileMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.basic.io.file.OldFileMain" />
+    <configuration name="ConnectTimeoutMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.basic.network.exception.connect.ConnectTimeoutMain1" />
       <module name="java_basic.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.basic.io.file.*" />
+          <option name="PATTERN" value="com.basic.network.exception.connect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -473,12 +547,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintStreamEtcMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.basic.io.streams.PrintStreamEtcMain" />
+    <configuration name="ConnectTimeoutMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.basic.network.exception.connect.ConnectTimeoutMain2" />
       <module name="java_basic.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.basic.io.streams.*" />
+          <option name="PATTERN" value="com.basic.network.exception.connect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SoTimeoutClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.basic.network.exception.connect.SoTimeoutClient" />
+      <module name="java_basic.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.basic.network.exception.connect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SoTimeoutServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.basic.network.exception.connect.SoTimeoutServer" />
+      <module name="java_basic.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.basic.network.exception.connect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -506,21 +606,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.ClientV3 (1)" />
+      <item itemvalue="Application.ClientV3 (2)" />
+      <item itemvalue="Application.ConnectTimeoutMain1" />
+      <item itemvalue="Application.ConnectTimeoutMain2" />
+      <item itemvalue="Application.SoTimeoutClient" />
+      <item itemvalue="Application.SoTimeoutServer" />
+      <item itemvalue="Application.ConnectMain" />
+      <item itemvalue="Spring Boot.BasicApplication" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NewFilesMain" />
-        <item itemvalue="Application.OldFileMain" />
-        <item itemvalue="Application.MemberConsoleMain" />
-        <item itemvalue="Application.DataStreamEtcMain" />
-        <item itemvalue="Application.PrintStreamEtcMain" />
+        <item itemvalue="Application.SoTimeoutClient" />
+        <item itemvalue="Application.SoTimeoutServer" />
+        <item itemvalue="Application.ConnectTimeoutMain2" />
+        <item itemvalue="Application.ConnectTimeoutMain1" />
+        <item itemvalue="Application.ConnectMain" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435" />
       </set>
     </attachedChunks>
   </component>
@@ -741,7 +851,21 @@
       <workItem from="1744961449257" duration="1261000" />
       <workItem from="1744964346592" duration="1238000" />
       <workItem from="1745035879495" duration="680000" />
-      <workItem from="1745111107371" duration="7315000" />
+      <workItem from="1745111107371" duration="10701000" />
+      <workItem from="1745249606713" duration="3305000" />
+      <workItem from="1745419008996" duration="1898000" />
+      <workItem from="1745421781261" duration="1337000" />
+      <workItem from="1745423420060" duration="2602000" />
+      <workItem from="1745509331717" duration="38000" />
+      <workItem from="1745509379032" duration="2569000" />
+      <workItem from="1745761056594" duration="1038000" />
+      <workItem from="1745762106840" duration="553000" />
+      <workItem from="1745762667699" duration="4139000" />
+      <workItem from="1745849201843" duration="238000" />
+      <workItem from="1745849450425" duration="7714000" />
+      <workItem from="1746625656170" duration="622000" />
+      <workItem from="1746717145597" duration="4443000" />
+      <workItem from="1746894766265" duration="1528000" />
     </task>
     <task id="LOCAL-00001" summary="수정">
       <option name="closed" value="true" />
