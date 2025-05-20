@@ -5,52 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5839ddd5-4141-4d6b-9b61-a9c49cfe571b" name="Changes" comment="# 제목은 최대 50글자까지 아래에 작성: ex) &lt;feat&gt;: Add OAuth2&#10;&#10;# 본문은 아래에 작성&#10;&#10;# 꼬릿말은 아래에 작성: ex) Github issue #23&#10;&#10;&#10;# --- COMMIT END ----&#10;# &lt;타입&gt; 리스트&#10;#   feat    : 기능 (새로운 기능)&#10;#   fix     : 버그 (버그 수정)&#10;#   refactor: 리팩토링&#10;#   style   : 스타일 (코드 형식, 세미콜론 추가: 비즈니스 로직에 변경 없음)&#10;#   docs    : 문서 (문서 추가, 수정, 삭제)&#10;#   test    : 테스트 (테스트 코드 추가, 수정, 삭제: 비즈니스 로직에 변경 없음)&#10;#   chore   : 기타 변경사항 (빌드 업무 수정, 패키지 매니저 수정 등에 대한 커밋 등)&#10;# ------------------&#10;#     제목 첫 글자를 대문자로&#10;#     제목은 명령문으로&#10;#     제목 끝에 마침표(.) 금지&#10;#     제목과 본문을 한 줄 띄워 분리하기&#10;#     본문은 &quot;어떻게&quot; 보다 &quot;무엇을&quot;, &quot;왜&quot;를 설명한다.&#10;#     본문에 여러줄의 메시지를 작성할 땐 &quot;-&quot;로 구분&#10;# ------------------">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/file/NewFilesPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/file/OldFilePath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/file/copy/CreateCopyFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/file/copy/FileCopyMainV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/file/copy/FileCopyMainV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/file/copy/FileCopyMainV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/file/text/ReadTextFileV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/file/text/ReadTextFileV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/io/file/text/ReadTextFileV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/MyLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/exception/connect/ConnectMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/exception/connect/ConnectTimeoutMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/exception/connect/ConnectTimeoutMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/exception/connect/SoTimeoutClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/exception/connect/SoTimeoutServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/SocketCloseUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/autoclosable/CallException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/autoclosable/CloseException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/autoclosable/ResourceCloseMainV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/autoclosable/ResourceCloseMainV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/autoclosable/ResourceCloseMainV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/autoclosable/ResourceCloseMainV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/autoclosable/ResourceV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/autoclosable/ResourceV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/v1/ClientV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/v1/InetAddressMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/v1/ServerV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/v2/ClientV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/v2/ServerV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/v3/ClientV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/v3/ServerV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/v3/SessionV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/v4/ClientV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/v4/ServerV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/v4/SessionV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/v5/ClientV5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/v5/ServerV5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/v5/SessionV5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/v6/ClientV6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/v6/ServerV6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/v6/SessionManagerV6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/v6/SessionV6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp/copay_new.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp/copy.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp/hello2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/chat/examination/ExamChatSessionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/chat/examination/ExamChatTestClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/chat/examination/ExamChatTestServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/chat/examination/ExamSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/chat/example/client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/chat/example/client/ClientMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/chat/example/client/ReadHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/chat/example/client/WriteHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/chat/example/server/CommandManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/chat/example/server/CommandManagerV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/chat/example/server/CommandManagerV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/chat/example/server/CommandManagerV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/chat/example/server/CommandManagerV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/chat/example/server/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/chat/example/server/ServerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/chat/example/server/Session.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/chat/example/server/SessionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/chat/example/server/command/ChangeCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/chat/example/server/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/chat/example/server/command/DefaultCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/chat/example/server/command/ExitCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/chat/example/server/command/JoinCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/chat/example/server/command/MessageCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/chat/example/server/command/UsersCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/exception/close/normal/NormalCloseClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/exception/close/normal/NormalCloseServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/exception/close/reset/ResetCloseClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/network/exception/close/reset/ResetCloseServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,357 +109,372 @@
     <option name="autoscrollFromSource" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.AccountMain.executor": "Run",
-    "Application.App.executor": "Run",
-    "Application.AuthGradeMain2.executor": "Run",
-    "Application.AutoboxingMain1.executor": "Run",
-    "Application.AvailableCharsetsMain.executor": "Run",
-    "Application.ByteArrayStreamMain.executor": "Run",
-    "Application.ChanningMain.executor": "Run",
-    "Application.CharArrayMain.executor": "Run",
-    "Application.ChronoUnitMain.executor": "Run",
-    "Application.ClassExam1.executor": "Run",
-    "Application.ClassExam2.executor": "Run",
-    "Application.ClassGradeEx2_1.executor": "Run",
-    "Application.ClassGradeEx2_2.executor": "Run",
-    "Application.ClassGradeEx3.executor": "Run",
-    "Application.ClassGradeEx3_2.executor": "Run",
-    "Application.ClassGradeEx3_3.executor": "Run",
-    "Application.ClassMetaMain.executor": "Run",
-    "Application.ClassRefMain.executor": "Run",
-    "Application.ClassStart1.executor": "Run",
-    "Application.ClassStart2.executor": "Run",
-    "Application.ClassStart3.executor": "Run",
-    "Application.Client.executor": "Run",
-    "Application.ClientV1.executor": "Run",
-    "Application.ClientV2-2.executor": "Run",
-    "Application.ClientV2-3.executor": "Run",
-    "Application.ClientV2.executor": "Run",
-    "Application.ClientV3 (1).executor": "Run",
-    "Application.ClientV3 (2).executor": "Run",
-    "Application.ClientV3.executor": "Run",
-    "Application.ClientV4.executor": "Run",
-    "Application.ClientV5.executor": "Run",
-    "Application.ClientV6.executor": "Run",
-    "Application.ConnectMain.executor": "Run",
-    "Application.ConnectTimeoutMain1.executor": "Run",
-    "Application.ConnectTimeoutMain2.executor": "Run",
-    "Application.ConstructMain1.executor": "Run",
-    "Application.CreateCopyFile.executor": "Run",
-    "Application.CreateFileV1.executor": "Run",
-    "Application.CreateFileV2.executor": "Run",
-    "Application.CreateFileV3.executor": "Run",
-    "Application.CreateFileV4.executor": "Run",
-    "Application.DataStreamEtcMain.executor": "Run",
-    "Application.Duration_test.executor": "Run",
-    "Application.EncodingMain1.executor": "Run",
-    "Application.EncodingMain2.executor": "Run",
-    "Application.EnumMethodMain.executor": "Run",
-    "Application.EnumRefMain.executor": "Run",
-    "Application.EqualsMainV1.executor": "Run",
-    "Application.Ex2Main.executor": "Run",
-    "Application.Ex2MainTest.executor": "Run",
-    "Application.ExecutorShutdownMain.executor": "Run",
-    "Application.FileCopyMainV2.executor": "Run",
-    "Application.FileCopyMainV3.executor": "Run",
-    "Application.FutureCancelMain.executor": "Run",
-    "Application.FutureExceptionMain.executor": "Run",
-    "Application.GetTimeMain.executor": "Run",
-    "Application.ImmutableMain1.executor": "Run",
-    "Application.InetAddressMain.executor": "Run",
-    "Application.InnerOuterMain.executor": "Run",
-    "Application.InvokeAllMain.executor": "Run",
-    "Application.JavaBasicApplication.executor": "Debug",
-    "Application.JavaSetMain.executor": "Run",
-    "Application.JoinMainV2.executor": "Run",
-    "Application.LangMain.executor": "Run",
-    "Application.LocalOuterV1.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MainV0.executor": "Run",
-    "Application.MainV1.executor": "Run",
-    "Application.MainV1_2.executor": "Run",
-    "Application.MemberConsoleMain.executor": "Run",
-    "Application.MemberMainV1.executor": "Run",
-    "Application.MemberMainV2.executor": "Run",
-    "Application.MethodInitMain1.executor": "Run",
-    "Application.MethodInitMain2.executor": "Run",
-    "Application.MethodInitMain3.executor": "Run",
-    "Application.MutableMain.executor": "Run",
-    "Application.MyCalculator.executor": "Run",
-    "Application.MyDateMain.executor": "Run",
-    "Application.MyIntegerMethodMain0.executor": "Run",
-    "Application.MyIntegerMethodMain1.executor": "Run",
-    "Application.MyIntegerNullMain0.executor": "Run",
-    "Application.NestedOuter.executor": "Run",
-    "Application.NetworkMain.executor": "Run",
-    "Application.NewFilesMain.executor": "Run",
-    "Application.NewFilesPath.executor": "Run",
-    "Application.ObjectPolyExample1.executor": "Run",
-    "Application.ObjectPolyExample2.executor": "Run",
-    "Application.OldFileMain.executor": "Run",
-    "Application.OldFilePath.executor": "Run",
-    "Application.OldOrderServiceTestMain.executor": "Run",
-    "Application.Period_test.executor": "Run",
-    "Application.PoolSizeMainV1.executor": "Run",
-    "Application.PoolSizeMainV2.executor": "Run",
-    "Application.PoolSizeMainV3.executor": "Run",
-    "Application.PoolSizeMainV4.executor": "Run",
-    "Application.PreStartPoolMain.executor": "Run",
-    "Application.PrimitiveMain.executor": "Run",
-    "Application.PrintStreamEtcMain.executor": "Run",
-    "Application.PrintStreamMain.executor": "Run",
-    "Application.ProductOrderMain.executor": "Run",
-    "Application.ReadFileV1.executor": "Run",
-    "Application.ReadFileV2.executor": "Run",
-    "Application.ReadFileV3.executor": "Run",
-    "Application.ReadFileV4.executor": "Run",
-    "Application.ReadTextFileV1.executor": "Run",
-    "Application.ReadTextFileV3.executor": "Run",
-    "Application.ReaderWriterMainV1.executor": "Run",
-    "Application.ReaderWriterMainV2.executor": "Run",
-    "Application.ReaderWriterMainV3.executor": "Run",
-    "Application.ReaderWriterMainV4.executor": "Run",
-    "Application.RectangleMain.executor": "Run",
-    "Application.RefMain2.executor": "Run",
-    "Application.RejectMainV1.executor": "Run",
-    "Application.RejectMainV2.executor": "Run",
-    "Application.RejectMainV3.executor": "Run",
-    "Application.RejectMainV4.executor": "Run",
-    "Application.ResourceCloseMainV1.executor": "Run",
-    "Application.ResourceCloseMainV2.executor": "Run",
-    "Application.ResourceCloseMainV3.executor": "Run",
-    "Application.ResourceCloseMainV4.executor": "Run",
-    "Application.ServerV1.executor": "Run",
-    "Application.ServerV2.executor": "Run",
-    "Application.ServerV3.executor": "Run",
-    "Application.ServerV4.executor": "Run",
-    "Application.ServerV5.executor": "Run",
-    "Application.ServerV6.executor": "Run",
-    "Application.ShipInventory.executor": "Run",
-    "Application.SimpleListMainV2.executor": "Run",
-    "Application.SoTimeoutClient.executor": "Run",
-    "Application.SoTimeoutServer.executor": "Run",
-    "Application.Solution.executor": "Run",
-    "Application.Solution1.executor": "Run",
-    "Application.SpinLockMain.executor": "Run",
-    "Application.Stream.executor": "Run",
-    "Application.StreamStartMain1.executor": "Run",
-    "Application.StreamStartMain2.executor": "Run",
-    "Application.StreamTest.executor": "Run",
-    "Application.StreamTest2.executor": "Run",
-    "Application.StringBuilderMain1_1.executor": "Run",
-    "Application.StringEqualsMain1.executor": "Debug",
-    "Application.StringGradeEx0_1.executor": "Run",
-    "Application.StringGradeEx0_2.executor": "Run",
-    "Application.StringImmutable1.executor": "Run",
-    "Application.SumTaskMainV1.executor": "Run",
-    "Application.SumTaskMainV2.executor": "Run",
-    "Application.SumTaskMainV2_Bad.executor": "Run",
-    "Application.SystemMain.executor": "Run",
-    "Application.Test.executor": "Run",
-    "Application.TestPlus.executor": "Run",
-    "Application.TestString.executor": "Run",
-    "Application.Time.executor": "Run",
-    "Application.ToStringMain1.executor": "Run",
-    "Application.ToStringMain2.executor": "Run",
-    "Application.VarChange1.executor": "Run",
-    "Application.VarChange2.executor": "Run",
-    "Application.WrapperClassMain.executor": "Run",
-    "Application.WrapperPrimitiveMain.executor": "Run",
-    "Application.WrapperUtilsMain.executor": "Run",
-    "Application.bubble.executor": "Run",
-    "Application.builder.App.executor": "Run",
-    "Application.class1.Solution.executor": "Run",
-    "Application.lang.enumeration.ex3.ClassGradeEx2_2.executor": "Run",
-    "Application.lang.enumeration.ex4.ClassGradeEx2_2.executor": "Run",
-    "Application.lang.enumeration.ref1.ClassGradeEx2_2.executor": "Run",
-    "Application.main.builder.App.executor": "Run",
-    "Application.nested.ex2.NetworkMain.executor": "Run",
-    "Gradle.Build java-basic.executor": "Run",
-    "Gradle.java-basic [:AdaptorInJava.main()].executor": "Run",
-    "Gradle.java-basic [:AnimalHospitalMainV0.main()].executor": "Run",
-    "Gradle.java-basic [:AnimalHospitalMainV1.main()].executor": "Run",
-    "Gradle.java-basic [:AnimalMain1.main()].executor": "Run",
-    "Gradle.java-basic [:AnimalMain2.main()].executor": "Run",
-    "Gradle.java-basic [:App.main()].executor": "Run",
-    "Gradle.java-basic [:ArrayMain1.main()].executor": "Run",
-    "Gradle.java-basic [:ArrayMain2.main()].executor": "Run",
-    "Gradle.java-basic [:ArrayToMapTest.main()].executor": "Run",
-    "Gradle.java-basic [:BadThreadMain.main()].executor": "Run",
-    "Gradle.java-basic [:BankMain.main()].executor": "Run",
-    "Gradle.java-basic [:BatchProcessorMain.main()].executor": "Run",
-    "Gradle.java-basic [:BoundedMain.main()].executor": "Run",
-    "Gradle.java-basic [:BoxMain01.main()].executor": "Run",
-    "Gradle.java-basic [:BoxMain02.main()].executor": "Run",
-    "Gradle.java-basic [:BoxMain3.main()].executor": "Run",
-    "Gradle.java-basic [:BrowserHistoryTest.main()].executor": "Run",
-    "Gradle.java-basic [:Button.main()].executor": "Run",
-    "Gradle.java-basic [:CardGameMain.main()].executor": "Run",
-    "Gradle.java-basic [:CartMain.main()].executor": "Run",
-    "Gradle.java-basic [:CheckedCatchMain.main()].executor": "Run",
-    "Gradle.java-basic [:CheckedThrowMain.main()].executor": "Run",
-    "Gradle.java-basic [:Client.main()].executor": "Run",
-    "Gradle.java-basic [:CollectionsSortMain.main()].executor": "Run",
-    "Gradle.java-basic [:CommonKeyValueSum1.main()].executor": "Run",
-    "Gradle.java-basic [:ContainerTest.main()].executor": "Run",
-    "Gradle.java-basic [:DaemonThreadMain.main()].executor": "Run",
-    "Gradle.java-basic [:DequeMain.main()].executor": "Run",
-    "Gradle.java-basic [:DequeQueueMain.main()].executor": "Run",
-    "Gradle.java-basic [:DictionaryTest.main()].executor": "Run",
-    "Gradle.java-basic [:Example1.main()].executor": "Run",
-    "Gradle.java-basic [:Example2.main()].executor": "Run",
-    "Gradle.java-basic [:Example3.main()].executor": "Run",
-    "Gradle.java-basic [:Example4.main()].executor": "Run",
-    "Gradle.java-basic [:HashAndEqualsMain1.main()].executor": "Run",
-    "Gradle.java-basic [:HashAndEqualsMain2.main()].executor": "Run",
-    "Gradle.java-basic [:HashAndEqualsMain3.main()].executor": "Run",
-    "Gradle.java-basic [:HashStart1.main()].executor": "Run",
-    "Gradle.java-basic [:HashStart3.main()].executor": "Run",
-    "Gradle.java-basic [:HashStart4.main()].executor": "Run",
-    "Gradle.java-basic [:HashStart5.main()].executor": "Run",
-    "Gradle.java-basic [:HelloRunnableMain.main()].executor": "Run",
-    "Gradle.java-basic [:HelloThreadMain.main()].executor": "Run",
-    "Gradle.java-basic [:ImmutableMain.main()].executor": "Run",
-    "Gradle.java-basic [:InnerRunnableMainV1.main()].executor": "Run",
-    "Gradle.java-basic [:InnerRunnableMainV2.main()].executor": "Run",
-    "Gradle.java-basic [:InnerRunnableMainV3.main()].executor": "Run",
-    "Gradle.java-basic [:ItemPriceTest.main()].executor": "Run",
-    "Gradle.java-basic [:JavaBasicApplication.main()].executor": "Run",
-    "Gradle.java-basic [:JavaCollectionExample.main()].executor": "Run",
-    "Gradle.java-basic [:JavaHashCodeMain.main()].executor": "Run",
-    "Gradle.java-basic [:JavaIterableMain.main()].executor": "Run",
-    "Gradle.java-basic [:JavaListPerformanceTest.main()].executor": "Run",
-    "Gradle.java-basic [:JavaMapMain.main()].executor": "Run",
-    "Gradle.java-basic [:JavaSetMain.main()].executor": "Run",
-    "Gradle.java-basic [:JoinMainV0.main()].executor": "Run",
-    "Gradle.java-basic [:JoinMainV1.main()].executor": "Run",
-    "Gradle.java-basic [:JoinMainV2.main()].executor": "Run",
-    "Gradle.java-basic [:JoinMainV3.main()].executor": "Run",
-    "Gradle.java-basic [:JoinMainV4.main()].executor": "Run",
-    "Gradle.java-basic [:JoinTest1Main.main()].executor": "Run",
-    "Gradle.java-basic [:LombokExample.main()].executor": "Run",
-    "Gradle.java-basic [:MainV2.main()].executor": "Run",
-    "Gradle.java-basic [:MainV3.main()].executor": "Run",
-    "Gradle.java-basic [:ManyThreadMainV1.main()].executor": "Run",
-    "Gradle.java-basic [:ManyThreadMainV2.main()].executor": "Run",
-    "Gradle.java-basic [:MapMain1.main()].executor": "Run",
-    "Gradle.java-basic [:MapMain2.main()].executor": "Run",
-    "Gradle.java-basic [:MapMain3.main()].executor": "Run",
-    "Gradle.java-basic [:MemberRepositoryMain.main()].executor": "Run",
-    "Gradle.java-basic [:MethodMain1.main()].executor": "Run",
-    "Gradle.java-basic [:MethodMain2.main()].executor": "Run",
-    "Gradle.java-basic [:MethodMain3.main()].executor": "Run",
-    "Gradle.java-basic [:MyArrayListV1Main.main()].executor": "Run",
-    "Gradle.java-basic [:MyArrayListV2Main.main()].executor": "Run",
-    "Gradle.java-basic [:MyArrayListV3BadMain.main()].executor": "Run",
-    "Gradle.java-basic [:MyArrayListV3Main.main()].executor": "Run",
-    "Gradle.java-basic [:MyArrayListV4Main.main()].executor": "Run",
-    "Gradle.java-basic [:MyArrayMain.main()].executor": "Run",
-    "Gradle.java-basic [:MyHashSetV0Main.main()].executor": "Run",
-    "Gradle.java-basic [:MyHashSetV1Main.main()].executor": "Run",
-    "Gradle.java-basic [:MyHashSetV2Main.main()].executor": "Run",
-    "Gradle.java-basic [:MyHashSetV2Main1.main()].executor": "Run",
-    "Gradle.java-basic [:MyHashSetV2Main2.main()].executor": "Run",
-    "Gradle.java-basic [:MyHashSetV3Main.main()].executor": "Run",
-    "Gradle.java-basic [:MyLinkedListV1Main.main()].executor": "Run",
-    "Gradle.java-basic [:MyLinkedListV2Main.main()].executor": "Run",
-    "Gradle.java-basic [:MyLinkedListV3Main.main()].executor": "Run",
-    "Gradle.java-basic [:MyListPerformanceTest.main()].executor": "Run",
-    "Gradle.java-basic [:MyLoggerMain.main()].executor": "Run",
-    "Gradle.java-basic [:MyPrinterV1.main()].executor": "Run",
-    "Gradle.java-basic [:MyPrinterV2.main()].executor": "Run",
-    "Gradle.java-basic [:MyPrinterV3.main()].executor": "Run",
-    "Gradle.java-basic [:MyPrinterV4.main()].executor": "Run",
-    "Gradle.java-basic [:NodeMain1.main()].executor": "Run",
-    "Gradle.java-basic [:NodeMain2.main()].executor": "Run",
-    "Gradle.java-basic [:NodeMain3.main()].executor": "Run",
-    "Gradle.java-basic [:OfMain.main()].executor": "Run",
-    "Gradle.java-basic [:PairTest.main()].executor": "Run",
-    "Gradle.java-basic [:PrinterQueueTest.main()].executor": "Run",
-    "Gradle.java-basic [:QueMain.main()].executor": "Run",
-    "Gradle.java-basic [:RectangleTest.main()].executor": "Run",
-    "Gradle.java-basic [:SchedulerTest.main()].executor": "Run",
-    "Gradle.java-basic [:SetOperationsTest.main()].executor": "Run",
-    "Gradle.java-basic [:ShoppingCartMain.main()].executor": "Run",
-    "Gradle.java-basic [:ShuttleTest.main()].executor": "Run",
-    "Gradle.java-basic [:SimpleHistoryTest.main()].executor": "Run",
-    "Gradle.java-basic [:Solution.main()].executor": "Run",
-    "Gradle.java-basic [:SortMain1.main()].executor": "Run",
-    "Gradle.java-basic [:SortMain2.main()].executor": "Run",
-    "Gradle.java-basic [:SortMain3.main()].executor": "Run",
-    "Gradle.java-basic [:SortMain4.main()].executor": "Run",
-    "Gradle.java-basic [:SortMain5.main()].executor": "Run",
-    "Gradle.java-basic [:SpringExample.main()].executor": "Run",
-    "Gradle.java-basic [:StackMain.main()].executor": "Run",
-    "Gradle.java-basic [:StringHashMain.main()].executor": "Run",
-    "Gradle.java-basic [:SyncMain.main()].executor": "Run",
-    "Gradle.java-basic [:SyncTest1BadMain.main()].executor": "Run",
-    "Gradle.java-basic [:SyncTest2Main.main()].executor": "Run",
-    "Gradle.java-basic [:ThreadInfoMain.main()].executor": "Run",
-    "Gradle.java-basic [:ThreadStateMain.main()].executor": "Run",
-    "Gradle.java-basic [:ThreadStopMainV1.main()].executor": "Run",
-    "Gradle.java-basic [:ThreadStopMainV2.main()].executor": "Run",
-    "Gradle.java-basic [:ThreadStopMainV3.main()].executor": "Run",
-    "Gradle.java-basic [:ThreadStopMainV4.main()].executor": "Run",
-    "Gradle.java-basic [:UncheckedCatchMain.main()].executor": "Run",
-    "Gradle.java-basic [:UniqueNamesTest1.main()].executor": "Run",
-    "Gradle.java-basic [:UnitPrinterTest.main()].executor": "Run",
-    "Gradle.java-basic [:UnitUtilTest.main()].executor": "Run",
-    "Gradle.java-basic [:VolatileCountMain.main()].executor": "Run",
-    "Gradle.java-basic [:VolatileFlagMain.main()].executor": "Run",
-    "Gradle.java-basic [:VolatileFlagMain2.main()].executor": "Run",
-    "Gradle.java-basic [:WildcardMain1.main()].executor": "Run",
-    "Gradle.java-basic [:WordFrequencyTest1.main()].executor": "Run",
-    "Gradle.java-basic [:YieldMain.main()].executor": "Run",
-    "Gradle.java-basic [:com.basic.java.coding_test.Solution1.main()].executor": "Run",
-    "Gradle.java-basic [:com.basic.java.thread.bounded.BoundedMain.main()].executor": "Run",
-    "Gradle.java-basic [:com.basic.java.thread.cas.IncrementThreadMain.main()].executor": "Run",
-    "Gradle.java-basic [:com.basic.java.thread.lock.LockSupportMainV1.main()].executor": "Run",
-    "Gradle.java-basic [:com.basic.java.thread.lock.LockSupportMainV2.main()].executor": "Run",
-    "Gradle.java-basic [:com.basic.java.thread.sync.BankMain.main()].executor": "Run",
-    "Gradle.java-basic [:com.basic.java.thread.sync.test.SyncTest2Main.main()].executor": "Run",
-    "Gradle.java-basic [:ex1.main()].executor": "Run",
-    "Gradle.java-basic [:ex2.main()].executor": "Run",
-    "Gradle.java-basic [:ex3.main()].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.JavaBasicApplication.executor": "Run",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/hidongmin37/yh_spring/java-basic/src/main/java/com/basic/network/tcp/v3",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.AccountMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AuthGradeMain2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AutoboxingMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AvailableCharsetsMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ByteArrayStreamMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ChanningMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CharArrayMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ChronoUnitMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClassExam1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClassExam2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClassGradeEx2_1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClassGradeEx2_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClassGradeEx3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClassGradeEx3_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClassGradeEx3_3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClassMetaMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClassRefMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClassStart1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClassStart2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClassStart3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClientMain (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClientMain (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClientMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClientV1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClientV2-2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClientV2-3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClientV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClientV3 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClientV3 (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClientV3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClientV4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClientV5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClientV6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConnectMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConnectTimeoutMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConnectTimeoutMain2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConstructMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CreateCopyFile.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CreateFileV1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CreateFileV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CreateFileV3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CreateFileV4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DataStreamEtcMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Duration_test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EncodingMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EncodingMain2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EnumMethodMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EnumRefMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EqualsMainV1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ex2Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ex2MainTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExamChatTestClient (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExamChatTestClient (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExamChatTestClient (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExamChatTestClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExamChatTestServer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExecutorShutdownMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileCopyMainV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileCopyMainV3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FutureCancelMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FutureExceptionMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GetTimeMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ImmutableMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InetAddressMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InnerOuterMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InvokeAllMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JavaBasicApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.JavaSetMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JoinMainV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LangMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LocalOuterV1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainV0.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainV1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainV1_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MemberConsoleMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MemberMainV1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MemberMainV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodInitMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodInitMain2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodInitMain3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MutableMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyCalculator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyDateMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyIntegerMethodMain0.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyIntegerMethodMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyIntegerNullMain0.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NestedOuter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NetworkMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NewFilesMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NewFilesPath.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NormalCloseClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NormalCloseServer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ObjectPolyExample1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ObjectPolyExample2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OldFileMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OldFilePath.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OldOrderServiceTestMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Period_test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PoolSizeMainV1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PoolSizeMainV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PoolSizeMainV3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PoolSizeMainV4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PreStartPoolMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrimitiveMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintStreamEtcMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintStreamMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProductOrderMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReadFileV1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReadFileV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReadFileV3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReadFileV4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReadTextFileV1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReadTextFileV3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReaderWriterMainV1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReaderWriterMainV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReaderWriterMainV3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReaderWriterMainV4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RectangleMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RefMain2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RejectMainV1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RejectMainV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RejectMainV3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RejectMainV4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ResetCloseClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ResetCloseServer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ResourceCloseMainV1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ResourceCloseMainV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ResourceCloseMainV3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ResourceCloseMainV4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ServerMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ServerV1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ServerV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ServerV3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ServerV4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ServerV5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ServerV6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShipInventory.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SimpleListMainV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SoTimeoutClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SoTimeoutServer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SpinLockMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Stream.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StreamStartMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StreamStartMain2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StreamTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StreamTest2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringBuilderMain1_1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringEqualsMain1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.StringGradeEx0_1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringGradeEx0_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringImmutable1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumTaskMainV1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumTaskMainV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumTaskMainV2_Bad.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SystemMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestPlus.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Time.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ToStringMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ToStringMain2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VarChange1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VarChange2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WrapperClassMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WrapperPrimitiveMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WrapperUtilsMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.bubble.executor&quot;: &quot;Run&quot;,
+    &quot;Application.builder.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.class1.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lang.enumeration.ex3.ClassGradeEx2_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lang.enumeration.ex4.ClassGradeEx2_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lang.enumeration.ref1.ClassGradeEx2_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.main.builder.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.nested.ex2.NetworkMain.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build java-basic.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:AdaptorInJava.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:AnimalHospitalMainV0.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:AnimalHospitalMainV1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:AnimalMain1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:AnimalMain2.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:App.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:ArrayMain1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:ArrayMain2.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:ArrayToMapTest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:BadThreadMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:BankMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:BatchProcessorMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:BoundedMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:BoxMain01.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:BoxMain02.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:BoxMain3.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:BrowserHistoryTest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:Button.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:CardGameMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:CartMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:CheckedCatchMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:CheckedThrowMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:Client.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:CollectionsSortMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:CommonKeyValueSum1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:ContainerTest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:DaemonThreadMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:DequeMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:DequeQueueMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:DictionaryTest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:Example1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:Example2.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:Example3.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:Example4.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:HashAndEqualsMain1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:HashAndEqualsMain2.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:HashAndEqualsMain3.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:HashStart1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:HashStart3.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:HashStart4.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:HashStart5.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:HelloRunnableMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:HelloThreadMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:ImmutableMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:InnerRunnableMainV1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:InnerRunnableMainV2.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:InnerRunnableMainV3.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:ItemPriceTest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:JavaBasicApplication.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:JavaCollectionExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:JavaHashCodeMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:JavaIterableMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:JavaListPerformanceTest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:JavaMapMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:JavaSetMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:JoinMainV0.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:JoinMainV1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:JoinMainV2.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:JoinMainV3.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:JoinMainV4.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:JoinTest1Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:LombokExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:MainV2.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:MainV3.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:ManyThreadMainV1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:ManyThreadMainV2.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:MapMain1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:MapMain2.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:MapMain3.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:MemberRepositoryMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:MethodMain1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:MethodMain2.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:MethodMain3.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:MyArrayListV1Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:MyArrayListV2Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:MyArrayListV3BadMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:MyArrayListV3Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:MyArrayListV4Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:MyArrayMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:MyHashSetV0Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:MyHashSetV1Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:MyHashSetV2Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:MyHashSetV2Main1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:MyHashSetV2Main2.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:MyHashSetV3Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:MyLinkedListV1Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:MyLinkedListV2Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:MyLinkedListV3Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:MyListPerformanceTest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:MyLoggerMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:MyPrinterV1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:MyPrinterV2.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:MyPrinterV3.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:MyPrinterV4.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:NodeMain1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:NodeMain2.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:NodeMain3.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:OfMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:PairTest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:PrinterQueueTest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:QueMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:RectangleTest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:SchedulerTest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:SetOperationsTest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:ShoppingCartMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:ShuttleTest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:SimpleHistoryTest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:Solution.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:SortMain1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:SortMain2.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:SortMain3.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:SortMain4.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:SortMain5.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:SpringExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:StackMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:StringHashMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:SyncMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:SyncTest1BadMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:SyncTest2Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:ThreadInfoMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:ThreadStateMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:ThreadStopMainV1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:ThreadStopMainV2.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:ThreadStopMainV3.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:ThreadStopMainV4.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:UncheckedCatchMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:UniqueNamesTest1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:UnitPrinterTest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:UnitUtilTest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:VolatileCountMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:VolatileFlagMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:VolatileFlagMain2.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:WildcardMain1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:WordFrequencyTest1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:YieldMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:com.basic.java.coding_test.Solution1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:com.basic.java.thread.bounded.BoundedMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:com.basic.java.thread.cas.IncrementThreadMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:com.basic.java.thread.lock.LockSupportMainV1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:com.basic.java.thread.lock.LockSupportMainV2.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:com.basic.java.thread.sync.BankMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:com.basic.java.thread.sync.test.SyncTest2Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:ex1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:ex2.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic [:ex3.main()].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.JavaBasicApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/hidongmin37/yh_spring/java-basic/src/main/java/com/basic/network/chat/exam&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.github.copilot.settings.ApplicationConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.basic.network.chat.example.server" />
+      <recent name="com.basic.network.chat.example" />
       <recent name="com.java_basic.collection.list" />
       <recent name="abstract_factory_method" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/basic/network/chat/exam" />
       <recent name="$PROJECT_DIR$/src/main/java/com/basic/network/tcp/v3" />
       <recent name="$PROJECT_DIR$/src/main/java/com/java_basic/designpatterns/behavior_patterns/visitor" />
       <recent name="$PROJECT_DIR$/src/main/java/com/java_basic/designpatterns/behavior_patterns/strategy" />
       <recent name="$PROJECT_DIR$/src/main/java/com/java_basic/designpatterns/behavior_patterns/observer" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/java_basic/designpatterns/behavior_patterns/command/before" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/com/basic/java/thread/collection" />
@@ -487,20 +484,20 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/java_basic/designpatterns/behavior_patterns/memento" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.basic.network.chat.example.server" />
+      <recent name="com.basic.network.exception.close.reset" />
+      <recent name="com.basic.network.exception.close.normal" />
       <recent name="com.basic.network.exception.connect" />
       <recent name="com.basic.network.tcp.v6" />
-      <recent name="com.basic.network.tcp.v5" />
-      <recent name="com.basic.network.tcp.v4" />
-      <recent name="com.basic.network.tcp.autoclosable" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SoTimeoutClient">
-    <configuration name="ClientV3 (1)" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.basic.network.tcp.v3.ClientV3" />
+  <component name="RunManager" selected="Application.ClientMain (1)">
+    <configuration name="ClientMain (1)" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.basic.network.chat.example.client.ClientMain" />
       <module name="java_basic.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.basic.network.tcp.v3.*" />
+          <option name="PATTERN" value="com.basic.network.chat.example.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -508,12 +505,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientV3 (2)" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.basic.network.tcp.v3.ClientV3" />
+    <configuration name="ClientMain (2)" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.basic.network.chat.example.client.ClientMain" />
       <module name="java_basic.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.basic.network.tcp.v3.*" />
+          <option name="PATTERN" value="com.basic.network.chat.example.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -521,12 +518,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConnectMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.basic.network.exception.connect.ConnectMain" />
+    <configuration name="ClientMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.basic.network.chat.example.client.ClientMain" />
       <module name="java_basic.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.basic.network.exception.connect.*" />
+          <option name="PATTERN" value="com.basic.network.chat.example.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -534,12 +531,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConnectTimeoutMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.basic.network.exception.connect.ConnectTimeoutMain1" />
+    <configuration name="ExamChatTestClient (1)" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.basic.network.chat.examination.ExamChatTestClient" />
       <module name="java_basic.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.basic.network.exception.connect.*" />
+          <option name="PATTERN" value="com.basic.network.chat.examination.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -547,12 +544,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConnectTimeoutMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.basic.network.exception.connect.ConnectTimeoutMain2" />
+    <configuration name="ExamChatTestClient (2)" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.basic.network.chat.examination.ExamChatTestClient" />
       <module name="java_basic.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.basic.network.exception.connect.*" />
+          <option name="PATTERN" value="com.basic.network.chat.examination.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -560,12 +557,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SoTimeoutClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.basic.network.exception.connect.SoTimeoutClient" />
+    <configuration name="ExamChatTestClient (3)" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.basic.network.chat.examination.ExamChatTestClient" />
       <module name="java_basic.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.basic.network.exception.connect.*" />
+          <option name="PATTERN" value="com.basic.network.chat.examination.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -573,12 +570,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SoTimeoutServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.basic.network.exception.connect.SoTimeoutServer" />
+    <configuration name="ExamChatTestClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.basic.network.chat.examination.ExamChatTestClient" />
       <module name="java_basic.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.basic.network.exception.connect.*" />
+          <option name="PATTERN" value="com.basic.network.chat.examination.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExamChatTestServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.basic.network.chat.examination.ExamChatTestServer" />
+      <module name="java_basic.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.basic.network.chat.examination.ExamChatTestServer" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResetCloseServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.basic.network.exception.close.reset.ResetCloseServer" />
+      <module name="java_basic.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.basic.network.exception.close.reset.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.basic.network.chat.example.server.ServerMain" />
+      <module name="java_basic.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.basic.network.chat.example.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -607,30 +643,33 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ClientV3 (1)" />
-      <item itemvalue="Application.ClientV3 (2)" />
-      <item itemvalue="Application.ConnectTimeoutMain1" />
-      <item itemvalue="Application.ConnectTimeoutMain2" />
-      <item itemvalue="Application.SoTimeoutClient" />
-      <item itemvalue="Application.SoTimeoutServer" />
-      <item itemvalue="Application.ConnectMain" />
+      <item itemvalue="Application.ExamChatTestClient (1)" />
+      <item itemvalue="Application.ExamChatTestClient (2)" />
+      <item itemvalue="Application.ExamChatTestClient (3)" />
+      <item itemvalue="Application.ClientMain (1)" />
+      <item itemvalue="Application.ClientMain (2)" />
+      <item itemvalue="Application.ClientMain" />
+      <item itemvalue="Application.ServerMain" />
+      <item itemvalue="Application.ExamChatTestClient" />
+      <item itemvalue="Application.ResetCloseServer" />
+      <item itemvalue="Application.ExamChatTestServer" />
       <item itemvalue="Spring Boot.BasicApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SoTimeoutClient" />
-        <item itemvalue="Application.SoTimeoutServer" />
-        <item itemvalue="Application.ConnectTimeoutMain2" />
-        <item itemvalue="Application.ConnectTimeoutMain1" />
-        <item itemvalue="Application.ConnectMain" />
+        <item itemvalue="Application.ServerMain" />
+        <item itemvalue="Application.ClientMain" />
+        <item itemvalue="Application.ExamChatTestClient" />
+        <item itemvalue="Application.ExamChatTestServer" />
+        <item itemvalue="Application.ResetCloseServer" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
-        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
       </set>
     </attachedChunks>
   </component>
@@ -866,6 +905,15 @@
       <workItem from="1746625656170" duration="622000" />
       <workItem from="1746717145597" duration="4443000" />
       <workItem from="1746894766265" duration="1528000" />
+      <workItem from="1746972871025" duration="1501000" />
+      <workItem from="1746974376048" duration="4000" />
+      <workItem from="1746974391479" duration="10319000" />
+      <workItem from="1747316774016" duration="5539000" />
+      <workItem from="1747463018082" duration="15000" />
+      <workItem from="1747581520926" duration="2630000" />
+      <workItem from="1747671465427" duration="1703000" />
+      <workItem from="1747747546283" duration="799000" />
+      <workItem from="1747748822164" duration="1643000" />
     </task>
     <task id="LOCAL-00001" summary="수정">
       <option name="closed" value="true" />
