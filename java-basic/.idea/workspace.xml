@@ -5,36 +5,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5839ddd5-4141-4d6b-9b61-a9c49cfe571b" name="Changes" comment="# 제목은 최대 50글자까지 아래에 작성: ex) &lt;feat&gt;: Add OAuth2&#10;&#10;# 본문은 아래에 작성&#10;&#10;# 꼬릿말은 아래에 작성: ex) Github issue #23&#10;&#10;&#10;# --- COMMIT END ----&#10;# &lt;타입&gt; 리스트&#10;#   feat    : 기능 (새로운 기능)&#10;#   fix     : 버그 (버그 수정)&#10;#   refactor: 리팩토링&#10;#   style   : 스타일 (코드 형식, 세미콜론 추가: 비즈니스 로직에 변경 없음)&#10;#   docs    : 문서 (문서 추가, 수정, 삭제)&#10;#   test    : 테스트 (테스트 코드 추가, 수정, 삭제: 비즈니스 로직에 변경 없음)&#10;#   chore   : 기타 변경사항 (빌드 업무 수정, 패키지 매니저 수정 등에 대한 커밋 등)&#10;# ------------------&#10;#     제목 첫 글자를 대문자로&#10;#     제목은 명령문으로&#10;#     제목 끝에 마침표(.) 금지&#10;#     제목과 본문을 한 줄 띄워 분리하기&#10;#     본문은 &quot;어떻게&quot; 보다 &quot;무엇을&quot;, &quot;왜&quot;를 설명한다.&#10;#     본문에 여러줄의 메시지를 작성할 땐 &quot;-&quot;로 구분&#10;# ------------------">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/was/httpServer/HttpRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/was/httpServer/HttpRequestHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/was/httpServer/HttpResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/was/httpServer/HttpServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/was/httpServer/HttpServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/was/httpServer/PageNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/was/httpServer/ServletManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/was/httpServer/servlet/DiscardServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/was/httpServer/servlet/InternalErrorServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/was/httpServer/servlet/NotFoundServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/was/v1/HttpServerV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/was/v1/ServerMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/was/v2/HttpRequestHandlerV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/was/v2/HttpServerV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/was/v2/ServerMainV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/was/v3/HttpRequestHandlerV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/was/v3/HttpServerV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/was/v3/PercentEncoding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/was/v3/ServerMainV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/was/v4/HttpRequestHandlerV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/was/v4/HttpServerV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/was/v4/ServerMainV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/was/v5/ServletMainV5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/was/v5/servlet/HomeServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/was/v5/servlet/SearchServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/was/v5/servlet/Site1Servlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/was/v5/servlet/Site2Servlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.5/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.5/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/annotaion/basic/AnnoElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/annotaion/basic/AnnoMeta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/annotaion/basic/ElementData1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/annotaion/basic/ElementData1Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/annotaion/basic/ElementData2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/annotaion/basic/ElementData3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/annotaion/basic/MetaData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/annotaion/basic/inherited/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/annotaion/basic/inherited/InheritedAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/annotaion/basic/inherited/InheritedMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/annotaion/basic/inherited/NotInheritedAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/annotaion/basic/inherited/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/annotaion/basic/inherited/TestInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/annotaion/basic/inherited/TestInterfaceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/annotaion/basic/inherited/validator/NotEmpty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/annotaion/basic/inherited/validator/Range.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/annotaion/basic/inherited/validator/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/annotaion/basic/inherited/validator/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/annotaion/basic/inherited/validator/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/annotaion/basic/inherited/validator/ValidatorV1Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/annotaion/basic/inherited/validator/ValidatorV2Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/annotaion/mapping/SimpleMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/annotaion/mapping/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/annotaion/mapping/TestControllerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/reflection/BasicV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/reflection/BasicV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/reflection/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/reflection/ConstructV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/reflection/ConstructorV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/reflection/FieldUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/reflection/FieldV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/reflection/FieldV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/reflection/FieldV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/reflection/FieldV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/reflection/MethodV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/reflection/MethodV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/reflection/MethodV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/reflection/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/reflection/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/reflection/data/BasicData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/was/httpServer/servlet/annotaion/AnnotationServletV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/was/httpServer/servlet/annotaion/Mapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/was/httpServer/servlet/reflection/ReflectionServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/was/v6/SearchControllerV6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/was/v6/ServerMainV6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/was/v6/SiteControllerV6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/was/v7/SearchControllerV7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/was/v7/ServerMainV7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/was/v7/SiteControllerV7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/basic/was/v5/servlet/HomeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/basic/was/v5/servlet/HomeServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +95,7 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -95,6 +117,7 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$USER_HOME$/.sdkman/candidates/java/17-open/lib/src.zip!/java.base/java/lang/Runnable.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/temurin-21.0.7/Contents/Home/lib/src.zip!/java.base/java/lang/reflect/Method.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
@@ -118,6 +141,8 @@
     "Application.AuthGradeMain2.executor": "Run",
     "Application.AutoboxingMain1.executor": "Run",
     "Application.AvailableCharsetsMain.executor": "Run",
+    "Application.BasicV1.executor": "Run",
+    "Application.BasicV2.executor": "Run",
     "Application.ByteArrayStreamMain.executor": "Run",
     "Application.ChanningMain.executor": "Run",
     "Application.CharArrayMain.executor": "Run",
@@ -152,6 +177,8 @@
     "Application.ConnectTimeoutMain1.executor": "Run",
     "Application.ConnectTimeoutMain2.executor": "Run",
     "Application.ConstructMain1.executor": "Run",
+    "Application.ConstructV1.executor": "Run",
+    "Application.ConstructorV2.executor": "Run",
     "Application.CreateCopyFile.executor": "Run",
     "Application.CreateFileV1.executor": "Run",
     "Application.CreateFileV2.executor": "Run",
@@ -159,6 +186,7 @@
     "Application.CreateFileV4.executor": "Run",
     "Application.DataStreamEtcMain.executor": "Run",
     "Application.Duration_test.executor": "Run",
+    "Application.ElementData1Main.executor": "Run",
     "Application.EncodingMain1.executor": "Run",
     "Application.EncodingMain2.executor": "Run",
     "Application.EnumMethodMain.executor": "Run",
@@ -172,6 +200,10 @@
     "Application.ExamChatTestClient.executor": "Run",
     "Application.ExamChatTestServer.executor": "Run",
     "Application.ExecutorShutdownMain.executor": "Run",
+    "Application.FieldV1.executor": "Run",
+    "Application.FieldV2.executor": "Run",
+    "Application.FieldV3.executor": "Run",
+    "Application.FieldV4.executor": "Run",
     "Application.FileCopyMainV2.executor": "Run",
     "Application.FileCopyMainV3.executor": "Run",
     "Application.FutureCancelMain.executor": "Run",
@@ -179,6 +211,7 @@
     "Application.GetTimeMain.executor": "Run",
     "Application.ImmutableMain1.executor": "Run",
     "Application.InetAddressMain.executor": "Run",
+    "Application.InheritedMain.executor": "Run",
     "Application.InnerOuterMain.executor": "Run",
     "Application.InvokeAllMain.executor": "Run",
     "Application.JavaBasicApplication.executor": "Debug",
@@ -193,9 +226,12 @@
     "Application.MemberConsoleMain.executor": "Run",
     "Application.MemberMainV1.executor": "Run",
     "Application.MemberMainV2.executor": "Run",
+    "Application.MetaData.executor": "Run",
     "Application.MethodInitMain1.executor": "Run",
     "Application.MethodInitMain2.executor": "Run",
     "Application.MethodInitMain3.executor": "Run",
+    "Application.MethodV1.executor": "Run",
+    "Application.MethodV2.executor": "Run",
     "Application.MutableMain.executor": "Run",
     "Application.MyCalculator.executor": "Run",
     "Application.MyDateMain.executor": "Run",
@@ -249,6 +285,8 @@
     "Application.ServerMain.executor": "Run",
     "Application.ServerMainV3.executor": "Run",
     "Application.ServerMainV4.executor": "Run",
+    "Application.ServerMainV6.executor": "Run",
+    "Application.ServerMainV7.executor": "Run",
     "Application.ServerV1.executor": "Run",
     "Application.ServerV2.executor": "Run",
     "Application.ServerV3.executor": "Run",
@@ -278,11 +316,14 @@
     "Application.SumTaskMainV2_Bad.executor": "Run",
     "Application.SystemMain.executor": "Run",
     "Application.Test.executor": "Run",
+    "Application.TestControllerMain.executor": "Run",
     "Application.TestPlus.executor": "Run",
     "Application.TestString.executor": "Run",
     "Application.Time.executor": "Run",
     "Application.ToStringMain1.executor": "Run",
     "Application.ToStringMain2.executor": "Run",
+    "Application.ValidatorV1Main.executor": "Run",
+    "Application.ValidatorV2Main.executor": "Run",
     "Application.VarChange1.executor": "Run",
     "Application.VarChange2.executor": "Run",
     "Application.WrapperClassMain.executor": "Run",
@@ -491,14 +532,14 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/java_basic/designpatterns/behavior_patterns/memento" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.basic.was.httpServer" />
-      <recent name="com.basic.was.httpServer.servlet" />
-      <recent name="com.basic.was.v5.servlet" />
-      <recent name="com.basic.was.v4" />
-      <recent name="com.basic.was.v2" />
+      <recent name="com.basic.was.v7" />
+      <recent name="com.basic.annotaion.basic.inherited.validator" />
+      <recent name="com.basic.annotaion.basic.inherited" />
+      <recent name="com.basic.annotaion.basic" />
+      <recent name="com.basic.was.v6" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ServletMainV5">
+  <component name="RunManager" selected="Application.ServerMainV7">
     <configuration name="ClientMain (1)" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.basic.network.chat.example.client.ClientMain" />
       <module name="java_basic.main" />
@@ -564,12 +605,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PercentEncoding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.basic.was.v3.PercentEncoding" />
+    <configuration name="InheritedMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.basic.annotaion.basic.inherited.InheritedMain" />
       <module name="java_basic.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.basic.was.v3.*" />
+          <option name="PATTERN" value="com.basic.annotaion.basic.inherited.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -577,12 +618,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServerMainV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.basic.was.v3.ServerMainV3" />
+    <configuration name="MetaData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.basic.annotaion.basic.MetaData" />
       <module name="java_basic.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.basic.was.v3.*" />
+          <option name="PATTERN" value="com.basic.annotaion.basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -590,12 +631,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServerMainV4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.basic.was.v4.ServerMainV4" />
+    <configuration name="ServerMainV7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.basic.was.v7.ServerMainV7" />
       <module name="java_basic.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.basic.was.v4.*" />
+          <option name="PATTERN" value="com.basic.was.v7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -603,12 +644,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServletMainV5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.basic.was.v5.ServletMainV5" />
+    <configuration name="ValidatorV1Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.basic.annotaion.basic.inherited.validator.ValidatorV1Main" />
       <module name="java_basic.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.basic.was.v5.*" />
+          <option name="PATTERN" value="com.basic.annotaion.basic.inherited.validator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -616,12 +657,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.basic.was.v1.ServerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.basic.was.v1.ServerMain" />
+    <configuration name="ValidatorV2Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.basic.annotaion.basic.inherited.validator.ValidatorV2Main" />
       <module name="java_basic.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.basic.was.v1.*" />
+          <option name="PATTERN" value="com.basic.annotaion.basic.inherited.validator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -655,20 +696,20 @@
       <item itemvalue="Application.ExamChatTestClient (3)" />
       <item itemvalue="Application.ClientMain (1)" />
       <item itemvalue="Application.ClientMain (2)" />
-      <item itemvalue="Application.ServerMainV4" />
-      <item itemvalue="Application.ServletMainV5" />
-      <item itemvalue="Application.PercentEncoding" />
-      <item itemvalue="Application.ServerMainV3" />
-      <item itemvalue="Application.com.basic.was.v1.ServerMain" />
+      <item itemvalue="Application.ServerMainV7" />
+      <item itemvalue="Application.InheritedMain" />
+      <item itemvalue="Application.MetaData" />
+      <item itemvalue="Application.ValidatorV1Main" />
+      <item itemvalue="Application.ValidatorV2Main" />
       <item itemvalue="Spring Boot.BasicApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ServletMainV5" />
-        <item itemvalue="Application.ServerMainV4" />
-        <item itemvalue="Application.PercentEncoding" />
-        <item itemvalue="Application.ServerMainV3" />
-        <item itemvalue="Application.com.basic.was.v1.ServerMain" />
+        <item itemvalue="Application.ServerMainV7" />
+        <item itemvalue="Application.ValidatorV1Main" />
+        <item itemvalue="Application.ValidatorV2Main" />
+        <item itemvalue="Application.InheritedMain" />
+        <item itemvalue="Application.MetaData" />
       </list>
     </recent_temporary>
   </component>
@@ -928,6 +969,12 @@
       <workItem from="1749049511999" duration="2230000" />
       <workItem from="1749295172407" duration="1268000" />
       <workItem from="1749296473052" duration="5006000" />
+      <workItem from="1749305013164" duration="3560000" />
+      <workItem from="1749310327007" duration="843000" />
+      <workItem from="1749395200127" duration="2566000" />
+      <workItem from="1749483286330" duration="2111000" />
+      <workItem from="1749562490402" duration="6499000" />
+      <workItem from="1749656260426" duration="1048000" />
     </task>
     <task id="LOCAL-00001" summary="수정">
       <option name="closed" value="true" />

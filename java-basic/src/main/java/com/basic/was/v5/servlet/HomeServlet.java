@@ -13,7 +13,7 @@ public class HomeServlet implements HttpServlet {
         response.writeBody("<ul>");
         response.writeBody("<li><a href=\"/site1\">Site 1</a></li>");
         response.writeBody("<li><a href=\"/site2\">Site 2</a></li>");
-        response.writeBody("<li><a href=\"/search\\?q=장동민\">Search</a></li>");
+        response.writeBody("<li><a href=\"/search?q=장동민\">Search</a></li>");
         response.writeBody("</ul>");
     }
 }
