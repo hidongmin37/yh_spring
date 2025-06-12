@@ -16,6 +16,7 @@ public class HttpRequest {
     public HttpRequest(BufferedReader reader) throws IOException {
         parseRequestLine(reader);
         parserHeaders(reader);
+        parseBody(reader);
         // 메시지 바디는 이후에 처리
 
     }
@@ -61,6 +62,29 @@ public class HttpRequest {
             // trim() 앞 뒤 공백 제거
             headers.put(headerParts[0].trim(), headerParts[1].trim());
         }
+    }
+
+    private void parseBody(BufferedReader reader) throws IOException {
+        if (!headers.containsKey("Content-Length")) {
+            return; // 메시지 바디가 없으면 리턴
+        }
+        Integer contentLength = Integer.parseInt(headers.get("Content-Length"));
+        char[] chars = new char[contentLength];// 메시지 바디를 읽기 위한 버퍼 생성
+        int readChars = reader.read(chars);
+        if (readChars != contentLength) {
+            throw new IOException("Content-Length mismatch: expected " + contentLength + ", but read " + readChars);
+        }
+        String body = new String(chars);
+
+        String contentType = headers.get("Content-Type");
+        if ("application/x-www-form-urlencoded".equals(contentType)) {
+            parseQueryParameters(body);
+        } else if ("application/json".equals(contentType)) {
+            // 예: JSON.parseObject(body, YourClass.class);
+        } else {
+            // 다른 컨텐츠 타입 처리 로직 추가 가능
+        }
+
     }
 
     public String getMethod() {

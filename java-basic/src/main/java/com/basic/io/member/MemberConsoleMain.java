@@ -1,9 +1,6 @@
 package com.basic.io.member;
 
-import com.basic.io.member.impl.DataMemberRepository;
 import com.basic.io.member.impl.FilMemberRepository;
-import com.basic.io.member.impl.MemoryMemberRepository;
-import com.basic.io.member.impl.ObjectMemberRepository;
 
 import java.io.IOException;
 import java.util.List;
@@ -11,7 +8,7 @@ import java.util.Scanner;
 
 public class MemberConsoleMain {
 
-    private static final MemberRepository memberRepository = new ObjectMemberRepository();
+    private static final MemberRepository memberRepository = new FilMemberRepository();
     public static void main(String[] args) throws IOException {
         Scanner scanner = new Scanner(System.in);
 
